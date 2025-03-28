@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="200" height="auto" src="./img/awesomeflux.png"/>
+    <img width="200" height="auto" src="https://bestvibecoding.org/logo.png"/>
 </p>
 
 # Awesome Vibe Coding Resources
