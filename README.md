@@ -37,6 +37,9 @@
 - [HeyBoss](https://www.heyboss.xyz/) - "build app & sites in minutes".
 - [Creatr](https://getcreatr.com/) - "create and deploy web apps and landing pages in seconds".
 
+## Mobile-first Tools
+- [Vibecode](https://www.vibecodeapp.com/) - "the mobile app that builds mobile apps".
+
 ## IDEs and Code Editors
 
 - [Windsurf Editor by Codeium](https://codeium.com/windsurf) - Agentic IDE, "where the work of developers and AI truly flow together, allowing for a coding experience that feels like literal magic".
