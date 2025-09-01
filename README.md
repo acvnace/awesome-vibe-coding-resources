@@ -36,6 +36,7 @@
 - [Lazy AI](https://getlazy.ai/) - "build reliable business apps with prompts".
 - [HeyBoss](https://www.heyboss.xyz/) - "build app & sites in minutes".
 - [Creatr](https://getcreatr.com/) - "create and deploy web apps and landing pages in seconds".
+- [embedible.io](https://embedible.io/) - AI that transforms your electronics ideas into working projects.
 
 ## Mobile-first Tools
 - [Vibecode](https://www.vibecodeapp.com/) - "the mobile app that builds mobile apps".
