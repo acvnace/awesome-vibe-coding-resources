@@ -19,7 +19,7 @@
 - [News and Social Media](#news-and-social-media)
 - [Contribute](#contribute)
 
-## What is Vibe Coding 
+## What is Vibe Coding
 
 - [Andrej Karpathy on X](https://x.com/karpathy/status/1886192184808149383) - "There's a new kind of coding I call "vibe coding", where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. (.) I'm building a project or webapp, but it's not really coding - I just see stuff, say stuff, run stuff, and copy paste stuff, and it mostly works".
 
@@ -40,6 +40,7 @@
 - [embedible.io](https://embedible.io/) - AI that transforms your electronics ideas into working projects.
 
 ## Mobile-first Tools
+
 - [Vibecode](https://www.vibecodeapp.com/) - "the mobile app that builds mobile apps".
 
 ## IDEs and Code Editors
@@ -49,6 +50,7 @@
 - [Zed](https://zed.dev/) - Code editor designed for high-performance collaboration with humans and AI.
 
 ## Desktop Apps
+
 - [codename goose](https://block.github.io/goose/) - Local, on-machine AI Agent that allows you to use any LLM and add any MCP servers as extensions
 
 ## Plugins and Extensions
@@ -61,6 +63,7 @@
 ## Command Line Tools
 
 - [anthropics/claude-code](https://github.com/anthropics/claude-code) - Coding agent that understands your codebase, automates tasks, explains code, and manages git, all via natural language.
+- [MyVibe](https://www.myvibe.so) - Instant deployment for vibe-coded apps via Claude Code.
 - [aider](https://aider.chat/) - AI pair programming in your terminal.
 - [codename goose](https://block.github.io/goose/) - Local, on-machine AI Agent that allows you to use any LLM and add any MCP servers as extensions
 - [MyCoder.ai](https://github.com/drivecore/mycoder) - Open source AI-powered coding assistant with Git and GitHub integration, featuring parallel execution and self-modification capabilities.
