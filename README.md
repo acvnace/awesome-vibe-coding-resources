@@ -81,3 +81,7 @@
 - [Vibe Coding - Where Everyone Can ‘Speak’ Computer Programming - The New Stack](https://thenewstack.io/vibe-coding-where-everyone-can-speak-computer-programming/)
 - [A.I. and Vibecoding Helped Me to Create My Own Software - The New York Times](https://www.nytimes.com/2025/02/27/technology/personaltech/vibecoding-ai-software-programming.html)
 - [/r/vibecoding](https://www.reddit.com/r/vibecoding/)
+
+## Related Lists
+
+- [awesome-vibe-coding by Taskade](https://github.com/taskade/awesome-vibe-coding) - A curated list of 245+ vibe coding tools, platforms, and resources organized by category with pricing, use cases, tutorials, and communities.
