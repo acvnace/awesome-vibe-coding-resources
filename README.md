@@ -72,6 +72,7 @@
 
 - [claude-dash](https://github.com/krabat-l/claude-dash) - Real-time statusline for Claude Code showing context, cost, quota, cache, tools, and git status.
 - [MUSE](https://github.com/myths-labs/muse) - Pure-Markdown memory OS for AI pair programming. Cross-conversation memory, 48 skills, role-based governance. Works with Claude Code, Cursor, Windsurf, OpenClaw, Gemini CLI, Codex CLI. Zero dependencies, MIT licensed.
+- [sober-coding](https://github.com/voidborne-d/sober-coding) - Post-generation audit for vibe-coded repos. 27 static checks across 7 dimensions (dead code, god files, duplicate blocks, deep nesting, empty except, dependency utilization…) with per-check fix suggestions and a CI mode that fails PRs on regressions. Language-agnostic, no LLM required.
 
 ## Documentation for AI Coding
 
