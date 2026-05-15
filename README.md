@@ -54,6 +54,7 @@
 ## Desktop Apps
 
 - [codename goose](https://block.github.io/goose/) - Local, on-machine AI Agent that allows you to use any LLM and add any MCP servers as extensions
+- [Agent FM](https://github.com/agentfm-ai/agent-fm) - Local, open-source macOS app for listening to Claude Code and Codex agents as they work, with Global Mix and blocker alerts.
 
 ## Plugins and Extensions
 
