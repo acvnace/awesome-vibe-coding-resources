@@ -40,6 +40,7 @@
 - [HeyBoss](https://www.heyboss.xyz/) - "build app & sites in minutes".
 - [Creatr](https://getcreatr.com/) - "create and deploy web apps and landing pages in seconds".
 - [embedible.io](https://embedible.io/) - AI that transforms your electronics ideas into working projects.
+- [Vibe Coding Profiler](https://www.vibe-coding-profiler.com/) - Analyzes git history to reveal your AI-assisted engineering style and vibe coding persona.
 
 ## Mobile-first Tools
 
@@ -54,6 +55,7 @@
 ## Desktop Apps
 
 - [codename goose](https://block.github.io/goose/) - Local, on-machine AI Agent that allows you to use any LLM and add any MCP servers as extensions
+- [Parallel Code](https://github.com/johannesjo/parallel-code) - Open-source desktop app for running Claude Code, Codex CLI, Gemini CLI, and other terminal coding agents in parallel, with isolated git worktrees, terminal panes, diff review, and merge controls.
 - [Agent FM](https://github.com/agentfm-ai/agent-fm) - Local, open-source macOS app for listening to Claude Code and Codex agents as they work, with Global Mix and blocker alerts.
 
 ## Plugins and Extensions
@@ -70,6 +72,7 @@
 - [aider](https://aider.chat/) - AI pair programming in your terminal.
 - [codename goose](https://block.github.io/goose/) - Local, on-machine AI Agent that allows you to use any LLM and add any MCP servers as extensions
 - [MyCoder.ai](https://github.com/drivecore/mycoder) - Open source AI-powered coding assistant with Git and GitHub integration, featuring parallel execution and self-modification capabilities.
+- [codex-profiles](https://github.com/Ducksss/codex-profiles) - Small Bash helper for switching Codex CLI/Desktop accounts with isolated `CODEX_HOME` profiles.
 
 - [claude-dash](https://github.com/krabat-l/claude-dash) - Real-time statusline for Claude Code showing context, cost, quota, cache, tools, and git status.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Local TUI for inspecting AI coding-agent session logs, usage, cost, latency, tool failures, diffs, and CI gates.
@@ -82,6 +85,7 @@
 
 - [CodeGuide](https://www.codeguide.dev/) - Creates detailed Documentation for your AI Coding Projects.
 - [LegacyDoc AI](https://www.romanticode.com/legacydoc-ai/) - VS Code extension that generates documentation, architecture maps, and AI-ready context packs for vibe-coded codebases.
+- [vibeprompt](https://vibeprompt.tech) - Free 10-step vibe coding workflow with 56 prompts, 17 deep-dive articles, 46 field-tested fixes, and an interactive AGENTS.md + PRD generator. Open source, MIT licensed.
 
 ## News and Social Media
 
