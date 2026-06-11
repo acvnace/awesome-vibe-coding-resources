@@ -89,6 +89,8 @@
 - [LegacyDoc AI](https://www.romanticode.com/legacydoc-ai/) - VS Code extension that generates documentation, architecture maps, and AI-ready context packs for vibe-coded codebases.
 - [vibeprompt](https://vibeprompt.tech) - Free 10-step vibe coding workflow with 56 prompts, 17 deep-dive articles, 46 field-tested fixes, and an interactive AGENTS.md + PRD generator. Open source, MIT licensed.
 
+- [Ariadne Loop](https://github.com/zhangzeyu99-web/ariadne-loop) - Local-first Loop Engineering workbench for writing verifiable AI coding-agent specs, verifier gates, rollback rules, and JSON reports.
+
 ## News and Social Media
 
 > This section displays items in reverse chronological order, with the most recent entries at the top.
