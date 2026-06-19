@@ -40,6 +40,7 @@
 - [HeyBoss](https://www.heyboss.xyz/) - "build app & sites in minutes".
 - [Creatr](https://getcreatr.com/) - "create and deploy web apps and landing pages in seconds".
 - [embedible.io](https://embedible.io/) - AI that transforms your electronics ideas into working projects.
+- [Playcode](https://playcode.io/ai-website-builder) - AI website and app builder with visual editing, hosting, and custom domains.
 - [Vibe Coding Profiler](https://www.vibe-coding-profiler.com/) - Analyzes git history to reveal your AI-assisted engineering style and vibe coding persona.
 - [Roblox GUI Maker](https://robloxguimaker.dev/) - Generate Roblox Studio GUI layouts and Lua starter code from prompts.
 
