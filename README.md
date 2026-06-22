@@ -15,6 +15,7 @@
 - [IDEs and Code Editors](#ides-and-code-editors)
 - [Plugins and Extensions](#plugins-and-extensions)
 - [Command Line Tools](#command-line-tools)
+- [Security & Pre-Deploy Checks](#security--pre-deploy-checks)
 - [Documentation for AI Coding](#documentation-for-ai-coding)
 - [News and Social Media](#news-and-social-media)
 - [Contribute](#contribute)
@@ -86,6 +87,14 @@
 - [sober-coding](https://github.com/voidborne-d/sober-coding) - Post-generation audit for vibe-coded repos. 27 static checks across 7 dimensions (dead code, god files, duplicate blocks, deep nesting, empty except, dependency utilization…) with per-check fix suggestions and a CI mode that fails PRs on regressions. Language-agnostic, no LLM required.
 - [SwarmClaw](https://github.com/swarmclawai/swarmclaw) - Self-hosted multi-agent runtime that delegates to Claude Code, Codex, Gemini CLI, OpenCode, Copilot CLI, Cursor Agent, Goose, Qwen Code, and Droid. Org chart view, schedules, runtime skills, persistent memory, sub-agent spawning. MCP-native (server and client). Electron desktop app, CLI, and Docker. MIT.
 - [SwarmVault](https://github.com/swarmclawai/swarmvault) - Local-first RAG knowledge vault with bundled MCP server (`npx -y @swarmvaultai/cli mcp`). Compiles raw sources (notes, transcripts, exports, docs, code) into a durable markdown wiki with a knowledge graph and hybrid SQLite FTS plus embeddings. Cuts agent token usage by serving compact wiki summaries instead of full file reads. MIT.
+
+## Security & Pre-Deploy Checks
+
+AI-generated apps often ship with exposed secrets, open databases, or missing security headers. These tools help you catch issues before going live.
+
+- [Vibeproof](https://vibeproof.sh/) - Instant security scan for vibe-coded apps (Lovable, Bolt, v0, Cursor). Paste a URL or a public GitHub repo to find exposed secrets, open Supabase/Firebase databases, leaked files, vulnerable libraries, and GDPR gaps. Free scan, no signup.
+- [Snyk](https://snyk.io/) - Free-tier developer security platform that scans your code, dependencies, and infrastructure-as-code for known vulnerabilities.
+- [Mozilla HTTP Observatory](https://developer.mozilla.org/en-US/observatory) - Free website scan that grades your security headers (CSP, HSTS, and more) and explains how to fix them.
 
 ## Documentation for AI Coding
 
