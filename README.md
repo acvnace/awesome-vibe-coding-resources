@@ -105,6 +105,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Wikivibe](https://wikivibe.ru/en/) - Practical knowledge base for AI-assisted development with guides, a glossary, jobs, and a public MCP endpoint.
 
 - [Ariadne Loop](https://github.com/zhangzeyu99-web/ariadne-loop) - Local-first Loop Engineering workbench for writing verifiable AI coding-agent specs, verifier gates, rollback rules, and JSON reports.
+- [Vibe Coding Essentials](https://github.com/ashp15205/vibe-coding-essentials) - Anti-hallucination guardrails for 9 frameworks + a 4-mode workflow system (Economy / Builder / Maintainer / Architect) for AI-assisted development.
 
 ## News and Social Media
 
