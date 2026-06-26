@@ -49,6 +49,7 @@
 
 - [Vibecode](https://www.vibecodeapp.com/) - "the mobile app that builds mobile apps".
 - [Primio](https://primio.dev/) - chat-based builder that turns prompts into full Flutter apps for mobile and web, with live preview, an in-browser emulator, and one-click publishing to the app stores.
+- [VibeKit.bot](https://vibekit.bot/) - build, deploy, and manage full-stack apps from your phone by chatting with a persistent AI agent that runs on hosted containers (not your device), so you get a live URL, a GitHub repo you own, and bring-your-own-key for Claude/OpenAI.
 
 ## IDEs and Code Editors
 
