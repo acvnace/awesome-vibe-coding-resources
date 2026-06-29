@@ -100,6 +100,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 
 ## Documentation for AI Coding
 
+- [AI Coding Tools Guide](https://ai-coding-tools-guide.vercel.app/cursor-alternatives/) - Workflow-based comparisons for Cursor alternatives, Claude Code, Windsurf, Cline, GitHub Copilot, Aider, Continue, and MCP-enabled AI coding.
 - [AI Book: AI Coding](https://aibook.ren/categories/ai-coding) - Chinese AI coding handbook covering coding-agent workflows, tool selection, prompts, and practical AI-assisted development guides.
 - [CodeGuide](https://www.codeguide.dev/) - Creates detailed Documentation for your AI Coding Projects.
 - [LegacyDoc AI](https://www.romanticode.com/legacydoc-ai/) - VS Code extension that generates documentation, architecture maps, and AI-ready context packs for vibe-coded codebases.
