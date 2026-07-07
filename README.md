@@ -89,6 +89,7 @@
 - [sober-coding](https://github.com/voidborne-d/sober-coding) - Post-generation audit for vibe-coded repos. 27 static checks across 7 dimensions (dead code, god files, duplicate blocks, deep nesting, empty except, dependency utilization…) with per-check fix suggestions and a CI mode that fails PRs on regressions. Language-agnostic, no LLM required.
 - [SwarmClaw](https://github.com/swarmclawai/swarmclaw) - Self-hosted multi-agent runtime that delegates to Claude Code, Codex, Gemini CLI, OpenCode, Copilot CLI, Cursor Agent, Goose, Qwen Code, and Droid. Org chart view, schedules, runtime skills, persistent memory, sub-agent spawning. MCP-native (server and client). Electron desktop app, CLI, and Docker. MIT.
 - [SwarmVault](https://github.com/swarmclawai/swarmvault) - Local-first RAG knowledge vault with bundled MCP server (`npx -y @swarmvaultai/cli mcp`). Compiles raw sources (notes, transcripts, exports, docs, code) into a durable markdown wiki with a knowledge graph and hybrid SQLite FTS plus embeddings. Cuts agent token usage by serving compact wiki summaries instead of full file reads. MIT.
+- [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) - Framework-agnostic local-first memory lifecycle for AI coding agents with Rust CLI, SQLite/FTS recall, forgetting, audit, consolidation, DOX/Revolve adapters, and TUI.
 
 ## Security & Pre-Deploy Checks
 
