@@ -62,7 +62,7 @@
 - [codename goose](https://block.github.io/goose/) - Local, on-machine AI Agent that allows you to use any LLM and add any MCP servers as extensions
 - [Parallel Code](https://github.com/johannesjo/parallel-code) - Open-source desktop app for running Claude Code, Codex CLI, Gemini CLI, and other terminal coding agents in parallel, with isolated git worktrees, terminal panes, diff review, and merge controls.
 - [Agent FM](https://github.com/agentfm-ai/agent-fm) - Local, open-source macOS app for listening to Claude Code and Codex agents as they work, with Global Mix and blocker alerts.
-- [Agent Island](https://github.com/tristan666666/agent-island) - Open-source macOS notch companion for Claude Code and Codex long runs, with live session state, usage tracking, and optional auto-resume for trusted sessions.
+- [Agent Island](https://github.com/tristan666666/agent-island) - Open-source status companion for Claude Code and Codex with live session state, your-turn alerts, and local monitoring on macOS and Windows.
 - [Agent Teams](https://github.com/777genius/agent-teams-ai) - Open-source desktop app for autonomous AI coding teams across Claude, Codex, and OpenCode. Give high-level commands while agents handle Kanban tasks, messaging, code review, logs, and approvals across 200+ models and 75+ LLM providers.
 - [Orca](https://onorca.dev) - An open-source desktop IDE for running parallel AI coding agents (Claude Code, Codex, Cursor, Gemini, OpenCode), each in its own isolated git worktree, with built-in terminal and source control.
 
