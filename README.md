@@ -101,6 +101,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Vibeproof](https://vibeproof.sh/) - Instant security scan for vibe-coded apps (Lovable, Bolt, v0, Cursor). Paste a URL or a public GitHub repo to find exposed secrets, open Supabase/Firebase databases, leaked files, vulnerable libraries, and GDPR gaps. Free scan, no signup.
 - [Snyk](https://snyk.io/) - Free-tier developer security platform that scans your code, dependencies, and infrastructure-as-code for known vulnerabilities.
 - [Mozilla HTTP Observatory](https://developer.mozilla.org/en-US/observatory) - Free website scan that grades your security headers (CSP, HSTS, and more) and explains how to fix them.
+- [CodeCordon](https://codecordon.up.railway.app/) - Deterministic security scanner for vibe-coded applications. Offers free no-account previews of authorized public GitHub repositories with file-and-line findings and remediation guidance; paid plans add CLI and GitHub Actions integration.
 
 ## Documentation for AI Coding
 
