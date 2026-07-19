@@ -113,6 +113,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [vibeprompt](https://vibeprompt.tech) - Free 10-step vibe coding workflow with 56 prompts, 17 deep-dive articles, 46 field-tested fixes, and an interactive AGENTS.md + PRD generator. Open source, MIT licensed.
 - [Wikivibe](https://wikivibe.ru/en/) - Practical knowledge base for AI-assisted development with guides, a glossary, jobs, and a public MCP endpoint.
 
+- [breaking-coding-chaos](https://github.com/bo-cao/breaking-coding-chaos) - Human-in-the-loop dual-loop control-plane skill suite for coding agents (Claude Code, Codex, Cursor, and more): throughline progress on disk, plan-spar alignment, then minimal clean-cut implement.
 - [Ariadne Loop](https://github.com/zhangzeyu99-web/ariadne-loop) - Local-first Loop Engineering workbench for writing verifiable AI coding-agent specs, verifier gates, rollback rules, and JSON reports.
 - [Vibe Coding Essentials](https://github.com/ashp15205/vibe-coding-essentials) - Anti-hallucination guardrails for 9 frameworks + a 4-mode workflow system (Economy / Builder / Maintainer / Architect) for AI-assisted development.
 - [Fix AI UI Slop With Real UI Context](https://uizze.com) - A three-step workflow for researching public UI references, giving coding agents UI context, and checking implementations with design-contract, validation, audit, and critique workflows.
