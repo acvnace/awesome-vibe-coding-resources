@@ -94,6 +94,7 @@
 - [SwarmVault](https://github.com/swarmclawai/swarmvault) - Local-first RAG knowledge vault with bundled MCP server (`npx -y @swarmvaultai/cli mcp`). Compiles raw sources (notes, transcripts, exports, docs, code) into a durable markdown wiki with a knowledge graph and hybrid SQLite FTS plus embeddings. Cuts agent token usage by serving compact wiki summaries instead of full file reads. MIT.
 - [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) - Framework-agnostic local-first memory lifecycle for AI coding agents with Rust CLI, SQLite/FTS recall, forgetting, audit, consolidation, DOX/Revolve adapters, and TUI.
 - [DevIntern](https://devintern.com/) - Picks up tickets from Jira, Linear, Trello, Asana, Azure DevOps, GitHub Issues, or markdown files and turns them into self-reviewed pull requests using the coding agent of your choice (Claude Code, Codex, Cursor, OpenCode, Gemini CLI, and others), on your machines with your own model keys. A feasibility gate flags vague tickets back to the tracker with questions; the companion devpm tool creates codebase-grounded tickets from rough prompts. FSL-licensed, free for interactive use.
+- [whatbroke](https://github.com/arthi-arumugam-git/whatbroke) - Diff your AI agent's behavior between two runs: tool calls, args, cost, latency, and outcome flips, with flake detection and CI exit codes. MIT, on npm as whatbroke-cli.
 
 ## Security & Pre-Deploy Checks
 
