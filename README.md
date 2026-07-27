@@ -61,6 +61,7 @@
 
 - [codename goose](https://block.github.io/goose/) - Local, on-machine AI Agent that allows you to use any LLM and add any MCP servers as extensions
 - [Parallel Code](https://github.com/johannesjo/parallel-code) - Open-source desktop app for running Claude Code, Codex CLI, Gemini CLI, and other terminal coding agents in parallel, with isolated git worktrees, terminal panes, diff review, and merge controls.
+- [PinkCode](https://github.com/3xian/PinkCode) - Open-source desktop GUI for running multiple Grok Build coding-agent sessions in parallel, with live activity, usage, file-change, and permission views.
 - [Agent FM](https://github.com/agentfm-ai/agent-fm) - Local, open-source macOS app for listening to Claude Code and Codex agents as they work, with Global Mix and blocker alerts.
 - [Agent Island](https://github.com/tristan666666/agent-island) - Open-source status companion for Claude Code and Codex with live session state, your-turn alerts, and local monitoring on macOS and Windows.
 - [Agent Teams](https://github.com/777genius/agent-teams-ai) - Open-source desktop app for autonomous AI coding teams across Claude, Codex, and OpenCode. Give high-level commands while agents handle Kanban tasks, messaging, code review, logs, and approvals across 200+ models and 75+ LLM providers.
