@@ -124,6 +124,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Ariadne Loop](https://github.com/zhangzeyu99-web/ariadne-loop) - Local-first Loop Engineering workbench for writing verifiable AI coding-agent specs, verifier gates, rollback rules, and JSON reports.
 - [Vibe Coding Essentials](https://github.com/ashp15205/vibe-coding-essentials) - Anti-hallucination guardrails for 9 frameworks + a 4-mode workflow system (Economy / Builder / Maintainer / Architect) for AI-assisted development.
 - [Fix AI UI Slop With Real UI Context](https://uizze.com) - A three-step workflow for researching public UI references, giving coding agents UI context, and checking implementations with design-contract, validation, audit, and critique workflows.
+- [anti-slop-website-prompts](https://github.com/OpenSettle/anti-slop-website-prompts) - 15 free art-directed website build-prompts plus an anti-slop design skill for Lovable, Bolt, v0, Cursor, and Claude Code.
 
 ## News and Social Media
 
