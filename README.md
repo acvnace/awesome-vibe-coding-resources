@@ -130,6 +130,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Fix AI UI Slop With Real UI Context](https://uizze.com) - A three-step workflow for researching public UI references, giving coding agents UI context, and checking implementations with design-contract, validation, audit, and critique workflows.
 - [THROUGHLINE](https://github.com/hellomyoh/throughline) - Spec-driven development framework for coding agents, made of markdown and git with nothing to install. Personas debate each spec before code, and an append-only single source of truth keeps earlier decisions from drifting across sessions. Works with Claude Code, Codex, and Cursor. English and Korean, MIT.
 - [anti-slop-website-prompts](https://github.com/mah-claude/anti-slop-website-prompts) - 15 free art-directed website build-prompts plus an anti-slop design skill for Lovable, Bolt, v0, Cursor, and Claude Code.
+- [Undercroft](https://github.com/latticeworklabs-eng/undercroft) - Open-source CLAUDE.md operations contract that turns Claude Code into the maintainer of a plain-Markdown personal wiki: three-layer raw/wiki/schema architecture, checklist-driven ingestion, append-only changelog, and a worked example vault. Obsidian-friendly and portable to other agent CLIs via an AGENTS.md rename. MIT.
 
 ## News and Social Media
 
