@@ -133,6 +133,8 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [anti-slop-website-prompts](https://github.com/mah-claude/anti-slop-website-prompts) - 15 free art-directed website build-prompts plus an anti-slop design skill for Lovable, Bolt, v0, Cursor, and Claude Code.
 - [Undercroft](https://github.com/latticeworklabs-eng/undercroft) - Open-source CLAUDE.md operations contract that turns Claude Code into the maintainer of a plain-Markdown personal wiki: three-layer raw/wiki/schema architecture, checklist-driven ingestion, append-only changelog, and a worked example vault. Obsidian-friendly and portable to other agent CLIs via an AGENTS.md rename. MIT.
 
+- [Vibe Coding UI Specification](https://horizonx.so/resources/vibe-coding-ui-specification) - Free, MIT-licensed interface contract for AI-assisted React and Tailwind work, covering design tokens, component states, responsive behavior, WCAG 2.2 AA, reduced motion, production gates, and reusable YAML.
+
 ## News and Social Media
 
 > This section displays items in reverse chronological order, with the most recent entries at the top.
@@ -145,3 +147,4 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Vibe Coding - Where Everyone Can ‘Speak’ Computer Programming - The New Stack](https://thenewstack.io/vibe-coding-where-everyone-can-speak-computer-programming/)
 - [A.I. and Vibecoding Helped Me to Create My Own Software - The New York Times](https://www.nytimes.com/2025/02/27/technology/personaltech/vibecoding-ai-software-programming.html)
 - [/r/vibecoding](https://www.reddit.com/r/vibecoding/)
+
