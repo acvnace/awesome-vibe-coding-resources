@@ -52,6 +52,7 @@
 - [Primio](https://primio.dev/) - chat-based builder that turns prompts into full Flutter apps for mobile and web, with live preview, an in-browser emulator, and one-click publishing to the app stores.
 - [VibeKit.bot](https://vibekit.bot/) - build, deploy, and manage full-stack apps from your phone by chatting with a persistent AI agent that runs on hosted containers (not your device), so you get a live URL, a GitHub repo you own, and bring-your-own-key for Claude/OpenAI.
 - [WeInc](https://we.inc/) - AI website builder that generates complete hosted production sites (React) from prompts, with flat pricing and white-label for agencies.
+- [Sillage](https://github.com/MarlBurroW/sillage) - self-hosted, MIT-licensed, mobile-first web UI that drives the native Claude Code and Codex CLIs on your own machine (the official agent harnesses, without a terminal); sessions that outlive the client, full-text search over every conversation, an IDE panel (file explorer, editor, diffs, terminal), and an installable PWA with push. Single Docker container.
 
 ## IDEs and Code Editors
 
