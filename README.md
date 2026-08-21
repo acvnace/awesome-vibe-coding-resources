@@ -135,6 +135,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Undercroft](https://github.com/latticeworklabs-eng/undercroft) - Open-source CLAUDE.md operations contract that turns Claude Code into the maintainer of a plain-Markdown personal wiki: three-layer raw/wiki/schema architecture, checklist-driven ingestion, append-only changelog, and a worked example vault. Obsidian-friendly and portable to other agent CLIs via an AGENTS.md rename. MIT.
 
 - [Vibe Coding UI Specification](https://horizonx.so/resources/vibe-coding-ui-specification) - Free, MIT-licensed interface contract for AI-assisted React and Tailwind work, covering design tokens, component states, responsive behavior, WCAG 2.2 AA, reduced motion, production gates, and reusable YAML.
+- [Vibe-Coding Prompt Template](https://github.com/KhazP/vibe-coding-prompt-template) - MIT-licensed five-step workflow (deep research, PRD, tech design, AGENTS.md, build) with copy-paste prompts and an `npx vibeworkflow` CLI that interviews you and writes the planning docs and agent files.
 
 ## News and Social Media
 
