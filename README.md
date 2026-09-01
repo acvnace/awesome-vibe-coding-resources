@@ -140,6 +140,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 
 - [Vibe Coding UI Specification](https://horizonx.so/resources/vibe-coding-ui-specification) - Free, MIT-licensed interface contract for AI-assisted React and Tailwind work, covering design tokens, component states, responsive behavior, WCAG 2.2 AA, reduced motion, production gates, and reusable YAML.
 - [Vibe-Coding Prompt Template](https://github.com/KhazP/vibe-coding-prompt-template) - MIT-licensed five-step workflow (deep research, PRD, tech design, AGENTS.md, build) with copy-paste prompts and an `npx vibeworkflow` CLI that interviews you and writes the planning docs and agent files.
+- [liyupi/ai-guide](https://github.com/liyupi/ai-guide) - Free Chinese vibe coding handbook covering tool selection, prompting and context management, dozens of end-to-end project builds, and shipping to production. English and Traditional Chinese translations included. [Online version](https://ai.codefather.cn/vibe).
 
 ## News and Social Media
 
