@@ -60,6 +60,7 @@
 - [Windsurf Editor by Codeium](https://codeium.com/windsurf) - Agentic IDE, "where the work of developers and AI truly flow together, allowing for a coding experience that feels like literal magic".
 - 🔥 [Cursor](https://www.cursor.com/) - AI Code Editor, "the best way to code with AI".
 - [Zed](https://zed.dev/) - Code editor designed for high-performance collaboration with humans and AI.
+- [Vicoa](https://vicoa.ai) - Agentic IDE, AI orchestrator for running Claude Code, Codex, OpenCode, Gemini, Cursor, GitHub Copilot, Kimi, and Hermes from desktop, web, or mobile: real-time sync, parallel git worktrees, and push notifications, with a Python/FastAPI backend, Next.js + Electron desktop, and Flutter mobile. [Source](https://github.com/vicoa-ai/vicoa)
 
 ## Desktop Apps
 
