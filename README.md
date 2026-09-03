@@ -76,7 +76,7 @@
 - [Orca](https://onorca.dev) - An open-source desktop IDE for running parallel AI coding agents (Claude Code, Codex, Cursor, Gemini, OpenCode), each in its own isolated git worktree, with built-in terminal and source control.
 - [Tintpad](https://github.com/sorkila/tintpad) - Open-source macOS menu-bar launcher for AI coding agents: a global-hotkey palette fuzzy-finds a git repo and opens your own terminal there with Claude Code, Codex, or Gemini CLI running.
 - [Orkas](https://orkas.ai?source=gh_vibe) - Open-source, local-first desktop workspace that coordinates specialist agents and runs Claude Code, Codex, OpenCode, and Cline from one chat. [Source](https://github.com/Orkas-AI/Orkas)
-- [DevProjex](https://github.com/Avazbek22/DevProjex) - Builds clean, AI-ready project context with folder trees, file contents, token counting, Smart Ignore, preview, and multi-format export through a fast cross-platform GUI and CLI.
+- [DevProjex](https://github.com/Avazbek22/DevProjex) - Local-first cross-platform codebase-context workspace with GUI, TUI, CLI, and a read-only MCP server for selecting, previewing, redacting, compressing, and packing project context.
 
 ## Plugins and Extensions
 
