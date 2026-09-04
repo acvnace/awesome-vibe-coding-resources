@@ -77,6 +77,7 @@
 - [Tintpad](https://github.com/sorkila/tintpad) - Open-source macOS menu-bar launcher for AI coding agents: a global-hotkey palette fuzzy-finds a git repo and opens your own terminal there with Claude Code, Codex, or Gemini CLI running.
 - [Orkas](https://orkas.ai?source=gh_vibe) - Open-source, local-first desktop workspace that coordinates specialist agents and runs Claude Code, Codex, OpenCode, and Cline from one chat. [Source](https://github.com/Orkas-AI/Orkas)
 - [DevProjex](https://github.com/Avazbek22/DevProjex) - Local-first cross-platform codebase-context workspace with GUI, TUI, CLI, and a read-only MCP server for selecting, previewing, redacting, compressing, and packing project context.
+- [Superagent](https://github.com/pungme/superagent-desktop) - Open-source macOS desktop app that gives Claude Code and Codex a real browser to navigate and drive, an iOS Simulator to install and screenshot apps in, and a phone companion app for remote monitoring.
 
 ## Plugins and Extensions
 
