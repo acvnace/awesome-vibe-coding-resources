@@ -129,6 +129,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [AI Book: AI Coding](https://aibook.ren/categories/ai-coding) - Chinese AI coding handbook covering coding-agent workflows, tool selection, prompts, and practical AI-assisted development guides.
 - [CodeGuide](https://www.codeguide.dev/) - Creates detailed Documentation for your AI Coding Projects.
 - [LegacyDoc AI](https://www.romanticode.com/legacydoc-ai/) - VS Code extension that generates documentation, architecture maps, and AI-ready context packs for vibe-coded codebases.
+- [ContextStream](https://contextstream.io) - Shared project context for Cursor, Claude Code, Codex, Grok. Remote MCP: https://mcp.contextstream.io/mcp. Intelligence isn’t the bottleneck. Context is.
 - [Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html) - Free browser tool for turning a vague Codex CLI project goal into a scoped first-task prompt with file boundaries, constraints, and acceptance checks.
 - [vibeprompt](https://vibeprompt.tech) - Free 10-step vibe coding workflow with 56 prompts, 17 deep-dive articles, 46 field-tested fixes, and an interactive AGENTS.md + PRD generator. Open source, MIT licensed.
 - [Wikivibe](https://wikivibe.ru/en/) - Practical knowledge base for AI-assisted development with guides, a glossary, jobs, and a public MCP endpoint.
