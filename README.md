@@ -45,6 +45,7 @@
 - [Vibe Coding Profiler](https://www.vibe-coding-profiler.com/) - Analyzes git history to reveal your AI-assisted engineering style and vibe coding persona.
 - [Roblox GUI Maker](https://robloxguimaker.dev/) - Generate Roblox Studio GUI layouts and Lua starter code from prompts.
 - [CUT3](https://cut3.ai) - vibe coding for video: describe an edit, an agent rewrites the timeline and hands it back as a diff you approve.
+- [Taskade Genesis](https://www.taskade.com/create) - prompt to a live portal, CRM, or dashboard with agents and automations.
 
 ## Mobile-first Tools
 
