@@ -10,6 +10,7 @@
 
 ## Contents <!-- omit in toc -->
 
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops.
 - [What is Vibe Coding](#what-is-vibe-coding)
 - [Browser-based Tools](#browser-based-tools)
 - [IDEs and Code Editors](#ides-and-code-editors)
