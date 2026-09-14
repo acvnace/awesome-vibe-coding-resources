@@ -47,6 +47,7 @@
 - [Roblox GUI Maker](https://robloxguimaker.dev/) - Generate Roblox Studio GUI layouts and Lua starter code from prompts.
 - [CUT3](https://cut3.ai) - vibe coding for video: describe an edit, an agent rewrites the timeline and hands it back as a diff you approve.
 - [Taskade Genesis](https://www.taskade.com/create) - prompt to a live portal, CRM, or dashboard with agents and automations.
+- [Whimcade](https://whimcade.com/) - describe a game in one paragraph and an agent builds it as a self-contained HTML5 bundle you can play in the browser, iterate on, and publish to a public arcade.
 
 ## Mobile-first Tools
 
