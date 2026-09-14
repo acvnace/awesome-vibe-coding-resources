@@ -56,6 +56,7 @@
 - [WeInc](https://we.inc/) - AI website builder that generates complete hosted production sites (React) from prompts, with flat pricing and white-label for agencies.
 - [Mobile SSH](https://mobile-ssh.github.io) - drive Claude Code and Codex sessions running on your own servers from Android or iOS, with an alert the moment an agent blocks on input and one tap to answer it, plus tmux, Zellij and herdr session managers.
 - [Sillage](https://github.com/MarlBurroW/sillage) - self-hosted, MIT-licensed, mobile-first web UI that drives the native Claude Code and Codex CLIs on your own machine (the official agent harnesses, without a terminal), with sessions that outlive the client, full-text search over every conversation, an IDE panel (file explorer, editor, diffs, terminal), a board the agents read through its own MCP server, and an installable PWA with push. Single Docker container.
+- [vibepanel](https://github.com/jiangmuran/vibepanel) - self-hosted, MIT-licensed web console for running many Claude Code and Codex sessions in parallel from a desktop browser or a phone; each session lives in tmux, so agents keep running through panel restarts, upgrades and dropped connections.
 
 ## IDEs and Code Editors
 
