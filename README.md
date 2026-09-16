@@ -130,6 +130,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Mozilla HTTP Observatory](https://developer.mozilla.org/en-US/observatory) - Free website scan that grades your security headers (CSP, HSTS, and more) and explains how to fix them.
 - [CodeCordon](https://codecordon.up.railway.app/) - Deterministic security scanner for vibe-coded applications. Offers free no-account previews of authorized public GitHub repositories with file-and-line findings and remediation guidance; paid plans add CLI and GitHub Actions integration.
 - [VibeAudit](https://vibeaudit.sh/) - Reads a whole GitHub repo and grades it for launch: missing auth, exposed keys, billing bugs, with file:line and a paste-ready fix prompt per finding. Free quick scan; private repos via GitHub App.
+- [RowShield](https://rowshield.dev/) - Free read-only probe that checks a deployed Supabase app for tables and storage anonymous callers can read, the open-database mistake AI-built apps often ship; paid plans add scheduled RLS policy and drift checks.
 
 ## Documentation for AI Coding
 
