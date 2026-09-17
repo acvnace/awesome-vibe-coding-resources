@@ -135,6 +135,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 
 ## Documentation for AI Coding
 
+- [AI Game Dev Framework](https://github.com/Cooperzheng/ai-game-dev-framework) - MIT-licensed documentation and agent workflow starter for game development, with design decision boundaries, project onboarding, and versioned delivery reviews.
 - [AI Coding Tools Guide](https://ai-coding-tools-guide.vercel.app/cursor-alternatives/) - Workflow-based comparisons for Cursor alternatives, Claude Code, Windsurf, Cline, GitHub Copilot, Aider, Continue, and MCP-enabled AI coding.
 - [AI Book: AI Coding](https://aibook.ren/categories/ai-coding) - Chinese AI coding handbook covering coding-agent workflows, tool selection, prompts, and practical AI-assisted development guides.
 - [CodeGuide](https://www.codeguide.dev/) - Creates detailed Documentation for your AI Coding Projects.
