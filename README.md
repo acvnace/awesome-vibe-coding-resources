@@ -85,6 +85,7 @@
 - [Adnify](https://github.com/ad-naan/Adnify) - Source-available AI-native desktop engineering workspace that combines code editing, direct-execution agents, governed multi-agent planning, terminals, asset generation, and browser verification in one app.
 - [AgentGrid](https://agentgrid.sh/) - Desktop workspace for coordinating Claude Code, Codex, and other coding agents through visible worker conversations, persistent notes, terminals, and browser previews. Supports macOS, Windows, and Linux; closed-source with a free tier and bring-your-own AI provider access.
 - [Usage HUD](https://hud.thaliabloom.com) - Native Mac menu-bar meter for Claude Code, Codex, Gemini, Grok, and Ollama usage windows, with a confidence label on every number. Paid; local only, no account.
+- [NextReset](https://nextreset.ai/) - Free browser-based Codex companion with source-linked public reset history, official AI-service incident updates, and a local personal allowance timer; no account required.
 
 ## Plugins and Extensions
 
