@@ -145,6 +145,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [vibeprompt](https://vibeprompt.tech) - Free 10-step vibe coding workflow with 56 prompts, 17 deep-dive articles, 46 field-tested fixes, and an interactive AGENTS.md + PRD generator. Open source, MIT licensed.
 - [Wikivibe](https://wikivibe.ru/en/) - Practical knowledge base for AI-assisted development with guides, a glossary, jobs, and a public MCP endpoint.
 - [Vibe Coding with Confidence](https://zalt.me/guides/vibe-coding) - Web handbook on building AI-assisted apps that work beyond the demo: plan, build, debug, harden, ship, operate, and scale.
+- [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault) - Dated archive of what the coding agents themselves are told: system prompts and tool schemas from 35 products, 35 of them recorded off the wire with a command that reproduces each. Useful when an AGENTS.md or CLAUDE.md is not having the effect you expect and you want to read what it is competing with.
 
 - [breaking-coding-chaos](https://github.com/bo-cao/breaking-coding-chaos) - Human-in-the-loop dual-loop control-plane skill suite for coding agents (Claude Code, Codex, Cursor, and more): throughline progress on disk, plan-spar alignment, then minimal clean-cut implement.
 - [Ariadne Loop](https://github.com/zhangzeyu99-web/ariadne-loop) - Local-first Loop Engineering workbench for writing verifiable AI coding-agent specs, verifier gates, rollback rules, and JSON reports.
