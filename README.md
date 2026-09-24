@@ -86,6 +86,7 @@
 - [AgentGrid](https://agentgrid.sh/) - Desktop workspace for coordinating Claude Code, Codex, and other coding agents through visible worker conversations, persistent notes, terminals, and browser previews. Supports macOS, Windows, and Linux; closed-source with a free tier and bring-your-own AI provider access.
 - [Usage HUD](https://hud.thaliabloom.com) - Native Mac menu-bar meter for Claude Code, Codex, Gemini, Grok, and Ollama usage windows, with a confidence label on every number. Paid; local only, no account.
 - [NextReset](https://nextreset.ai/) - Free browser-based Codex companion with source-linked public reset history, official AI-service incident updates, and a local personal allowance timer; no account required.
+- [antiburn](https://github.com/antiburn/antiburn) - Free, local desktop app that checks coding agent sessions for common causes of token burn: sessions too deep, overpowered subagents, broken caching, and unused MCPs, skills, and tools. Supports Claude Code, Codex, Cursor, Copilot, Pi, and more.
 
 ## Plugins and Extensions
 
