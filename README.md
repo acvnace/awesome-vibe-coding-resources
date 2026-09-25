@@ -133,6 +133,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [CodeCordon](https://codecordon.up.railway.app/) - Deterministic security scanner for vibe-coded applications. Offers free no-account previews of authorized public GitHub repositories with file-and-line findings and remediation guidance; paid plans add CLI and GitHub Actions integration.
 - [VibeAudit](https://vibeaudit.sh/) - Reads a whole GitHub repo and grades it for launch: missing auth, exposed keys, billing bugs, with file:line and a paste-ready fix prompt per finding. Free quick scan; private repos via GitHub App.
 - [RowShield](https://rowshield.dev/) - Free read-only probe that checks a deployed Supabase app for tables and storage anonymous callers can read, the open-database mistake AI-built apps often ship; paid plans add scheduled RLS policy and drift checks.
+- [Supercov](https://github.com/supercorp-ai/supercov) - Coverage, security and code quality for coding agents.
 - [VibeRaven](https://github.com/ohad6k/VibeRaven) - MIT-licensed local CLI and browser studio (`npx -y viberaven`) that checks an AI-built repo for auth, RLS, webhook, and deploy gaps before launch, exits non-zero on blockers, and writes the findings to `.viberaven/` for the coding agent to fix.
 
 ## Documentation for AI Coding
