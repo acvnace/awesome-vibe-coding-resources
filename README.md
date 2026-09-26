@@ -122,6 +122,7 @@
 - [d1v](https://github.com/d1vai/d1v-cli) - CLI deployment workflow for AI-built web projects with verified previews and production releases requiring explicit confirmation. MIT.
 - [MulmoTerminal](https://github.com/receptron/mulmoterminal) - Browser grid of live Claude Code / Codex sessions started with one `npx` command. Each cell is a real PTY, colour-coded working / needs-you / done from the agent CLI's own hooks, with tmux-backed persistence and a git worktree per cell.
 - [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes: typed task, validation, merge, and release-readiness boundaries, with each task on a dedicated branch/worktree and a merge queue that owns risk-based review. MIT, on npm as @yylo/cli.
+- [since-cutoff](https://github.com/MohammadHijjawi97/since-cutoff) - Finds which APIs of your pinned Python dependencies changed after your coding agent's training cutoff, measures which of them the model actually gets wrong by type-checking its code against both versions, and writes one-line AGENTS.md / CLAUDE.md notes that are kept only if their example type-checks. `uvx since-cutoff scan` needs no API key. MIT, on PyPI as since-cutoff.
 
 ## Security & Pre-Deploy Checks
 
