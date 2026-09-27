@@ -48,6 +48,7 @@
 - [CUT3](https://cut3.ai) - vibe coding for video: describe an edit, an agent rewrites the timeline and hands it back as a diff you approve.
 - [Taskade Genesis](https://www.taskade.com/create) - prompt to a live portal, CRM, or dashboard with agents and automations.
 - [Whimcade](https://whimcade.com/) - describe a game in one paragraph and an agent builds it as a self-contained HTML5 bundle you can play in the browser, iterate on, and publish to a public arcade.
+- [kdpbook.io](https://kdpbook.io) - vibe coding for books: describe a book in a chat and get it written, illustrated and typeset, with the Amazon KDP print PDF, full-wrap cover, Kindle eBook and listing ready to upload.
 
 ## Mobile-first Tools
 
