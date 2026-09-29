@@ -124,6 +124,7 @@
 - [MulmoTerminal](https://github.com/receptron/mulmoterminal) - Browser grid of live Claude Code / Codex sessions started with one `npx` command. Each cell is a real PTY, colour-coded working / needs-you / done from the agent CLI's own hooks, with tmux-backed persistence and a git worktree per cell.
 - [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes: typed task, validation, merge, and release-readiness boundaries, with each task on a dedicated branch/worktree and a merge queue that owns risk-based review. MIT, on npm as @yylo/cli.
 - [since-cutoff](https://github.com/MohammadHijjawi97/since-cutoff) - Finds which APIs of your pinned Python dependencies changed after your coding agent's training cutoff, measures which of them the model actually gets wrong by type-checking its code against both versions, and writes one-line AGENTS.md / CLAUDE.md notes that are kept only if their example type-checks. `uvx since-cutoff scan` needs no API key. MIT, on PyPI as since-cutoff.
+- [agent-manager](https://github.com/YoanWai/agent-manager) - Terminal UI that runs your installed Claude Code, Codex, OpenCode, Gemini CLI, and other coding-agent CLIs side by side, each in its own persistent tmux session. One list shows every session's live status, a session can spawn into its own Git worktree, and a full-file diff review sends line comments back to the agent. Apache-2.0, in homebrew-core as agent-manager.
 
 ## Security & Pre-Deploy Checks
 
