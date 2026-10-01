@@ -171,6 +171,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Vibe-Coding Prompt Template](https://github.com/KhazP/vibe-coding-prompt-template) - MIT-licensed five-step workflow (deep research, PRD, tech design, AGENTS.md, build) with copy-paste prompts and an `npx vibeworkflow` CLI that interviews you and writes the planning docs and agent files.
 - [liyupi/ai-guide](https://github.com/liyupi/ai-guide) - Free Chinese vibe coding handbook covering tool selection, prompting and context management, dozens of end-to-end project builds, and shipping to production. English and Traditional Chinese translations included. [Online version](https://ai.codefather.cn/vibe).
 - [shadcn-vite-starter](https://github.com/7ovr/shadcn-vite-starter) - MIT-licensed Vite and React starter whose CLAUDE.md, AGENTS.md and agent skills keep coding agents on its patterns: one folder per feature, shared data-fetching rules, tests first and a full check run before they finish.
+- [Bestax](https://github.com/allxsmith/bestax) - React components for Bulma v1 that ship Agent Skills, an offline MCP server (bestax-mcp) and llms.txt docs.
 
 ## News and Social Media
 
