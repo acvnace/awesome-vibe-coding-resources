@@ -144,6 +144,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [RowShield](https://rowshield.dev/) - Free read-only probe that checks a deployed Supabase app for tables and storage anonymous callers can read, the open-database mistake AI-built apps often ship; paid plans add scheduled RLS policy and drift checks.
 - [Supercov](https://github.com/supercorp-ai/supercov) - Coverage, security and code quality for coding agents.
 - [VibeRaven](https://github.com/ohad6k/VibeRaven) - MIT-licensed local CLI and browser studio (`npx -y viberaven`) that checks an AI-built repo for auth, RLS, webhook, and deploy gaps before launch, exits non-zero on blockers, and writes the findings to `.viberaven/` for the coding agent to fix.
+- [malinois-scan](https://github.com/parqoo/malinois-scan) - MIT-licensed passive check for a deployed AI-built app (`npx malinois-scan <url> --i-own-this`) that finds publicly readable Supabase/Firebase data, secret keys in the JS bundle, and exposed `.env`/`.git`, explains each finding in plain language, and runs as a GitHub Action that fails the build when a redeploy introduces a new leak. Free web check and MCP server at [malinois.app](https://malinois.app).
 
 ## Documentation for AI Coding
 
