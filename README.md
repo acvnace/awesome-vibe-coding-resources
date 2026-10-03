@@ -131,6 +131,7 @@
 - [since-cutoff](https://github.com/MohammadHijjawi97/since-cutoff) - Finds which APIs of your pinned Python dependencies changed after your coding agent's training cutoff, measures which of them the model actually gets wrong by type-checking its code against both versions, and writes one-line AGENTS.md / CLAUDE.md notes that are kept only if their example type-checks. `uvx since-cutoff scan` needs no API key. MIT, on PyPI as since-cutoff.
 - [agent-manager](https://github.com/YoanWai/agent-manager) - Terminal UI that runs your installed Claude Code, Codex, OpenCode, Gemini CLI, and other coding-agent CLIs side by side, each in its own persistent tmux session. One list shows every session's live status, a session can spawn into its own Git worktree, and a full-file diff review sends line comments back to the agent. Apache-2.0, in homebrew-core as agent-manager.
 - [DropTheHassle](https://dropthehassle.com) - Puts an AI-built static site online from the terminal with `npx -y dropthehassle deploy`: a free HTTPS link without signing up (claim it to keep it), or your own domain. Also an MCP server for Claude Code, Cursor and Windsurf; the agent can never spend money. MIT.
+- [Ordewell](https://github.com/ordewell/ordewell) - Command line planner and TUI that turns one goal into an ordered, editable plan of coding agent tasks, each with its own runner, model and mode, and marks a task done only when its completion marker appears in that runner's output. Apache-2.0, on npm as ordewell.
 
 ## Security & Pre-Deploy Checks
 
