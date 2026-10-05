@@ -132,6 +132,7 @@
 - [agent-manager](https://github.com/YoanWai/agent-manager) - Terminal UI that runs your installed Claude Code, Codex, OpenCode, Gemini CLI, and other coding-agent CLIs side by side, each in its own persistent tmux session. One list shows every session's live status, a session can spawn into its own Git worktree, and a full-file diff review sends line comments back to the agent. Apache-2.0, in homebrew-core as agent-manager.
 - [DropTheHassle](https://dropthehassle.com) - Puts an AI-built static site online from the terminal with `npx -y dropthehassle deploy`: a free HTTPS link without signing up (claim it to keep it), or your own domain. Also an MCP server for Claude Code, Cursor and Windsurf; the agent can never spend money. MIT.
 - [Ordewell](https://github.com/ordewell/ordewell) - Command line planner and TUI that turns one goal into an ordered, editable plan of coding agent tasks, each with its own runner, model and mode, and marks a task done only when its completion marker appears in that runner's output. Apache-2.0, on npm as ordewell.
+- [Orbi](https://github.com/orbi-build/orbi) - Self-hosted coding agent that turns a GitHub issue labelled ai-ready into an independently reviewed, merged PR and a tagged release; also works ops tickets. AGPL-3.0.
 
 ## Security & Pre-Deploy Checks
 
