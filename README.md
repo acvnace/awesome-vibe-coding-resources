@@ -102,6 +102,7 @@
 - [ThreadFox Lite](https://github.com/amflimited/threadfox-lite) - Free Claude Code / Codex plugin with read-only Reddit research tools and a skill for launching on Reddit without getting removed.
 - [Better Design](https://github.com/better-designs/better-design-plugin) - Plugin for Claude Code, Cursor and Gemini CLI that gives the agent design systems, UI and UX principles, icons and UI review through the Better Design MCP server. Free account.
 - [LogNorm](https://github.com/lognorm/lognorm-mcp) - Remote MCP server and skill that lets Claude Code, Codex and Cursor work a ranked SEO and AI-visibility (GEO) backlog: site audits, fixes, content drafts and AI-answer tracking. MIT repo; free plan.
+- [workkit](https://github.com/ITW-Creative-Works/workkit) - Claude Code plugin that runs GitHub Issues as the agent work pipeline: a manager agent specs each issue, hands the build to worker subagents, has a verifier review it, and parks it for your QA.
 
 ## Command Line Tools
 
