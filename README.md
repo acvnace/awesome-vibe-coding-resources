@@ -166,6 +166,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 
 - [breaking-coding-chaos](https://github.com/bo-cao/breaking-coding-chaos) - Human-in-the-loop dual-loop control-plane skill suite for coding agents (Claude Code, Codex, Cursor, and more): throughline progress on disk, plan-spar alignment, then minimal clean-cut implement.
 - [Ariadne Loop](https://github.com/zhangzeyu99-web/ariadne-loop) - Local-first Loop Engineering workbench for writing verifiable AI coding-agent specs, verifier gates, rollback rules, and JSON reports.
+- [Cage](https://github.com/vitalik1921/cage) - TypeScript contract harness that links Markdown specs to implementations, invariant-linked tests, and review freshness for Claude Code and Codex.
 - [Vibe Coding Essentials](https://github.com/ashp15205/vibe-coding-essentials) - Anti-hallucination guardrails for 9 frameworks + a 4-mode workflow system (Economy / Builder / Maintainer / Architect) for AI-assisted development.
 - [Fix AI UI Slop With Real UI Context](https://uizze.com) - Free MIT anti-ui-slop Skill: write a product-specific design contract, cover required UI states, and run a hard finish gate; full UIZZE adds live reference search, validation, and audits across 800,000+ real web and iOS screens.
 - [BuildMuse](https://buildmuse.design/) - Curated interface videos, app screens, websites, motion references, and frontend effects for giving vibe-coding agents clearer visual direction.
