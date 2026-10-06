@@ -50,6 +50,7 @@
 - [Whimcade](https://whimcade.com/) - describe a game in one paragraph and an agent builds it as a self-contained HTML5 bundle you can play in the browser, iterate on, and publish to a public arcade.
 - [kdpbook.io](https://kdpbook.io) - vibe coding for books: describe a book in a chat and get it written, illustrated and typeset, with the Amazon KDP print PDF, full-wrap cover, Kindle eBook and listing ready to upload.
 - [Scrollhaus](https://scrollhaus.ai) - library of animated, scroll-driven website templates with live previews, editable source and prompts to paste into Lovable, Bolt, Claude or Codex.
+- [NewGameDrops.com](https://newgamedrops.com) - daily directory showcasing vibe-coded browser games, playable instantly with an original guide for each.
 
 ## Mobile-first Tools
 
