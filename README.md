@@ -133,6 +133,7 @@
 - [DropTheHassle](https://dropthehassle.com) - Puts an AI-built static site online from the terminal with `npx -y dropthehassle deploy`: a free HTTPS link without signing up (claim it to keep it), or your own domain. Also an MCP server for Claude Code, Cursor and Windsurf; the agent can never spend money. MIT.
 - [Ordewell](https://github.com/ordewell/ordewell) - Command line planner and TUI that turns one goal into an ordered, editable plan of coding agent tasks, each with its own runner, model and mode, and marks a task done only when its completion marker appears in that runner's output. Apache-2.0, on npm as ordewell.
 - [Orbi](https://github.com/orbi-build/orbi) - Self-hosted coding agent that turns a GitHub issue labelled ai-ready into an independently reviewed, merged PR and a tagged release; also works ops tickets. AGPL-3.0.
+- [mu](https://github.com/qybaihe/mu) - Coding agent built on Pi, with a CLI and a desktop app, where a small, fast judge model makes the routine calls at more than 30 decision points: which chunks of a long tool output enter the context, whether a rule-flagged command was asked for, whether a fetched page or MCP result carries instructions aimed at the model. Every verdict goes to a local ledger. MIT (the desktop app is Apache-2.0), on npm as mu-agent.
 
 ## Security & Pre-Deploy Checks
 
