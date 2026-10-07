@@ -51,6 +51,7 @@
 - [kdpbook.io](https://kdpbook.io) - vibe coding for books: describe a book in a chat and get it written, illustrated and typeset, with the Amazon KDP print PDF, full-wrap cover, Kindle eBook and listing ready to upload.
 - [Scrollhaus](https://scrollhaus.ai) - library of animated, scroll-driven website templates with live previews, editable source and prompts to paste into Lovable, Bolt, Claude or Codex.
 - [NewGameDrops.com](https://newgamedrops.com) - daily directory showcasing vibe-coded browser games, playable instantly with an original guide for each.
+- [Vibld](https://vibld.com/) - open-source AI app builder that turns a prompt into a plain React, TypeScript and Vite repo you can publish to GitHub, Cloudflare or Docker.
 
 ## Mobile-first Tools
 
