@@ -53,6 +53,7 @@
 - [NewGameDrops.com](https://newgamedrops.com) - daily directory showcasing vibe-coded browser games, playable instantly with an original guide for each.
 - [Vibld](https://vibld.com/) - open-source AI app builder that turns a prompt into a plain React, TypeScript and Vite repo you can publish to GitHub, Cloudflare or Docker.
 - [Kleap](https://kleap.co/) - AI website and app builder: describe a site in chat, edit it and publish it, with a hosted [MCP server](https://kleap.co/mcp) so Claude, Cursor and other agents can build and publish sites too.
+- [iter0](https://iter0.com/) - AI website builder for tech founders: talk to the Launch CEO, pick a design, edit it, then export the HTML or open a GitHub pull request, with a hosted [MCP server](https://iter0.com/mcp) so AI agents can create and edit pages too.
 
 ## Mobile-first Tools
 
