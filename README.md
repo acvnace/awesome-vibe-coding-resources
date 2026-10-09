@@ -143,6 +143,7 @@
 - [mu](https://github.com/qybaihe/mu) - Coding agent built on Pi, with a CLI and a desktop app, where a small, fast judge model makes the routine calls at more than 30 decision points: which chunks of a long tool output enter the context, whether a rule-flagged command was asked for, whether a fetched page or MCP result carries instructions aimed at the model. Every verdict goes to a local ledger. MIT (the desktop app is Apache-2.0), on npm as mu-agent.
 - [Shipvela](https://shipvela.com/docs) - Publish prebuilt static websites from the CLI or a connected coding agent, with GitHub updates, custom domains and HTTPS; a free Hobby plan is available.
 - [assay](https://github.com/awss1i/assay) - Deterministic QA for web pages. It serves a page locally, drives every control it finds in Chromium through Playwright, and reports where the page contradicts itself, with no tests to write and no LLM. MIT, on PyPI as assay-ui.
+- [reevesagents](https://github.com/mertkayacs/reevesagents) - Runs Claude Code, Codex, Kimi, OpenCode, Qwen, Hermes and other coding CLIs side by side, each in its own tmux window, with a terminal UI, a local web UI and a CLI to read and steer them. An optional MCP server lets one trusted agent start, read and stop the others. Apache-2.0, on npm and Homebrew.
 
 ## Security & Pre-Deploy Checks
 
