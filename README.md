@@ -109,6 +109,7 @@
 - [Better Design](https://github.com/better-designs/better-design-plugin) - Plugin for Claude Code, Cursor and Gemini CLI that gives the agent design systems, UI and UX principles, icons and UI review through the Better Design MCP server. Free account.
 - [LogNorm](https://github.com/lognorm/lognorm-mcp) - Remote MCP server and skill that lets Claude Code, Codex and Cursor work a ranked SEO and AI-visibility (GEO) backlog: site audits, fixes, content drafts and AI-answer tracking. MIT repo; free plan.
 - [Slop Store](https://github.com/slopstore/claude-plugin) - Claude Code plugin and remote MCP server that publish the app you just vibe coded to slopapp.store in one command, so anyone can play it in the browser. Free, no account needed to start.
+- [Ultra Mod](https://github.com/mertkayacs/ultramod) - All-in-one mod pack for Claude Code: a usage limits and context HUD, a guard with undo for `rm -rf` and `git reset --hard`, `.env` and secret protection, and a receipt for every turn. Free, MIT, no network requests.
 
 ## Command Line Tools
 
