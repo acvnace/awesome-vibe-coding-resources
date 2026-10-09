@@ -50,6 +50,11 @@
 - [Whimcade](https://whimcade.com/) - describe a game in one paragraph and an agent builds it as a self-contained HTML5 bundle you can play in the browser, iterate on, and publish to a public arcade.
 - [kdpbook.io](https://kdpbook.io) - vibe coding for books: describe a book in a chat and get it written, illustrated and typeset, with the Amazon KDP print PDF, full-wrap cover, Kindle eBook and listing ready to upload.
 - [Scrollhaus](https://scrollhaus.ai) - library of animated, scroll-driven website templates with live previews, editable source and prompts to paste into Lovable, Bolt, Claude or Codex.
+- [NewGameDrops.com](https://newgamedrops.com) - daily directory showcasing vibe-coded browser games, playable instantly with an original guide for each.
+- [Vibld](https://vibld.com/) - open-source AI app builder that turns a prompt into a plain React, TypeScript and Vite repo you can publish to GitHub, Cloudflare or Docker.
+- [Kleap](https://kleap.co/) - AI website and app builder: describe a site in chat, edit it and publish it, with a hosted [MCP server](https://kleap.co/mcp) so Claude, Cursor and other agents can build and publish sites too.
+- [iter0](https://iter0.com/) - AI website builder for tech founders: talk to the Launch CEO, pick a design, edit it, then export the HTML or open a GitHub pull request, with a hosted [MCP server](https://iter0.com/mcp) so AI agents can create and edit pages too.
+- [onomeo](https://onomeo.com/) - builds small browser games from a one-sentence prompt, using free models with no card required; in public beta.
 
 ## Mobile-first Tools
 
@@ -91,6 +96,7 @@
 - [NextReset](https://nextreset.ai/) - Free browser-based Codex companion with source-linked public reset history, official AI-service incident updates, and a local personal allowance timer; no account required.
 - [antiburn](https://github.com/antiburn/antiburn) - Free, local desktop app that checks coding agent sessions for common causes of token burn: sessions too deep, overpowered subagents, broken caching, and unused MCPs, skills, and tools. Supports Claude Code, Codex, Cursor, Copilot, Pi, and more.
 - [Lunavect](https://github.com/lovach/Lunavect) - Free, open-source (MIT) Mac menu bar app for Claude Code and Codex that shows which session is working, waiting for you, or done, plus weekly and five-hour usage limits with reset times, notifications, and desktop widgets.
+- [Lockpaw](https://github.com/sorkila/lockpaw) - Open-source macOS menu-bar app that covers the screen with a hotkey while Claude Code, Codex or Gemini CLI keep running (lid closed too), and glows when an agent needs you.
 
 ## Plugins and Extensions
 
@@ -103,6 +109,8 @@
 - [Better Design](https://github.com/better-designs/better-design-plugin) - Plugin for Claude Code, Cursor and Gemini CLI that gives the agent design systems, UI and UX principles, icons and UI review through the Better Design MCP server. Free account.
 - [LogNorm](https://github.com/lognorm/lognorm-mcp) - Remote MCP server and skill that lets Claude Code, Codex and Cursor work a ranked SEO and AI-visibility (GEO) backlog: site audits, fixes, content drafts and AI-answer tracking. MIT repo; free plan.
 - [workkit](https://github.com/ITW-Creative-Works/workkit) - Claude Code plugin that runs GitHub Issues as the agent work pipeline: a manager agent specs each issue, hands the build to worker subagents, has a verifier review it, and parks it for your QA.
+- [Slop Store](https://github.com/slopstore/claude-plugin) - Claude Code plugin and remote MCP server that publish the app you just vibe coded to slopapp.store in one command, so anyone can play it in the browser. Free, no account needed to start.
+- [Ultra Mod](https://github.com/mertkayacs/ultramod) - All-in-one mod pack for Claude Code: a usage limits and context HUD, a guard with undo for `rm -rf` and `git reset --hard`, `.env` and secret protection, and a receipt for every turn. Free, MIT, no network requests.
 
 ## Command Line Tools
 
@@ -133,6 +141,11 @@
 - [agent-manager](https://github.com/YoanWai/agent-manager) - Terminal UI that runs your installed Claude Code, Codex, OpenCode, Gemini CLI, and other coding-agent CLIs side by side, each in its own persistent tmux session. One list shows every session's live status, a session can spawn into its own Git worktree, and a full-file diff review sends line comments back to the agent. Apache-2.0, in homebrew-core as agent-manager.
 - [DropTheHassle](https://dropthehassle.com) - Puts an AI-built static site online from the terminal with `npx -y dropthehassle deploy`: a free HTTPS link without signing up (claim it to keep it), or your own domain. Also an MCP server for Claude Code, Cursor and Windsurf; the agent can never spend money. MIT.
 - [Ordewell](https://github.com/ordewell/ordewell) - Command line planner and TUI that turns one goal into an ordered, editable plan of coding agent tasks, each with its own runner, model and mode, and marks a task done only when its completion marker appears in that runner's output. Apache-2.0, on npm as ordewell.
+- [Orbi](https://github.com/orbi-build/orbi) - Self-hosted coding agent that turns a GitHub issue labelled ai-ready into an independently reviewed, merged PR and a tagged release; also works ops tickets. AGPL-3.0.
+- [mu](https://github.com/qybaihe/mu) - Coding agent built on Pi, with a CLI and a desktop app, where a small, fast judge model makes the routine calls at more than 30 decision points: which chunks of a long tool output enter the context, whether a rule-flagged command was asked for, whether a fetched page or MCP result carries instructions aimed at the model. Every verdict goes to a local ledger. MIT (the desktop app is Apache-2.0), on npm as mu-agent.
+- [Shipvela](https://shipvela.com/docs) - Publish prebuilt static websites from the CLI or a connected coding agent, with GitHub updates, custom domains and HTTPS; a free Hobby plan is available.
+- [assay](https://github.com/awss1i/assay) - Deterministic QA for web pages. It serves a page locally, drives every control it finds in Chromium through Playwright, and reports where the page contradicts itself, with no tests to write and no LLM. MIT, on PyPI as assay-ui.
+- [reevesagents](https://github.com/mertkayacs/reevesagents) - Runs Claude Code, Codex, Kimi, OpenCode, Qwen, Hermes and other coding CLIs side by side, each in its own tmux window, with a terminal UI, a local web UI and a CLI to read and steer them. An optional MCP server lets one trusted agent start, read and stop the others. Apache-2.0, on npm and Homebrew.
 
 ## Security & Pre-Deploy Checks
 
@@ -167,6 +180,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 
 - [breaking-coding-chaos](https://github.com/bo-cao/breaking-coding-chaos) - Human-in-the-loop dual-loop control-plane skill suite for coding agents (Claude Code, Codex, Cursor, and more): throughline progress on disk, plan-spar alignment, then minimal clean-cut implement.
 - [Ariadne Loop](https://github.com/zhangzeyu99-web/ariadne-loop) - Local-first Loop Engineering workbench for writing verifiable AI coding-agent specs, verifier gates, rollback rules, and JSON reports.
+- [Cage](https://github.com/vitalik1921/cage) - TypeScript contract harness that links Markdown specs to implementations, invariant-linked tests, and review freshness for Claude Code and Codex.
 - [Vibe Coding Essentials](https://github.com/ashp15205/vibe-coding-essentials) - Anti-hallucination guardrails for 9 frameworks + a 4-mode workflow system (Economy / Builder / Maintainer / Architect) for AI-assisted development.
 - [Fix AI UI Slop With Real UI Context](https://uizze.com) - Free MIT anti-ui-slop Skill: write a product-specific design contract, cover required UI states, and run a hard finish gate; full UIZZE adds live reference search, validation, and audits across 800,000+ real web and iOS screens.
 - [BuildMuse](https://buildmuse.design/) - Curated interface videos, app screens, websites, motion references, and frontend effects for giving vibe-coding agents clearer visual direction.
