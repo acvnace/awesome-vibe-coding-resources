@@ -56,6 +56,8 @@
 - [iter0](https://iter0.com/) - AI website builder for tech founders: talk to the Launch CEO, pick a design, edit it, then export the HTML or open a GitHub pull request, with a hosted [MCP server](https://iter0.com/mcp) so AI agents can create and edit pages too.
 - [onomeo](https://onomeo.com/) - builds small browser games from a one-sentence prompt, using free models with no card required; in public beta.
 
+
+- [Massvai](https://massvai.com/) - AI agent that builds full-stack Next.js apps from a prompt, with live preview, Supabase setup, GitHub sync and one-click Vercel deploy.
 ## Mobile-first Tools
 
 - [Vibecode](https://www.vibecodeapp.com/) - "the mobile app that builds mobile apps".
