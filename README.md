@@ -97,6 +97,7 @@
 - [antiburn](https://github.com/antiburn/antiburn) - Free, local desktop app that checks coding agent sessions for common causes of token burn: sessions too deep, overpowered subagents, broken caching, and unused MCPs, skills, and tools. Supports Claude Code, Codex, Cursor, Copilot, Pi, and more.
 - [Lunavect](https://github.com/lovach/Lunavect) - Free, open-source (MIT) Mac menu bar app for Claude Code and Codex that shows which session is working, waiting for you, or done, plus weekly and five-hour usage limits with reset times, notifications, and desktop widgets.
 - [Lockpaw](https://github.com/sorkila/lockpaw) - Open-source macOS menu-bar app that covers the screen with a hotkey while Claude Code, Codex or Gemini CLI keep running (lid closed too), and glows when an agent needs you.
+- [Drevon](https://www.drevon.dev) - Mac app that connects to your Claude Code or Codex and turns it into an end-to-end GTM operator: research, grunt work, analysis and actions across your stack from a single prompt, in your own browser with your own logins.
 
 ## Plugins and Extensions
 
