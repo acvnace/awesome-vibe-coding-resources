@@ -115,6 +115,7 @@
 - [workkit](https://github.com/ITW-Creative-Works/workkit) - Claude Code plugin that runs GitHub Issues as the agent work pipeline: a manager agent specs each issue, hands the build to worker subagents, has a verifier review it, and parks it for your QA.
 - [Slop Store](https://github.com/slopstore/claude-plugin) - Claude Code plugin and remote MCP server that publish the app you just vibe coded to slopapp.store in one command, so anyone can play it in the browser. Free, no account needed to start.
 - [Ultra Mod](https://github.com/mertkayacs/ultramod) - All-in-one mod pack for Claude Code: a usage limits and context HUD, a guard with undo for `rm -rf` and `git reset --hard`, `.env` and secret protection, and a receipt for every turn. Free, MIT, no network requests.
+- [show-your-work](https://github.com/iamumeransari/claude-show-your-work) - Claude Code mod that shows screenshots and videos of what Claude built right in the terminal, including Playwright recordings of it clicking through your app and before/after QA runs played side by side. Free, MIT, for Ghostty and kitty.
 
 ## Command Line Tools
 
