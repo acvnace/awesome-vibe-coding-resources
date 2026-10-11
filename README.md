@@ -150,6 +150,7 @@
 - [Shipvela](https://shipvela.com/docs) - Publish prebuilt static websites from the CLI or a connected coding agent, with GitHub updates, custom domains and HTTPS; a free Hobby plan is available.
 - [assay](https://github.com/awss1i/assay) - Deterministic QA for web pages. It serves a page locally, drives every control it finds in Chromium through Playwright, and reports where the page contradicts itself, with no tests to write and no LLM. MIT, on PyPI as assay-ui.
 - [reevesagents](https://github.com/mertkayacs/reevesagents) - Runs Claude Code, Codex, Kimi, OpenCode, Qwen, Hermes and other coding CLIs side by side, each in its own tmux window, with a terminal UI, a local web UI and a CLI to read and steer them. An optional MCP server lets one trusted agent start, read and stop the others. Apache-2.0, on npm and Homebrew.
+- [unsent](https://github.com/GeiserX/unsent) - Saves the prompt you are still typing in Claude Code, Codex, pi and agy every 0.4 seconds and gives it back after a crash, a closed window or a reboot; also keeps a half-typed zsh command line. GPL-3.0.
 
 ## Security & Pre-Deploy Checks
 
