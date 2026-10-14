@@ -101,6 +101,8 @@
 - [Lockpaw](https://github.com/sorkila/lockpaw) - Open-source macOS menu-bar app that covers the screen with a hotkey while Claude Code, Codex or Gemini CLI keep running (lid closed too), and glows when an agent needs you.
 - [Drevon](https://www.drevon.dev) - Mac app that connects to your Claude Code or Codex and turns it into an end-to-end GTM operator: research, grunt work, analysis and actions across your stack from a single prompt, in your own browser with your own logins.
 - [Kamply](https://kamplyapp.com) - Mac desktop app that puts a marketing crew on top of your Claude Code or Codex plan to make social posts, carousels, video reels, ads and decks in your own branding. Paid; Apple silicon, macOS 11 or later.
+- [Pinrail](https://github.com/forgeplane/pinrail) - Open-source desktop app where Claude Code, Codex, Cursor, and other coding agents ask for a review before they act, show it in a view made for its content, and get back structured decisions.
+- [Wardlume](https://wardlume.github.io) - Locks your Mac's keyboard, mouse, and trackpad while Claude Code, Codex, Cursor or Gemini CLI keep running in view, so you can step away without anyone typing into the session. Unlocks with Touch ID or Apple Watch; free for personal use, sandboxed with no network access.
 
 ## Plugins and Extensions
 
@@ -116,6 +118,7 @@
 - [Slop Store](https://github.com/slopstore/claude-plugin) - Claude Code plugin and remote MCP server that publish the app you just vibe coded to slopapp.store in one command, so anyone can play it in the browser. Free, no account needed to start.
 - [Ultra Mod](https://github.com/mertkayacs/ultramod) - All-in-one mod pack for Claude Code: a usage limits and context HUD, a guard with undo for `rm -rf` and `git reset --hard`, `.env` and secret protection, and a receipt for every turn. Free, MIT, no network requests.
 - [show-your-work](https://github.com/iamumeransari/claude-show-your-work) - Claude Code mod that shows screenshots and videos of what Claude built right in the terminal, including Playwright recordings of it clicking through your app and before/after QA runs played side by side. Free, MIT, for Ghostty and kitty.
+- [subagent-tuner](https://github.com/Kruhlikau/subagent-tuner) - Claude Code mod that lets you choose which model and reasoning effort each subagent runs on, so reviews stay on Opus and searches stay cheap; Auto mode applies your saved default even over what the agent asked for.
 - [looot](https://github.com/loootai/looot-plugin) - Plugin for Claude Code, Codex and Cursor, plus a remote MCP server, that gives the agent one API key and one prepaid balance for 2,500+ data API endpoints: work emails, phones, company and people enrichment, Google results and web page reading. A failed call costs nothing. Paid, prepaid from $5, no subscription.
 
 ## Command Line Tools
@@ -154,6 +157,8 @@
 - [reevesagents](https://github.com/mertkayacs/reevesagents) - Runs Claude Code, Codex, Kimi, OpenCode, Qwen, Hermes and other coding CLIs side by side, each in its own tmux window, with a terminal UI, a local web UI and a CLI to read and steer them. An optional MCP server lets one trusted agent start, read and stop the others. Apache-2.0, on npm and Homebrew.
 - [unsent](https://github.com/GeiserX/unsent) - Saves the prompt you are still typing in Claude Code, Codex, pi and agy every 0.4 seconds and gives it back after a crash, a closed window or a reboot; also keeps a half-typed zsh command line. GPL-3.0.
 - [Archcore](https://github.com/archcore-ai/archcore) - Git-native context engineering and spec-driven development for AI coding agents.
+- [tokenreceipt](https://github.com/henrikdukefoss/tokenreceipt) - Prints a till-style receipt of the tokens your coding agents used on this machine (Claude Code, Codex, OpenCode, Gemini CLI, Cline, Roo, Kilo, Pi, Hermes), priced at public API list prices, with SVG/PNG cards and JSON output. Reads local logs only, no account or upload. MIT, run with `npx github:henrikdukefoss/tokenreceipt`.
+- [Latchkey](https://latchkey.dev) - Run any command on a fresh Linux runner from your terminal or coding agent and get the real exit code back (`npm install -g @latchkeydev/cli`, then `latchkey run 'npm test'`); self-healing GitHub Actions runners with an MCP server that hands the agent root cause, failing file and logs for CI failures it could not repair.
 
 ## Security & Pre-Deploy Checks
 
@@ -182,7 +187,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [LegacyDoc AI](https://www.romanticode.com/legacydoc-ai/) - VS Code extension that generates documentation, architecture maps, and AI-ready context packs for vibe-coded codebases.
 - [ContextStream](https://contextstream.io) - Shared project context for Cursor, Claude Code, Codex, Grok. Remote MCP: https://mcp.contextstream.io/mcp. Intelligence isn’t the bottleneck. Context is.
 - [Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html) - Free browser tool for turning a vague Codex CLI project goal into a scoped first-task prompt with file boundaries, constraints, and acceptance checks.
-- [vibeprompt](https://vibeprompt.tech) - Free 10-step vibe coding workflow with 56 prompts, 17 deep-dive articles, 46 field-tested fixes, and an interactive AGENTS.md + PRD generator. Open source, MIT licensed.
+- [Pineflow](https://dotsystems.dev/pineflow) - Free, open source path from an idea to a mobile app in the App Store with Claude Code and Expo: 12 chapters with exact commands, prompts and checks, plus AGENTS.md, PRD and hooks templates. MIT licensed. Formerly vibeprompt.
 - [Wikivibe](https://wikivibe.ru/en/) - Practical knowledge base for AI-assisted development with guides, a glossary, jobs, and a public MCP endpoint.
 - [Vibe Coding with Confidence](https://zalt.me/guides/vibe-coding) - Web handbook on building AI-assisted apps that work beyond the demo: plan, build, debug, harden, ship, operate, and scale.
 - [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault) - Dated archive of what the coding agents themselves are told: system prompts and tool schemas from 43 products, 44 of them recorded off the wire with a command that reproduces each. Useful when an AGENTS.md or CLAUDE.md is not having the effect you expect and you want to read what it is competing with.
