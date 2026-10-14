@@ -207,6 +207,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [shadcn-vite-starter](https://github.com/7ovr/shadcn-vite-starter) - MIT-licensed Vite and React starter whose CLAUDE.md, AGENTS.md and agent skills keep coding agents on its patterns: one folder per feature, shared data-fetching rules, tests first and a full check run before they finish.
 - [Bestax](https://github.com/allxsmith/bestax) - React components for Bulma v1 that ship Agent Skills, an offline MCP server (bestax-mcp) and llms.txt docs.
 - [LynxPrompt](https://github.com/GeiserX/LynxPrompt) - Self-hosted, federated platform to generate, store and share AGENTS.md, CLAUDE.md, Cursor rules and other AI IDE config files, with a web UI, CLI and VS Code extension. AGPL-3.0.
+- [Learn Magic](https://learnmagic.ai) - Beginner guide to building with Claude Code for people who have never coded: a live demo, setup in the Claude desktop app with no terminal, starter builds for teachers, parents, small businesses and freelancers, and a page on the walls beginners hit. Free to read; building needs a paid Claude plan.
 
 ## News and Social Media
 
