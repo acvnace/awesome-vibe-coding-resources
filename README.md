@@ -157,6 +157,7 @@
 - [unsent](https://github.com/GeiserX/unsent) - Saves the prompt you are still typing in Claude Code, Codex, pi and agy every 0.4 seconds and gives it back after a crash, a closed window or a reboot; also keeps a half-typed zsh command line. GPL-3.0.
 - [Archcore](https://github.com/archcore-ai/archcore) - Git-native context engineering and spec-driven development for AI coding agents.
 - [tokenreceipt](https://github.com/henrikdukefoss/tokenreceipt) - Prints a till-style receipt of the tokens your coding agents used on this machine (Claude Code, Codex, OpenCode, Gemini CLI, Cline, Roo, Kilo, Pi, Hermes), priced at public API list prices, with SVG/PNG cards and JSON output. Reads local logs only, no account or upload. MIT, run with `npx github:henrikdukefoss/tokenreceipt`.
+- [Latchkey](https://latchkey.dev) - Run any command on a fresh Linux runner from your terminal or coding agent and get the real exit code back (`npm install -g @latchkeydev/cli`, then `latchkey run 'npm test'`); self-healing GitHub Actions runners with an MCP server that hands the agent root cause, failing file and logs for CI failures it could not repair.
 
 ## Security & Pre-Deploy Checks
 
