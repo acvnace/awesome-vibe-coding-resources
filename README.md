@@ -120,6 +120,7 @@
 - [show-your-work](https://github.com/iamumeransari/claude-show-your-work) - Claude Code mod that shows screenshots and videos of what Claude built right in the terminal, including Playwright recordings of it clicking through your app and before/after QA runs played side by side. Free, MIT, for Ghostty and kitty.
 - [subagent-tuner](https://github.com/Kruhlikau/subagent-tuner) - Claude Code mod that lets you choose which model and reasoning effort each subagent runs on, so reviews stay on Opus and searches stay cheap; Auto mode applies your saved default even over what the agent asked for.
 - [Aident Loadout](https://aident.ai) - Remote MCP server, CLI and skill that connect Claude Code, Codex, Cursor and other MCP clients to your apps and 400+ expert-built Skills through one setup: connect accounts once and reuse them in every agent, with OAuth in the browser, credentials kept in Aident Vault and an audit log of every action. Free pay-as-you-go start.
+- [UI Verify](https://uiverify.ai) - Claude Code plugin, skills and remote MCP server for visual testing: the agent screenshots the Storybook stories, Playwright pages or Vitest tests you already have, sees which ones its edit changed, and each pull request is checked again before merge. 10,000 snapshots a month free, 50,000 for open source.
 
 ## Command Line Tools
 
