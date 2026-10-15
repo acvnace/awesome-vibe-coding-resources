@@ -180,6 +180,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [malinois-scan](https://github.com/parqoo/malinois-scan) - MIT-licensed passive check for a deployed AI-built app (`npx malinois-scan <url> --i-own-this`) that finds publicly readable Supabase/Firebase data, secret keys in the JS bundle, and exposed `.env`/`.git`, explains each finding in plain language, and runs as a GitHub Action that fails the build when a redeploy introduces a new leak. Free web check and MCP server at [malinois.app](https://malinois.app).
 - [VibeFix](https://vibe-fixer.com/) - An AI agent uses your live, published app like a first customer (sign-up, the main flow, checkout, on a phone and a computer) and lists what breaks, with a fix prompt to paste into your AI builder and a re-test of the live app. First test free, no account; also an MCP server at `https://vibe-fixer.com/mcp`.
 - [Nutilz Security Headers](https://nutilz.com/security-headers) - Free browser-based security headers grader and validator (CSP, HSTS, CORS, X-Frame-Options) with copy-paste remediation snippets to test and fix missing headers before launch. No signup required.
+- [VibeLocked](https://vibelocked.com/) - Free in-browser scanner that finds exposed OpenAI, Stripe, Supabase service role, AWS, and GitHub keys in a public GitHub repo, plus plain-language security guides and checklists for Supabase RLS, Firebase rules, Stripe webhooks, and AI API routes.
 
 ## Documentation for AI Coding
 
