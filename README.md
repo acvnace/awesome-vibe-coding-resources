@@ -161,6 +161,7 @@
 - [tokenreceipt](https://github.com/henrikdukefoss/tokenreceipt) - Prints a till-style receipt of the tokens your coding agents used on this machine (Claude Code, Codex, OpenCode, Gemini CLI, Cline, Roo, Kilo, Pi, Hermes), priced at public API list prices, with SVG/PNG cards and JSON output. Reads local logs only, no account or upload. MIT, run with `npx github:henrikdukefoss/tokenreceipt`.
 - [Latchkey](https://latchkey.dev) - Run any command on a fresh Linux runner from your terminal or coding agent and get the real exit code back (`npm install -g @latchkeydev/cli`, then `latchkey run 'npm test'`); self-healing GitHub Actions runners with an MCP server that hands the agent root cause, failing file and logs for CI failures it could not repair.
 - [Closure](https://github.com/disjointinc/closure) - Open-source pricing infrastructure for metering, entitlements, credits, and billing, so vibe-coded apps can ship any pricing experiments without worrying about taking the wrong user's money.
+- [Pethost](https://pethost.dev) - Puts what you build with an agent online: `pethost deploy` in a folder, or one sentence to Claude Code or Codex over MCP, and it runs with HTTPS, GitHub deploys, backups and logs.
 
 ## Security & Pre-Deploy Checks
 
