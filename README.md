@@ -198,7 +198,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [CodeGuide](https://www.codeguide.dev/) - Creates detailed Documentation for your AI Coding Projects.
 - [LegacyDoc AI](https://www.romanticode.com/legacydoc-ai/) - VS Code extension that generates documentation, architecture maps, and AI-ready context packs for vibe-coded codebases.
 - [ContextStream](https://contextstream.io) - Shared project context for Cursor, Claude Code, Codex, Grok. Remote MCP: https://mcp.contextstream.io/mcp. Intelligence isn’t the bottleneck. Context is.
-- [AGENTS.md Generator](https://agentkitco.com/tools/agents-md-generator/) - Free in-browser tool that writes AGENTS.md plus matching CLAUDE.md, Cursor rule and Copilot instructions files for your stack.
+- [AGENTS.md Generator](https://agentkitco.github.io/tools/agents-md-generator/) - Free in-browser tool that writes AGENTS.md plus matching CLAUDE.md, Cursor rule and Copilot instructions files for your stack.
 - [Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html) - Free browser tool for turning a vague Codex CLI project goal into a scoped first-task prompt with file boundaries, constraints, and acceptance checks.
 - [Pineflow](https://dotsystems.dev/pineflow) - Free, open source path from an idea to a mobile app in the App Store with Claude Code and Expo: 12 chapters with exact commands, prompts and checks, plus AGENTS.md, PRD and hooks templates. MIT licensed. Formerly vibeprompt.
 - [Wikivibe](https://wikivibe.ru/en/) - Practical knowledge base for AI-assisted development with guides, a glossary, jobs, and a public MCP endpoint.
