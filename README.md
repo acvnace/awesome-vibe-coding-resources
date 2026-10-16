@@ -219,6 +219,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [LynxPrompt](https://github.com/GeiserX/LynxPrompt) - Self-hosted, federated platform to generate, store and share AGENTS.md, CLAUDE.md, Cursor rules and other AI IDE config files, with a web UI, CLI and VS Code extension. AGPL-3.0.
 - [Learn Magic](https://learnmagic.ai) - Beginner guide to building with Claude Code for people who have never coded: a live demo, setup in the Claude desktop app with no terminal, starter builds for teachers, parents, small businesses and freelancers, and a page on the walls beginners hit. Free to read; building needs a paid Claude plan.
 - [Nebutra Sailor](https://github.com/Nebutra/Nebutra-Sailor) - Open SaaS starter for agent-built software whose AGENTS.md, CLAUDE.md and shrink-only lint guards keep coding agents inside its rules: one provider per domain, business endpoints in one Hono gateway, design tokens instead of raw values. Next.js 16, Better Auth, Creem plus WeChat Pay/Alipay billing, generated Postgres RLS; runs locally with an empty `.env`. Scaffolded projects are MIT.
+- [VibePicks](https://vibepicks-ruddy.vercel.app) - Free, dated picks for the best AI coding agent, app builder, code reviewer and deploy target per job, with MCP and open-source status.
 
 ## News and Social Media
 
