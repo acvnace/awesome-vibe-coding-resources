@@ -123,6 +123,7 @@
 - [looot](https://github.com/loootai/looot-plugin) - Plugin for Claude Code, Codex and Cursor, plus a remote MCP server, that gives the agent one API key and one prepaid balance for 2,500+ data API endpoints: work emails, phones, company and people enrichment, Google results and web page reading. A failed call costs nothing. Paid, prepaid from $5, no subscription.
 - [Aident Loadout](https://aident.ai) - Remote MCP server, CLI and skill that connect Claude Code, Codex, Cursor and other MCP clients to your apps and 400+ expert-built Skills through one setup: connect accounts once and reuse them in every agent, with OAuth in the browser, credentials kept in Aident Vault and an audit log of every action. Free pay-as-you-go start.
 - [UI Verify](https://uiverify.ai) - Claude Code plugin, skills and remote MCP server for visual testing: the agent screenshots the Storybook stories, Playwright pages or Vitest tests you already have, sees which ones its edit changed, and each pull request is checked again before merge. 10,000 snapshots a month free, 50,000 for open source.
+- [CurlShot](https://curlshot.com) - Screenshot API with a remote MCP server that lets Claude Code, Cursor and other MCP clients see a web page: the agent gets back a PNG, JPEG, WebP, PDF or a video of the page scrolling, on phone, tablet or desktop presets, with cookie banners and ads hidden first. 100 screenshots a month free, no card; paid plans from $19 a month.
 
 ## Command Line Tools
 
