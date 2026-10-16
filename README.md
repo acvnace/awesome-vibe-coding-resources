@@ -168,6 +168,7 @@
 AI-generated apps often ship with exposed secrets, open databases, or missing security headers. These tools help you catch issues before going live.
 
 - [agent-qa](https://github.com/vostride/agent-qa) - Self-improving QA agent for web and mobile apps. Write natural-language tests, retain run memory, and catch UI regressions before shipping.
+- [FixIt](https://fixitbot.pythonanywhere.com/) - AI debugger for vibe-coded apps. Paste an error from a Lovable, Bolt, Cursor, Replit, v0 or Supabase app and get a plain-English root cause, step-by-step fix and a ready-to-paste prompt for your AI builder. 3 free fixes/month.
 - [Check My Vibe](https://checkmyvibeapp.com/) - Free passive scan for AI-built websites that checks public security headers, exposed source maps, credential-shaped client strings, and common sensitive paths, plus a 36-point manual checklist.
 - [Vibeproof](https://vibeproof.sh/) - Instant security scan for vibe-coded apps (Lovable, Bolt, v0, Cursor). Paste a URL or a public GitHub repo to find exposed secrets, open Supabase/Firebase databases, leaked files, vulnerable libraries, and GDPR gaps. Free scan, no signup.
 - [Snyk](https://snyk.io/) - Free-tier developer security platform that scans your code, dependencies, and infrastructure-as-code for known vulnerabilities.
