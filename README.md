@@ -58,6 +58,7 @@
 
 
 - [Massvai](https://massvai.com/) - AI agent that builds full-stack Next.js apps from a prompt, with live preview, Supabase setup, GitHub sync and one-click Vercel deploy.
+- [SPOE](https://spoe.ai/) - prompt to a full-stack Next.js, Fastify and Postgres app; a second model from another family reviews every change, and the export is signed and runs with docker compose up, with nothing of SPOE inside.
 ## Mobile-first Tools
 
 - [Vibecode](https://www.vibecodeapp.com/) - "the mobile app that builds mobile apps".
@@ -162,12 +163,14 @@
 - [Latchkey](https://latchkey.dev) - Run any command on a fresh Linux runner from your terminal or coding agent and get the real exit code back (`npm install -g @latchkeydev/cli`, then `latchkey run 'npm test'`); self-healing GitHub Actions runners with an MCP server that hands the agent root cause, failing file and logs for CI failures it could not repair.
 - [Closure](https://github.com/disjointinc/closure) - Open-source pricing infrastructure for metering, entitlements, credits, and billing, so vibe-coded apps can ship any pricing experiments without worrying about taking the wrong user's money.
 - [Relay](https://relayevals.com/) - Self-improving coding agent harness that runs on your machine with your own models (Claude, ChatGPT, Copilot or any API key). Learns lessons from each run, re-runs your tests, lint and build before opening a pull request, and caps turns, tokens, time and spend. Free tier.
+- [Pethost](https://pethost.dev) - Puts what you build with an agent online: `pethost deploy` in a folder, or one sentence to Claude Code or Codex over MCP, and it runs with HTTPS, GitHub deploys, backups and logs.
 
 ## Security & Pre-Deploy Checks
 
 AI-generated apps often ship with exposed secrets, open databases, or missing security headers. These tools help you catch issues before going live.
 
 - [agent-qa](https://github.com/vostride/agent-qa) - Self-improving QA agent for web and mobile apps. Write natural-language tests, retain run memory, and catch UI regressions before shipping.
+- [FixIt](https://fixitbot.pythonanywhere.com/) - AI debugger for vibe-coded apps. Paste an error from a Lovable, Bolt, Cursor, Replit, v0 or Supabase app and get a plain-English root cause, step-by-step fix and a ready-to-paste prompt for your AI builder. 3 free fixes/month.
 - [Check My Vibe](https://checkmyvibeapp.com/) - Free passive scan for AI-built websites that checks public security headers, exposed source maps, credential-shaped client strings, and common sensitive paths, plus a 36-point manual checklist.
 - [Vibeproof](https://vibeproof.sh/) - Instant security scan for vibe-coded apps (Lovable, Bolt, v0, Cursor). Paste a URL or a public GitHub repo to find exposed secrets, open Supabase/Firebase databases, leaked files, vulnerable libraries, and GDPR gaps. Free scan, no signup.
 - [Snyk](https://snyk.io/) - Free-tier developer security platform that scans your code, dependencies, and infrastructure-as-code for known vulnerabilities.
@@ -180,6 +183,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [malinois-scan](https://github.com/parqoo/malinois-scan) - MIT-licensed passive check for a deployed AI-built app (`npx malinois-scan <url> --i-own-this`) that finds publicly readable Supabase/Firebase data, secret keys in the JS bundle, and exposed `.env`/`.git`, explains each finding in plain language, and runs as a GitHub Action that fails the build when a redeploy introduces a new leak. Free web check and MCP server at [malinois.app](https://malinois.app).
 - [VibeFix](https://vibe-fixer.com/) - An AI agent uses your live, published app like a first customer (sign-up, the main flow, checkout, on a phone and a computer) and lists what breaks, with a fix prompt to paste into your AI builder and a re-test of the live app. First test free, no account; also an MCP server at `https://vibe-fixer.com/mcp`.
 - [Nutilz Security Headers](https://nutilz.com/security-headers) - Free browser-based security headers grader and validator (CSP, HSTS, CORS, X-Frame-Options) with copy-paste remediation snippets to test and fix missing headers before launch. No signup required.
+- [VibeLocked](https://vibelocked.com/) - Free in-browser scanner that finds exposed OpenAI, Stripe, Supabase service role, AWS, and GitHub keys in a public GitHub repo, plus plain-language security guides and checklists for Supabase RLS, Firebase rules, Stripe webhooks, and AI API routes.
 
 ## Documentation for AI Coding
 
@@ -213,6 +217,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Bestax](https://github.com/allxsmith/bestax) - React components for Bulma v1 that ship Agent Skills, an offline MCP server (bestax-mcp) and llms.txt docs.
 - [LynxPrompt](https://github.com/GeiserX/LynxPrompt) - Self-hosted, federated platform to generate, store and share AGENTS.md, CLAUDE.md, Cursor rules and other AI IDE config files, with a web UI, CLI and VS Code extension. AGPL-3.0.
 - [Learn Magic](https://learnmagic.ai) - Beginner guide to building with Claude Code for people who have never coded: a live demo, setup in the Claude desktop app with no terminal, starter builds for teachers, parents, small businesses and freelancers, and a page on the walls beginners hit. Free to read; building needs a paid Claude plan.
+- [Nebutra Sailor](https://github.com/Nebutra/Nebutra-Sailor) - Open SaaS starter for agent-built software whose AGENTS.md, CLAUDE.md and shrink-only lint guards keep coding agents inside its rules: one provider per domain, business endpoints in one Hono gateway, design tokens instead of raw values. Next.js 16, Better Auth, Creem plus WeChat Pay/Alipay billing, generated Postgres RLS; runs locally with an empty `.env`. Scaffolded projects are MIT.
 
 ## News and Social Media
 
