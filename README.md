@@ -188,6 +188,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [VibeFix](https://vibe-fixer.com/) - An AI agent uses your live, published app like a first customer (sign-up, the main flow, checkout, on a phone and a computer) and lists what breaks, with a fix prompt to paste into your AI builder and a re-test of the live app. First test free, no account; also an MCP server at `https://vibe-fixer.com/mcp`.
 - [Nutilz Security Headers](https://nutilz.com/security-headers) - Free browser-based security headers grader and validator (CSP, HSTS, CORS, X-Frame-Options) with copy-paste remediation snippets to test and fix missing headers before launch. No signup required.
 - [VibeLocked](https://vibelocked.com/) - Free in-browser scanner that finds exposed OpenAI, Stripe, Supabase service role, AWS, and GitHub keys in a public GitHub repo, plus plain-language security guides and checklists for Supabase RLS, Firebase rules, Stripe webhooks, and AI API routes.
+- [SealMyApp](https://sealmyapp.com/) - Read-only security scan for apps built with Lovable, Bolt, Cursor, Replit and v0 that only runs after you verify you own the app (DNS record or file). Checks for Supabase tables readable without login, open Firebase rules, secret keys in the JS bundle and exposed `.env`/`.git` files. Free scan and free tools (key checker, Supabase RLS audit SQL); paid tiers add builder-specific fix prompts with a verified re-scan and daily monitoring.
 
 ## Documentation for AI Coding
 
