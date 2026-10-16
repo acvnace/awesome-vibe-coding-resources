@@ -165,6 +165,7 @@
 - [Closure](https://github.com/disjointinc/closure) - Open-source pricing infrastructure for metering, entitlements, credits, and billing, so vibe-coded apps can ship any pricing experiments without worrying about taking the wrong user's money.
 - [Relay](https://relayevals.com/) - Self-improving coding agent harness that runs on your machine with your own models (Claude, ChatGPT, Copilot or any API key). Learns lessons from each run, re-runs your tests, lint and build before opening a pull request, and caps turns, tokens, time and spend. Free tier.
 - [Pethost](https://pethost.dev) - Puts what you build with an agent online: `pethost deploy` in a folder, or one sentence to Claude Code or Codex over MCP, and it runs with HTTPS, GitHub deploys, backups and logs.
+- [SpaceApp](https://github.com/oll4com/spaceapp) - Self-hosted web workspace that runs OpenCode, Codex, Claude Code, Gemini CLI and other coding CLIs side by side in persistent rooms, with MCP servers and managed browser panes. Installs with `npx --yes run-spaceapp@latest install` on Docker (Linux, macOS, Windows 11). Source-available (BSL 1.1).
 
 ## Security & Pre-Deploy Checks
 
