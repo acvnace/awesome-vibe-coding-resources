@@ -105,6 +105,7 @@
 - [Kamply](https://kamplyapp.com) - Mac desktop app that puts a marketing crew on top of your Claude Code or Codex plan to make social posts, carousels, video reels, ads and decks in your own branding. Paid; Apple silicon, macOS 11 or later.
 - [Pinrail](https://github.com/forgeplane/pinrail) - Open-source desktop app where Claude Code, Codex, Cursor, and other coding agents ask for a review before they act, show it in a view made for its content, and get back structured decisions.
 - [Wardlume](https://wardlume.github.io) - Locks your Mac's keyboard, mouse, and trackpad while Claude Code, Codex, Cursor or Gemini CLI keep running in view, so you can step away without anyone typing into the session. Unlocks with Touch ID or Apple Watch; free for personal use, sandboxed with no network access.
+- [Appto](https://appto.store) - Mac app that takes an iPhone app from idea to the App Store on your own Claude Code or Codex plan. It checks the niche on live App Store data, writes native SwiftUI, makes store screenshots and text in every language and fills in App Store Connect after you confirm. Paid; free demo in the app, macOS on Apple silicon and Intel.
 
 ## Plugins and Extensions
 
