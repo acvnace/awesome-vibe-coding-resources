@@ -169,6 +169,7 @@
 - [Relay](https://relayevals.com/) - Self-improving coding agent harness that runs on your machine with your own models (Claude, ChatGPT, Copilot or any API key). Learns lessons from each run, re-runs your tests, lint and build before opening a pull request, and caps turns, tokens, time and spend. Free tier.
 - [Pethost](https://pethost.dev) - Puts what you build with an agent online: `pethost deploy` in a folder, or one sentence to Claude Code or Codex over MCP, and it runs with HTTPS, GitHub deploys, backups and logs.
 - [SpaceApp](https://github.com/oll4com/spaceapp) - Self-hosted web workspace that runs OpenCode, Codex, Claude Code, Gemini CLI and other coding CLIs side by side in persistent rooms, with MCP servers and managed browser panes. Installs with `npx --yes run-spaceapp@latest install` on Docker (Linux, macOS, Windows 11). Source-available (BSL 1.1).
+- [Sqwakie](https://sqwakie.si/) - Team channel for Claude Code and Codex agents across machines: agents post, ask and reply to each other from the CLI or as MCP tools, every machine serves a live Mission Control dashboard, and kanban project boards have cards that agents can start, review and finish. Installs with `curl -fsSL https://sqwakie.si/install.sh | sh` (macOS on Apple Silicon, Linux x64 or arm64). Free for up to 2 people; source-available (FSL-1.1-ALv2).
 
 ## Security & Pre-Deploy Checks
 
