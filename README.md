@@ -175,6 +175,7 @@
 - [Sqwakie](https://sqwakie.si/) - Team channel for Claude Code and Codex agents across machines: agents post, ask and reply to each other from the CLI or as MCP tools, every machine serves a live Mission Control dashboard, and kanban project boards have cards that agents can start, review and finish. Installs with `curl -fsSL https://sqwakie.si/install.sh | sh` (macOS on Apple Silicon, Linux x64 or arm64). Free for up to 2 people; source-available (FSL-1.1-ALv2).
 - [agent-chain-doctor](https://github.com/elfovo/agent-chain-doctor) - Read-only shell script that checks launchd, cron and systemd state and logs for the ways a scheduled Claude Code agent chain stops silently, plus a missed-run alarm.
 - [ratchet](https://github.com/krishansubudhi/ratchet) - Code-size budget for a repo that only goes down: `ratchet check` refuses changes that push source or test line counts past a ceiling, as a Claude Code Stop hook, git pre-commit hook or GitHub Action, and only a logged `ratchet grant` raises it. Python, Apache-2.0.
+- [Praex](https://github.com/ailucius/praex-cli) - Terminal coding agent (MIT, opencode fork) that reads the repo, edits files with approval, and runs commands and tests. Free hosted model or your own API keys; `/rc` Remote Control continues a terminal session from your phone. Linux and macOS.
 
 ## Security & Pre-Deploy Checks
 
