@@ -129,6 +129,7 @@
 - [CurlShot](https://curlshot.com) - Screenshot API with a remote MCP server that lets Claude Code, Cursor and other MCP clients see a web page: the agent gets back a PNG, JPEG, WebP, PDF or a video of the page scrolling, on phone, tablet or desktop presets, with cookie banners and ads hidden first. 100 screenshots a month free, no card; paid plans from $19 a month.
 - [AgentaOS](https://github.com/AgentaOS/agentaos) - Claude Code plugin and remote MCP server that let the agent add payments to the app you just built: products, checkout links and subscriptions, with AgentaOS as the merchant of record handling VAT, sales tax and invoices.
 - [Yap MCP](https://github.com/founden-bot/yap-mcp) - Open-source (MIT) MCP server and CLI for Claude Code, Claude Desktop, Cursor, VS Code, Windsurf and Gemini CLI that transcribes audio files on your computer with NVIDIA Parakeet (25 European languages, no API key, no upload) and searches your local Yap dictation history.
+- [lavela](https://github.com/ym2629/lavela-mcp) - Claude Code plugin and remote MCP server (beta) that deploys a GitHub repo to a live server from chat and checks on it afterwards: status, logs, health, managed Postgres, and a custom domain. Sign in with a lavela account; prepaid balance, no subscription.
 
 ## Command Line Tools
 
@@ -199,6 +200,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [SealMyApp](https://sealmyapp.com/) - Read-only security scan for apps built with Lovable, Bolt, Cursor, Replit and v0 that only runs after you verify you own the app (DNS record or file). Checks for Supabase tables readable without login, open Firebase rules, secret keys in the JS bundle and exposed `.env`/`.git` files. Free scan and free tools (key checker, Supabase RLS audit SQL); paid tiers add builder-specific fix prompts with a verified re-scan and daily monitoring.
 - [nextjs-supabase-stripe-security-checker](https://github.com/edtrackai/nextjs-supabase-stripe-security-checker) - MIT-licensed local CLI and GitHub Action (`npx github:edtrackai/nextjs-supabase-stripe-security-checker .`) with 24 checks for Next.js + Supabase + Stripe apps: leaked or service-role keys in client code, missing RLS and grants, and unverified Stripe webhooks. No account, nothing uploaded.
 - [FixLoop Scan](https://fixloop.dev/scan) - Free scan of a deployed app's public surface: HTTPS, security headers, keys leaked in the HTML and same-origin JavaScript, robots.txt and sitemap. Read-only, no login, no signup.
+- [lavela-preflight](https://github.com/ym2629/lavela-preflight) - Free, MIT-licensed, read-only Claude Code plugin (also installable with `npx skills add`) that reviews a project before you deploy it: keys in code and git history, endpoints reachable without login, server settings that break outside localhost, silent errors, open AI endpoints, and data lost on redeploy. It never edits files or prints secret values.
 
 ## Documentation for AI Coding
 
