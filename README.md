@@ -108,6 +108,7 @@
 - [Appto](https://appto.store) - Mac app that takes an iPhone app from idea to the App Store on your own Claude Code or Codex plan. It checks the niche on live App Store data, writes native SwiftUI, makes store screenshots and text in every language and fills in App Store Connect after you confirm. Paid; free demo in the app, macOS on Apple silicon and Intel.
 - [Frink](https://frink.dev) - Fine-tuned automation for everyone: visual workflows where AI coding agents act on your tickets, errors and schedules, and ask before they change anything. Works with Claude Code, Codex, OpenCode, GitHub Copilot and Cursor. Local and open source (MIT), on macOS and Linux. [Source](https://github.com/benord-labs/frink)
 - [Mudroom](https://github.com/Kernel-Hunter/mudroom) - Open-source (MIT) macOS app that runs Claude Code, Codex, Gemini CLI, opencode or Aider in a Linux VM on a copy of your project, with network access limited to hosts you allow. When the agent is done you review the diff and apply all of it, some files or some hunks, with undo. Also a CLI for Linux and Windows.
+- [VinPUT](https://github.com/lrakar/vinput-oss) - Free, open-source (GPL-3.0) voice keyboard for Windows that types dictated speech into any app, with local Parakeet and Whisper models and F2 to press Enter for voice prompts to AI coding agents.
 
 ## Plugins and Extensions
 
