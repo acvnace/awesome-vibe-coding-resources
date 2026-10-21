@@ -133,6 +133,7 @@
 - [Yap MCP](https://github.com/founden-bot/yap-mcp) - Open-source (MIT) MCP server and CLI for Claude Code, Claude Desktop, Cursor, VS Code, Windsurf and Gemini CLI that transcribes audio files on your computer with NVIDIA Parakeet (25 European languages, no API key, no upload) and searches your local Yap dictation history.
 - [lavela](https://github.com/ym2629/lavela-mcp) - Claude Code plugin and remote MCP server (beta) that deploys a GitHub repo to a live server from chat and checks on it afterwards: status, logs, health, managed Postgres, and a custom domain. Sign in with a lavela account; prepaid balance, no subscription.
 - - [ShipToPaid Lite](https://github.com/shiptopaid/shiptopaid-lite) - Three agent skills for Claude Code, Cursor and Codex that add Polar payments to a vibe-coded Next.js app: checkout tied to the signed-in user, signature-checked payment webhooks that ignore duplicate and late events, and a pre-launch payment checklist marked PASS, FAIL or NOT RUN. Free, MIT.
+- [Off the Wall](https://github.com/toranalytics/off-the-wall) - MIT-licensed hooks plugin for Claude Code and Codex that quotes your own past corrections back to the agent before it answers, reports what you correct most with `otw report`, and has the orchestrator name a model for each subagent call. Free, local.
 
 ## Command Line Tools
 
