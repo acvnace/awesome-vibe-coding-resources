@@ -246,6 +246,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [VibeToolRank](https://vibetoolrank.com/) - Independent hands-on tests of AI coding tools on the same standard tasks, with scores, timings and free-tier limits.
 - [Internal tool blueprints](https://github.com/samclaassen/internal-tool-blueprints) - Free, build-tested Markdown specs for internal tools (CRM, approvals, help desk, time off and more) with phased prompts and click-through acceptance checks for Claude Code, Cursor, Lovable and other builders.
 - [burntop](https://github.com/agusmdev/fullstack-ai-template) - Open-source FastAPI + React 19 + PostgreSQL template for apps that coding agents build. Nested AGENTS.md files and a project-standards skill tell Claude Code, Cursor or Codex how to add features, and `make ci` fails on mock imports, routes no test calls, and pages no Playwright spec opens, so the agent can't fake a green check.
+- [Vibe Coding Rules](https://github.com/getvibekits/vibe-coding-rules) - Free, MIT-licensed AGENTS.md, CLAUDE.md and Cursor rules files for 20 beginner project types (games, bots, web apps, mobile apps, scripts and backends), plus 7 Claude Code skills and 21 copy-paste coding prompts. No signup.
 
 ## News and Social Media
 
