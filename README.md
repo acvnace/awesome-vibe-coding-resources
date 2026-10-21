@@ -109,6 +109,7 @@
 - [Frink](https://frink.dev) - Desktop-first, open-source (MIT) application for running parallel agents, and multi-step custom workflows triggered by schedules, webhooks or events from tools like Linear and Sentry, across your already-used providers. [Source](https://github.com/benord-labs/frink)
 - [Mudroom](https://github.com/Kernel-Hunter/mudroom) - Open-source (MIT) macOS app that runs Claude Code, Codex, Gemini CLI, opencode or Aider in a Linux VM on a copy of your project, with network access limited to hosts you allow. When the agent is done you review the diff and apply all of it, some files or some hunks, with undo. Also a CLI for Linux and Windows.
 - [VinPUT](https://github.com/lrakar/vinput-oss) - Free, open-source (GPL-3.0) voice keyboard for Windows that types dictated speech into any app, with local Parakeet and Whisper models and F2 to press Enter for voice prompts to AI coding agents.
+- [ccx](https://github.com/aaronwong1999/ccx) - Free, MIT-licensed macOS menu bar app that moves a task between Claude Code and Codex with the full context (messages, tool calls, plan, git status), so you keep going when one side hits its usage limit. Local, no account.
 
 ## Plugins and Extensions
 
