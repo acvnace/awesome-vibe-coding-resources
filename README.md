@@ -208,6 +208,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [nextjs-supabase-stripe-security-checker](https://github.com/edtrackai/nextjs-supabase-stripe-security-checker) - MIT-licensed local CLI and GitHub Action (`npx github:edtrackai/nextjs-supabase-stripe-security-checker .`) with 24 checks for Next.js + Supabase + Stripe apps: leaked or service-role keys in client code, missing RLS and grants, and unverified Stripe webhooks. No account, nothing uploaded.
 - [FixLoop Scan](https://fixloop.dev/scan) - Free scan of a deployed app's public surface: HTTPS, security headers, keys leaked in the HTML and same-origin JavaScript, robots.txt and sitemap. Read-only, no login, no signup.
 - [lavela-preflight](https://github.com/ym2629/lavela-preflight) - Free, MIT-licensed, read-only Claude Code plugin (also installable with `npx skills add`) that reviews a project before you deploy it: keys in code and git history, endpoints reachable without login, server settings that break outside localhost, silent errors, open AI endpoints, and data lost on redeploy. It never edits files or prints secret values.
+- [FixLoop Supabase Grants Checker](https://fixloop.dev/tools/supabase-grants-checker?src=awesome) - Free in-browser check for the Oct 30, 2026 Supabase Data API change: paste your SQL migrations, see which new `public` tables have no GRANT (and would return 42501 permission denied), and copy least-privilege GRANT statements. The SQL never leaves the browser; no signup.
 
 ## Documentation for AI Coding
 
