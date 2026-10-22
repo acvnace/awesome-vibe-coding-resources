@@ -208,6 +208,8 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [nextjs-supabase-stripe-security-checker](https://github.com/edtrackai/nextjs-supabase-stripe-security-checker) - MIT-licensed local CLI and GitHub Action (`npx github:edtrackai/nextjs-supabase-stripe-security-checker .`) with 24 checks for Next.js + Supabase + Stripe apps: leaked or service-role keys in client code, missing RLS and grants, and unverified Stripe webhooks. No account, nothing uploaded.
 - [FixLoop Scan](https://fixloop.dev/scan) - Free scan of a deployed app's public surface: HTTPS, security headers, keys leaked in the HTML and same-origin JavaScript, robots.txt and sitemap. Read-only, no login, no signup.
 - [lavela-preflight](https://github.com/ym2629/lavela-preflight) - Free, MIT-licensed, read-only Claude Code plugin (also installable with `npx skills add`) that reviews a project before you deploy it: keys in code and git history, endpoints reachable without login, server settings that break outside localhost, silent errors, open AI endpoints, and data lost on redeploy. It never edits files or prints secret values.
+- [Reeve](https://reeve.page/security-scanner) - Free read-only scan of a live app built with Lovable, Bolt, v0, Cursor, Claude Code, Codex or Replit. Nine checks from outside, including secret keys in the loaded code, Supabase tables a visitor with no login can read, and listable storage buckets. Tells publishable keys from secret ones and needs no account.
+
 
 ## Documentation for AI Coding
 
