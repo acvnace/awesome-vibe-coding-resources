@@ -77,6 +77,7 @@
 - 🔥 [Cursor](https://www.cursor.com/) - AI Code Editor, "the best way to code with AI".
 - [Zed](https://zed.dev/) - Code editor designed for high-performance collaboration with humans and AI.
 - [Vicoa](https://vicoa.ai) - Agentic IDE, AI orchestrator for running Claude Code, Codex, OpenCode, Gemini, Cursor, GitHub Copilot, Kimi, and Hermes from desktop, web, or mobile: real-time sync, parallel git worktrees, and push notifications, with a Python/FastAPI backend, Next.js + Electron desktop, and Flutter mobile. [Source](https://github.com/vicoa-ai/vicoa)
+- [Volt](https://getvolt.dev) - Open-source AI code editor built on VS Code (Code - OSS) that runs Claude Code, Codex, OpenCode and Kimi over ACP or OpenAI, Anthropic, Gemini, OpenRouter, Ollama and LM Studio directly.
 
 ## Desktop Apps
 
