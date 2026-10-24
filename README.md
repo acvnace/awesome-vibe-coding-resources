@@ -58,11 +58,11 @@
 - [onomeo](https://onomeo.com/) - builds small browser games from a one-sentence prompt, using free models with no card required; in public beta.
 - [ArtiGram](https://artigram.cafeboon.com) - free place to publish what your AI built (HTML, React, SVG, Markdown, Mermaid) as a live shareable page, with a hosted [MCP server](https://artigram.cafeboon.com/mcp) so Claude and other agents can search and post.
 
-
 - [Massvai](https://massvai.com/) - AI agent that builds full-stack Next.js apps from a prompt, with live preview, Supabase setup, GitHub sync and one-click Vercel deploy.
 - [SPOE](https://spoe.ai/) - prompt to a full-stack Next.js, Fastify and Postgres app; a second model from another family reviews every change, and the export is signed and runs with docker compose up, with nothing of SPOE inside.
 - [APPLORE](https://applore.app/) - for the step after a vibe-coded app works: an AI app icon generator that uses a real App Store icon as the style reference, logo animation exported as Lottie for the splash screen, and an App Store screenshot generator that is free with no sign-up. Free to start; paid plans for more AI credits.
 - [Tactyl](https://tactyl.co/?ref=github) - for the step before the app: an AI guide scores your business idea live, maps market, competition and revenue on a canvas, and opens the app builder once the idea reaches 30%. Free plan, no card.
+
 ## Mobile-first Tools
 
 - [Vibecode](https://www.vibecodeapp.com/) - "the mobile app that builds mobile apps".
@@ -223,7 +223,6 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [CheckoutAlarm](https://checkoutalarm.com/) - Watches a launched app built with Lovable, Bolt, Cursor or Supabase: a scheduled page check plus Stripe health from a read-only restricted key (undelivered webhook events, disabled endpoints, stalled sales), with email alerts. Only checks sites you verify you own (DNS record, meta tag or file). Free for 1 site checked daily; Pro $19/mo for 3 sites checked hourly.
 - [VibeVulns](https://vibevulns.com/) - Free, open tracker of security advisories in AI coding tools and the stacks vibe-coded apps run on (Next.js, MCP servers, Cursor, Supabase and more), with plain-English fixes and a weekly newsletter.
 - [Reeve](https://reeve.page/security-scanner) - Free read-only scan of a live app built with Lovable, Bolt, v0, Cursor, Claude Code, Codex or Replit. Nine checks from outside, including secret keys in the loaded code, Supabase tables a visitor with no login can read, and listable storage buckets. Tells publishable keys from secret ones and needs no account.
-
 - [FixLoop Supabase Grants Checker](https://fixloop.dev/tools/supabase-grants-checker?src=awesome) - Free in-browser check for the Oct 30, 2026 Supabase Data API change: paste your SQL migrations, see which new `public` tables have no GRANT (and would return 42501 permission denied), and copy least-privilege GRANT statements. The SQL never leaves the browser; no signup.
 
 ## Documentation for AI Coding
@@ -287,4 +286,3 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [/r/vibecoding](https://www.reddit.com/r/vibecoding/)
 - [VibeHacker](https://vibehacker.com) - Product discovery community for AI builders and vibe coders: directory, reviews, discussions, and launches.
 - [BuiltByVibe](https://builtbyvibe.dev) - Community showcase and discovery directory for software built with AI coding tools.
-
