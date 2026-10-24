@@ -261,6 +261,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [8B Templates](https://8b.com/templates/) - 20 free MIT website templates for small businesses (restaurant, vet clinic, coworking, accountant, gym and others), each a single `index.html` with GSAP scroll motion in its own GitHub template repo. An AGENTS.md per template lists the classes the scripts depend on and the facts to ask the owner for, so Claude Code, Cursor or Codex can swap in real content without breaking the layout.
 - [Vibe Coding Rules](https://github.com/getvibekits/vibe-coding-rules) - Free, MIT-licensed AGENTS.md, CLAUDE.md and Cursor rules files for 20 beginner project types (games, bots, web apps, mobile apps, scripts and backends), plus 7 Claude Code skills and 21 copy-paste coding prompts. No signup.
 - [Tool Use Cases](https://tools.lalipublications.com) - Free directory ranking AI tools by job (vibe coding, coding agents, debugging, deploy), with a one-line verdict per pick.
+- [AI Coding Rules Sampler](https://github.com/elirankotzero/ai-coding-rules-sampler) - Free MIT starter set of rules files and three workflow skills (plan a feature, review changes, record decisions) for Cursor, Claude Code (CLAUDE.md), Codex (AGENTS.md), Windsurf and Copilot, one folder per tool to copy into a project.
 
 ## News and Social Media
 
