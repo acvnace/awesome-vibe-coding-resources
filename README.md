@@ -137,6 +137,7 @@
 - - [ShipToPaid Lite](https://github.com/shiptopaid/shiptopaid-lite) - Three agent skills for Claude Code, Cursor and Codex that add Polar payments to a vibe-coded Next.js app: checkout tied to the signed-in user, signature-checked payment webhooks that ignore duplicate and late events, and a pre-launch payment checklist marked PASS, FAIL or NOT RUN. Free, MIT.
 - [Off the Wall](https://github.com/toranalytics/off-the-wall) - MIT-licensed hooks plugin for Claude Code and Codex that quotes your own past corrections back to the agent before it answers, reports what you correct most with `otw report`, and has the orchestrator name a model for each subagent call. Free, local.
 - [deed.page](https://github.com/f-o-x11/deed-page-skill) - Agent Skill and remote [MCP server](https://deed.page/mcp) that let Claude Code, Codex, Cursor and other agents publish the HTML or static folder they just built to a permanent public URL with one PUT, no account or claim step.
+- [SitePatent](https://sitepatent.com/mcp) - Read-only remote MCP server for the SitePatent product discovery directory, so Claude Code, Cursor, Codex and other MCP clients can search the startups, SaaS and AI tools listed there, read full listing profiles, find alternatives to a named product and see what is trending before you build or launch. Streamable HTTP at `https://sitepatent.com/api/mcp`, no API key, no account.
 
 ## Command Line Tools
 
