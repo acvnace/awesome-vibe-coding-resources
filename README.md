@@ -255,6 +255,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [burntop](https://github.com/agusmdev/fullstack-ai-template) - Open-source FastAPI + React 19 + PostgreSQL template for apps that coding agents build. Nested AGENTS.md files and a project-standards skill tell Claude Code, Cursor or Codex how to add features, and `make ci` fails on mock imports, routes no test calls, and pages no Playwright spec opens, so the agent can't fake a green check.
 - [8B Templates](https://8b.com/templates/) - 20 free MIT website templates for small businesses (restaurant, vet clinic, coworking, accountant, gym and others), each a single `index.html` with GSAP scroll motion in its own GitHub template repo. An AGENTS.md per template lists the classes the scripts depend on and the facts to ask the owner for, so Claude Code, Cursor or Codex can swap in real content without breaking the layout.
 - [Vibe Coding Rules](https://github.com/getvibekits/vibe-coding-rules) - Free, MIT-licensed AGENTS.md, CLAUDE.md and Cursor rules files for 20 beginner project types (games, bots, web apps, mobile apps, scripts and backends), plus 7 Claude Code skills and 21 copy-paste coding prompts. No signup.
+- [Tool Use Cases](https://tools.lalipublications.com) - Free directory ranking AI tools by job (vibe coding, coding agents, debugging, deploy), with a one-line verdict per pick.
 
 ## News and Social Media
 
