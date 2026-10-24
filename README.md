@@ -112,6 +112,7 @@
 - [VinPUT](https://github.com/lrakar/vinput-oss) - Free, open-source (GPL-3.0) voice keyboard for Windows that types dictated speech into any app, with local Parakeet and Whisper models and F2 to press Enter for voice prompts to AI coding agents.
 - [Layerwise](https://layerwise.app) - Desktop app for building, previewing, and publishing full-stack web apps through AI conversations, with local source files, built-in backend services, Agent Skills, and MCP support; macOS, Windows, and Linux (beta), proprietary with a free tier.
 - [echo agent](https://echoagent.dev) - Voice AI agent for Mac and Windows (beta), with an Android and iPhone app as a remote: press a shortcut in any app and say the task, with speech recognized on-device in English or Chinese. It hands coding tasks to the Claude Code, Codex, DeepSeek Harness or opencode CLIs on your machine, runs them in the background and asks you when a step needs approval, which you can answer by voice or from your phone. An Agents page lists every Claude Code and Codex session with model and permission pickers, a git worktree per task and one-click PRs. Free download, closed source; the built-in model has free daily uses after sign-in, or bring your own API key.
+- [ccx](https://github.com/aaronwong1999/ccx) - Free, MIT-licensed macOS menu bar app that moves a task between Claude Code and Codex with the full context (messages, tool calls, plan, git status), so you keep going when one side hits its usage limit. Local, no account.
 
 ## Plugins and Extensions
 
