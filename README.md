@@ -256,6 +256,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [shadcn-vite-starter](https://github.com/7ovr/shadcn-vite-starter) - MIT-licensed Vite and React starter whose CLAUDE.md, AGENTS.md and agent skills keep coding agents on its patterns: one folder per feature, shared data-fetching rules, tests first and a full check run before they finish.
 - [Bestax](https://github.com/allxsmith/bestax) - React components for Bulma v1 that ship Agent Skills, an offline MCP server (bestax-mcp) and llms.txt docs.
 - [LynxPrompt](https://github.com/GeiserX/LynxPrompt) - Self-hosted, federated platform to generate, store and share AGENTS.md, CLAUDE.md, Cursor rules and other AI IDE config files, with a web UI, CLI and VS Code extension. AGPL-3.0.
+- [Loadout](https://loadout-blush.vercel.app) - Free and Pro version-pinned AI coding rule packs for Cursor, Claude Code, Copilot, and AGENTS.md. Made by Anthony Pan.
 - [Learn Magic](https://learnmagic.ai) - Beginner guide to building with Claude Code for people who have never coded: a live demo, setup in the Claude desktop app with no terminal, starter builds for teachers, parents, small businesses and freelancers, and a page on the walls beginners hit. Free to read; building needs a paid Claude plan.
 - [Nebutra Sailor](https://github.com/Nebutra/Nebutra-Sailor) - Open SaaS starter for agent-built software whose AGENTS.md, CLAUDE.md and shrink-only lint guards keep coding agents inside its rules: one provider per domain, business endpoints in one Hono gateway, design tokens instead of raw values. Next.js 16, Better Auth, Creem plus WeChat Pay/Alipay billing, generated Postgres RLS; runs locally with an empty `.env`. Scaffolded projects are MIT.
 - [VibePicks](https://vibepicks-ruddy.vercel.app) - Free, dated picks for the best AI coding agent, app builder, code reviewer and deploy target per job, with MCP and open-source status.
@@ -283,3 +284,4 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [/r/vibecoding](https://www.reddit.com/r/vibecoding/)
 - [VibeHacker](https://vibehacker.com) - Product discovery community for AI builders and vibe coders: directory, reviews, discussions, and launches.
 - [BuiltByVibe](https://builtbyvibe.dev) - Community showcase and discovery directory for software built with AI coding tools.
+
