@@ -61,6 +61,7 @@
 - [Massvai](https://massvai.com/) - AI agent that builds full-stack Next.js apps from a prompt, with live preview, Supabase setup, GitHub sync and one-click Vercel deploy.
 - [SPOE](https://spoe.ai/) - prompt to a full-stack Next.js, Fastify and Postgres app; a second model from another family reviews every change, and the export is signed and runs with docker compose up, with nothing of SPOE inside.
 - [APPLORE](https://applore.app/) - for the step after a vibe-coded app works: an AI app icon generator that uses a real App Store icon as the style reference, logo animation exported as Lottie for the splash screen, and an App Store screenshot generator that is free with no sign-up. Free to start; paid plans for more AI credits.
+- [Tactyl](https://tactyl.co/?ref=github) - for the step before the app: an AI guide scores your business idea live, maps market, competition and revenue on a canvas, and opens the app builder once the idea reaches 30%. Free plan, no card.
 ## Mobile-first Tools
 
 - [Vibecode](https://www.vibecodeapp.com/) - "the mobile app that builds mobile apps".
