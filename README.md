@@ -216,6 +216,8 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Launch Check](https://launch-check-upz2.onrender.com/) - Free passive check of a live URL for AI-built apps: secret keys in the page's JavaScript, Supabase/Firebase config, security headers, phone layout and Google/AI search basics, with a fix list to paste to your AI builder. No signup; MIT source with a Claude Code plugin in [agent-forge](https://github.com/Ces107/agent-forge/tree/main/plugins/launch-check).
 - [CheckoutAlarm](https://checkoutalarm.com/) - Watches a launched app built with Lovable, Bolt, Cursor or Supabase: a scheduled page check plus Stripe health from a read-only restricted key (undelivered webhook events, disabled endpoints, stalled sales), with email alerts. Only checks sites you verify you own (DNS record, meta tag or file). Free for 1 site checked daily; Pro $19/mo for 3 sites checked hourly.
 - [VibeVulns](https://vibevulns.com/) - Free, open tracker of security advisories in AI coding tools and the stacks vibe-coded apps run on (Next.js, MCP servers, Cursor, Supabase and more), with plain-English fixes and a weekly newsletter.
+- [Reeve](https://reeve.page/security-scanner) - Free read-only scan of a live app built with Lovable, Bolt, v0, Cursor, Claude Code, Codex or Replit. Nine checks from outside, including secret keys in the loaded code, Supabase tables a visitor with no login can read, and listable storage buckets. Tells publishable keys from secret ones and needs no account.
+
 
 ## Documentation for AI Coding
 
