@@ -191,6 +191,7 @@
 - [ratchet](https://github.com/krishansubudhi/ratchet) - Code-size budget for a repo that only goes down: `ratchet check` refuses changes that push source or test line counts past a ceiling, as a Claude Code Stop hook, git pre-commit hook or GitHub Action, and only a logged `ratchet grant` raises it. Python, Apache-2.0.
 - [Praex](https://github.com/ailucius/praex-cli) - Terminal coding agent (MIT, opencode fork) that reads the repo, edits files with approval, and runs commands and tests. Free hosted model or your own API keys; `/rc` Remote Control continues a terminal session from your phone. Linux and macOS.
 - [5dive](https://github.com/5dive-ai/5dive) - Runs a team of coding agents (Claude Code, Codex, Pi, OpenCode and more) on your own Linux server, each one a Linux user and systemd service, handing work to each other through a shared task queue. MIT.
+- [Flisk](https://github.com/flisk-sh/flisk) - Local environment generator: one command takes an empty folder to a running stack (Docker Compose, Tilt, Traefik, databases) with the app autodetected, so the agent writes application code instead of editing Dockerfiles and Tiltfiles. MIT, on npm as @flisk-sh/flisk.
 
 ## Security & Pre-Deploy Checks
 
