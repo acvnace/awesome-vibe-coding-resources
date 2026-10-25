@@ -153,6 +153,8 @@
 - [Tavero](https://github.com/baccaraaa/tavero) - MCP server and CLI that scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, colors and spacing, and gives the coding agent each fix with file and line references (`npx -y tavero mcp`). Free, MIT.
 - [CodeTrendy](https://codetrendy.com/mcp) - Read-only remote MCP server for searching a startup and software directory, browsing categories and finding product alternatives from coding agents. No API key or account required; paid listings receive priority in search results.
 - [DoomPay](https://github.com/doomsday-network/doom-pay) - MIT-licensed checkout widget and Python SDK for DOOM (Layer 1) and wDOOM (Base) payments, with an agent skill and MCP payment-verification tool for AI-assisted integrations.
+- [Web3 Agent Skills](https://github.com/doomsday-network/web3-agent-skills) - Modular `SKILL.md` definitions and MCP tools for AI coding agents to verify Proof-of-Escrow bounties, settle non-custodial Web3 payments (`DoomPay`), and mine PoW rewards (`DOOM` / `wDOOM`).
+- [GitHub Bounty Scanner](https://github.com/doomsday-network/github-bounty-scanner) - CLI & MCP scanner that inspects GitHub bounty repositories for maintainer activity, zero-payout bait, and verifiable on-chain escrow.
 
 ## Command Line Tools
 
