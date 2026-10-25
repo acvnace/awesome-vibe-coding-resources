@@ -292,3 +292,4 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [/r/vibecoding](https://www.reddit.com/r/vibecoding/)
 - [VibeHacker](https://vibehacker.com) - Product discovery community for AI builders and vibe coders: directory, reviews, discussions, and launches.
 - [BuiltByVibe](https://builtbyvibe.dev) - Community showcase and discovery directory for software built with AI coding tools.
+- [Shipped & Paid](https://shippedandpaid.com) - Directory of apps built mostly with AI coding tools that report revenue, each labelled Verified (payment-provider data), Screenshot or Self-reported, plus a free revenue calculator.
