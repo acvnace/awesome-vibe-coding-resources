@@ -150,6 +150,7 @@
 - [Copy That](https://github.com/jack-reson8/copy-that) - MIT plugin marketplace for Claude Code and Codex with five taste-first skills for shipping what you vibe coded: a launch film rendered in code and cut to the beat, a 0-to-1 launch plan (naming, references, style frames), native-looking share images, human-sounding Chinese copy, and a skill linter.
 - [toolkb-mcp](https://github.com/jack-reson8/toolkb-mcp) - Free, local MIT MCP server for Claude Code, Codex and Cursor that turns any link into clean Markdown: web articles, YouTube transcripts and playlists, and App Store reviews. No API key, nothing sent to a third party.
 - [Tavero](https://github.com/baccaraaa/tavero) - MCP server and CLI that scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, colors and spacing, and gives the coding agent each fix with file and line references (`npx -y tavero mcp`). Free, MIT.
+- [DoomPay](https://github.com/doomsday-network/doom-pay) - MIT-licensed checkout widget and Python SDK for DOOM (Layer 1) and wDOOM (Base) payments, with an agent skill and MCP payment-verification tool for AI-assisted integrations.
 
 ## Command Line Tools
 
