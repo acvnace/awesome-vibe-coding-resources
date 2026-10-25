@@ -117,6 +117,7 @@
 - [Layerwise](https://layerwise.app) - Desktop app for building, previewing, and publishing full-stack web apps through AI conversations, with local source files, built-in backend services, Agent Skills, and MCP support; macOS, Windows, and Linux (beta), proprietary with a free tier.
 - [echo agent](https://echoagent.dev) - Voice AI agent for Mac and Windows (beta), with an Android and iPhone app as a remote: press a shortcut in any app and say the task, with speech recognized on-device in English or Chinese. It hands coding tasks to the Claude Code, Codex, DeepSeek Harness or opencode CLIs on your machine, runs them in the background and asks you when a step needs approval, which you can answer by voice or from your phone. An Agents page lists every Claude Code and Codex session with model and permission pickers, a git worktree per task and one-click PRs. Free download, closed source; the built-in model has free daily uses after sign-in, or bring your own API key.
 - [ccx](https://github.com/aaronwong1999/ccx) - Free, MIT-licensed macOS menu bar app that moves a task between Claude Code and Codex with the full context (messages, tool calls, plan, git status), so you keep going when one side hits its usage limit. Local, no account.
+- [VoiceVibe](https://voicevibe.ai/) - An AI voice assistant you can use anywhere on your computer. Press a key and talk. It types, speaks and does what you say. Dictate, create or transform text. Hear any text read aloud. Chat with AI, or hand a task to an agent. Do more without losing your train of thought. Available for Windows, macOS and Linux (X11).
 
 ## Plugins and Extensions
 
@@ -145,8 +146,10 @@
 - [deed.page](https://github.com/f-o-x11/deed-page-skill) - Agent Skill and remote [MCP server](https://deed.page/mcp) that let Claude Code, Codex, Cursor and other agents publish the HTML or static folder they just built to a permanent public URL with one PUT, no account or claim step.
 - [Soundza](https://github.com/soundza/soundza-mcp/tree/main/skills/soundza) - Agent skill and remote MCP server that let Claude Code, Codex, Cursor and other agents find sound effects, music loops and ambience, play free previews so you can pick, generate new sound effects from a prompt, and add the chosen WAV or MP3 files to your game, video or app. Free for commercial use, no attribution needed; free account.
 - [LLMSlim](https://github.com/Thanatos9404/llmslim) - MIT Claude Code plugin and local MCP server that lets Claude Code, Cursor and Claude Desktop remember project conventions and past decisions across sessions, stored in local SQLite.
-- [SitePatent](https://sitepatent.com/mcp) - Read-only remote MCP server for the SitePatent product discovery directory, so Claude Code, Cursor, Codex and other MCP clients can search the startups, SaaS
-- [Tavero](https://github.com/baccaraaa/tavero) - MCP server and CLI that scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, colors and spacing, and gives the coding agent ch fix with file and line references (`npx -y tavero mcp`). Free, MIT.and AI tools listed there, read full listing profiles, find alternatives to a named product and see what is trending before you build or launch. Streamable HTTP at `https://sitepatent.com/api/mcp`, no API key, no account.
+- [SitePatent](https://sitepatent.com/mcp) - Read-only remote MCP server for the SitePatent product discovery directory, so Claude Code, Cursor, Codex and other MCP clients can search the startups, SaaS and AI tools listed there, read full listing profiles, find alternatives to a named product and see what is trending before you build or launch. Streamable HTTP at `https://sitepatent.com/api/mcp`, no API key, no account.
+- [Copy That](https://github.com/jack-reson8/copy-that) - MIT plugin marketplace for Claude Code and Codex with five taste-first skills for shipping what you vibe coded: a launch film rendered in code and cut to the beat, a 0-to-1 launch plan (naming, references, style frames), native-looking share images, human-sounding Chinese copy, and a skill linter.
+- [toolkb-mcp](https://github.com/jack-reson8/toolkb-mcp) - Free, local MIT MCP server for Claude Code, Codex and Cursor that turns any link into clean Markdown: web articles, YouTube transcripts and playlists, and App Store reviews. No API key, nothing sent to a third party.
+- [Tavero](https://github.com/baccaraaa/tavero) - MCP server and CLI that scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, colors and spacing, and gives the coding agent each fix with file and line references (`npx -y tavero mcp`). Free, MIT.
 
 ## Command Line Tools
 
@@ -225,6 +228,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [VibeVulns](https://vibevulns.com/) - Free, open tracker of security advisories in AI coding tools and the stacks vibe-coded apps run on (Next.js, MCP servers, Cursor, Supabase and more), with plain-English fixes and a weekly newsletter.
 - [Reeve](https://reeve.page/security-scanner) - Free read-only scan of a live app built with Lovable, Bolt, v0, Cursor, Claude Code, Codex or Replit. Nine checks from outside, including secret keys in the loaded code, Supabase tables a visitor with no login can read, and listable storage buckets. Tells publishable keys from secret ones and needs no account.
 - [FixLoop Supabase Grants Checker](https://fixloop.dev/tools/supabase-grants-checker?src=awesome) - Free in-browser check for the Oct 30, 2026 Supabase Data API change: paste your SQL migrations, see which new `public` tables have no GRANT (and would return 42501 permission denied), and copy least-privilege GRANT statements. The SQL never leaves the browser; no signup.
+- [Security checklist for Lovable, Bolt and Cursor apps](https://project-feldspar.com/guides/ai-built-app-security-checklist.html) - Eight checks to run before real users join an app built with Lovable, Bolt or Cursor on Supabase: RLS, keys, storage, ownership checks and secrets.
 
 ## Documentation for AI Coding
 
@@ -272,6 +276,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [AI Coding Rules Sampler](https://github.com/elirankotzero/ai-coding-rules-sampler) - Free MIT starter set of rules files and three workflow skills (plan a feature, review changes, record decisions) for Cursor, Claude Code (CLAUDE.md), Codex (AGENTS.md), Windsurf and Copilot, one folder per tool to copy into a project.
 - [FixStack](https://getfixstack.com/) - Free library of fixes for common errors in Lovable, Cursor, Bolt, Replit, Supabase, Vercel and Stripe, with the exact error text, the cause, and the steps to fix it.
 - [agent-doctrine](https://github.com/sisig-ai/agent-doctrine) - Instructions, role prompts and skills that one sync installs into Claude Code, Codex, Cursor, OpenCode and more, so a lead agent plans, delegates to implementer and reviewer subagents, and returns a tested PR. MIT.
+-  [AgentRank](https://agentrank.tools/) - Independent rankings of AI coding agents, app builders, hosting and databases for vibe coders, with dated free-plan limits and a daily releases feed (RSS).
 
 ## News and Social Media
 
