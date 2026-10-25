@@ -150,7 +150,7 @@
 - [Copy That](https://github.com/jack-reson8/copy-that) - MIT plugin marketplace for Claude Code and Codex with five taste-first skills for shipping what you vibe coded: a launch film rendered in code and cut to the beat, a 0-to-1 launch plan (naming, references, style frames), native-looking share images, human-sounding Chinese copy, and a skill linter.
 - [toolkb-mcp](https://github.com/jack-reson8/toolkb-mcp) - Free, local MIT MCP server for Claude Code, Codex and Cursor that turns any link into clean Markdown: web articles, YouTube transcripts and playlists, and App Store reviews. No API key, nothing sent to a third party.
 - [Tavero](https://github.com/baccaraaa/tavero) - MCP server and CLI that scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, colors and spacing, and gives the coding agent each fix with file and line references (`npx -y tavero mcp`). Free, MIT.
-- [CodeTrendy](https://codetrendy.com/mcp) - Read-only remote MCP server for CodeTrendy, a curated directory of newly launched startups, SaaS tools and indie products. Claude Code, Cursor, Codex and other MCP clients can search the listings by keyword, category or pricing, read full listing profiles, find alternatives to a named product and see what is trending before you build or launch. Streamable HTTP at `https://codetrendy.com/api/mcp`, no API key, no account.
+- [CodeTrendy](https://codetrendy.com/mcp) - Read-only remote MCP server for searching a startup and software directory, browsing categories and finding product alternatives from coding agents. No API key or account required; paid listings receive priority in search results.
 
 ## Command Line Tools
 
