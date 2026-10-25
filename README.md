@@ -151,6 +151,7 @@
 - [MEDIAPRONET](https://mediapronet.com/mcp) - Read-only remote MCP server for a product launch directory, with search, product profiles, alternatives and trending listings for coding agents. No API key or account required; paid listings receive priority in search results.
 - [toolkb-mcp](https://github.com/jack-reson8/toolkb-mcp) - Free, local MIT MCP server for Claude Code, Codex and Cursor that turns any link into clean Markdown: web articles, YouTube transcripts and playlists, and App Store reviews. No API key, nothing sent to a third party.
 - [Tavero](https://github.com/baccaraaa/tavero) - MCP server and CLI that scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, colors and spacing, and gives the coding agent each fix with file and line references (`npx -y tavero mcp`). Free, MIT.
+- [CodeTrendy](https://codetrendy.com/mcp) - Read-only remote MCP server for searching a startup and software directory, browsing categories and finding product alternatives from coding agents. No API key or account required; paid listings receive priority in search results.
 - [DoomPay](https://github.com/doomsday-network/doom-pay) - MIT-licensed checkout widget and Python SDK for DOOM (Layer 1) and wDOOM (Base) payments, with an agent skill and MCP payment-verification tool for AI-assisted integrations.
 
 ## Command Line Tools
