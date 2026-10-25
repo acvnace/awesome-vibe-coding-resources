@@ -148,9 +148,11 @@
 - [LLMSlim](https://github.com/Thanatos9404/llmslim) - MIT Claude Code plugin and local MCP server that lets Claude Code, Cursor and Claude Desktop remember project conventions and past decisions across sessions, stored in local SQLite.
 - [SitePatent](https://sitepatent.com/mcp) - Read-only remote MCP server for the SitePatent product discovery directory, so Claude Code, Cursor, Codex and other MCP clients can search the startups, SaaS and AI tools listed there, read full listing profiles, find alternatives to a named product and see what is trending before you build or launch. Streamable HTTP at `https://sitepatent.com/api/mcp`, no API key, no account.
 - [Copy That](https://github.com/jack-reson8/copy-that) - MIT plugin marketplace for Claude Code and Codex with five taste-first skills for shipping what you vibe coded: a launch film rendered in code and cut to the beat, a 0-to-1 launch plan (naming, references, style frames), native-looking share images, human-sounding Chinese copy, and a skill linter.
+- [MEDIAPRONET](https://mediapronet.com/mcp) - Read-only remote MCP server for a product launch directory, with search, product profiles, alternatives and trending listings for coding agents. No API key or account required; paid listings receive priority in search results.
 - [toolkb-mcp](https://github.com/jack-reson8/toolkb-mcp) - Free, local MIT MCP server for Claude Code, Codex and Cursor that turns any link into clean Markdown: web articles, YouTube transcripts and playlists, and App Store reviews. No API key, nothing sent to a third party.
 - [Tavero](https://github.com/baccaraaa/tavero) - MCP server and CLI that scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, colors and spacing, and gives the coding agent each fix with file and line references (`npx -y tavero mcp`). Free, MIT.
 - [CodeTrendy](https://codetrendy.com/mcp) - Read-only remote MCP server for searching a startup and software directory, browsing categories and finding product alternatives from coding agents. No API key or account required; paid listings receive priority in search results.
+- [DoomPay](https://github.com/doomsday-network/doom-pay) - MIT-licensed checkout widget and Python SDK for DOOM (Layer 1) and wDOOM (Base) payments, with an agent skill and MCP payment-verification tool for AI-assisted integrations.
 
 ## Command Line Tools
 
@@ -230,6 +232,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Reeve](https://reeve.page/security-scanner) - Free read-only scan of a live app built with Lovable, Bolt, v0, Cursor, Claude Code, Codex or Replit. Nine checks from outside, including secret keys in the loaded code, Supabase tables a visitor with no login can read, and listable storage buckets. Tells publishable keys from secret ones and needs no account.
 - [FixLoop Supabase Grants Checker](https://fixloop.dev/tools/supabase-grants-checker?src=awesome) - Free in-browser check for the Oct 30, 2026 Supabase Data API change: paste your SQL migrations, see which new `public` tables have no GRANT (and would return 42501 permission denied), and copy least-privilege GRANT statements. The SQL never leaves the browser; no signup.
 - [Security checklist for Lovable, Bolt and Cursor apps](https://project-feldspar.com/guides/ai-built-app-security-checklist.html) - Eight checks to run before real users join an app built with Lovable, Bolt or Cursor on Supabase: RLS, keys, storage, ownership checks and secrets.
+- [BountyGuard](https://github.com/doomsday-network/bounty-guard) - Free, MIT-licensed CLI, agent skill and MCP toolkit that screens GitHub repositories and issues for known honeypots, prompt-injection signals and bounty escrow evidence.
 
 ## Documentation for AI Coding
 
@@ -283,6 +286,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 
 > This section displays items in reverse chronological order, with the most recent entries at the top.
 
+- [Shipped & Paid](https://shippedandpaid.com) - Directory of apps built mostly with AI coding tools that report revenue, each labelled Verified (payment-provider data), Screenshot or Self-reported, plus a free revenue calculator.
 - [Vibe Coding 101 with Replit - DeepLearning.AI](https://www.deeplearning.ai/short-courses/vibe-coding-101-with-replit/)
 - [The "vibe coding" mind virus explained… by Fireship - YouTube](https://www.youtube.com/watch?v=Tw18-4U7mts)
 - [Not all AI-assisted programming is vibe coding (but vibe coding rocks)](https://simonwillison.net/2025/Mar/19/vibe-coding/)
