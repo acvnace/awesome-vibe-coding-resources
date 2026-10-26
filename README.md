@@ -284,6 +284,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [FixStack](https://getfixstack.com/) - Free library of fixes for common errors in Lovable, Cursor, Bolt, Replit, Supabase, Vercel and Stripe, with the exact error text, the cause, and the steps to fix it.
 - [agent-doctrine](https://github.com/sisig-ai/agent-doctrine) - Instructions, role prompts and skills that one sync installs into Claude Code, Codex, Cursor, OpenCode and more, so a lead agent plans, delegates to implementer and reviewer subagents, and returns a tested PR. MIT.
 -  [AgentRank](https://agentrank.tools/) - Independent rankings of AI coding agents, app builders, hosting and databases for vibe coders, with dated free-plan limits and a daily releases feed (RSS).
+- [Daily Vibe Challenge](https://dailyvibechallenge.github.io/) - Free daily vibe coding challenge (AI agents, games, rapid prototypes, tech toys), each with a copy-paste starter prompt for Claude Code, Cursor, Lovable or Replit, plus an archive, project ideas and a beginner guide. No signup needed.
 
 ## News and Social Media
 
