@@ -72,6 +72,7 @@
 - [Mobile SSH](https://mobile-ssh.github.io) - drive Claude Code and Codex sessions running on your own servers from Android or iOS, with an alert the moment an agent blocks on input and one tap to answer it, plus tmux, Zellij and herdr session managers.
 - [Sillage](https://github.com/MarlBurroW/sillage) - self-hosted, MIT-licensed, mobile-first web UI that drives the native Claude Code and Codex CLIs on your own machine (the official agent harnesses, without a terminal), with sessions that outlive the client, full-text search over every conversation, an IDE panel (file explorer, editor, diffs, terminal), a board the agents read through its own MCP server, and an installable PWA with push. Single Docker container.
 - [vibepanel](https://github.com/jiangmuran/vibepanel) - self-hosted, MIT-licensed web console for running many Claude Code and Codex sessions in parallel from a desktop browser or a phone; each session lives in tmux, so agents keep running through panel restarts, upgrades and dropped connections.
+- [Open Walnut](https://github.com/EvanZhang008/open-walnut) - self-hosted web console for Claude Code on your laptop and remote dev boxes; a daemon on each machine owns the `claude` processes, so sessions keep running when SSH drops (no tmux), and one browser page (phone too) shows every session and which ones wait for you, with a per-session diff. Also runs Codex, OpenCode, and Goose on the local machine over ACP. MIT.
 
 ## IDEs and Code Editors
 
