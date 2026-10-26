@@ -72,6 +72,7 @@
 - [Mobile SSH](https://mobile-ssh.github.io) - drive Claude Code and Codex sessions running on your own servers from Android or iOS, with an alert the moment an agent blocks on input and one tap to answer it, plus tmux, Zellij and herdr session managers.
 - [Sillage](https://github.com/MarlBurroW/sillage) - self-hosted, MIT-licensed, mobile-first web UI that drives the native Claude Code and Codex CLIs on your own machine (the official agent harnesses, without a terminal), with sessions that outlive the client, full-text search over every conversation, an IDE panel (file explorer, editor, diffs, terminal), a board the agents read through its own MCP server, and an installable PWA with push. Single Docker container.
 - [vibepanel](https://github.com/jiangmuran/vibepanel) - self-hosted, MIT-licensed web console for running many Claude Code and Codex sessions in parallel from a desktop browser or a phone; each session lives in tmux, so agents keep running through panel restarts, upgrades and dropped connections.
+- [Open Walnut](https://github.com/EvanZhang008/open-walnut) - self-hosted web console for Claude Code on your laptop and remote dev boxes; a daemon on each machine owns the `claude` processes, so sessions keep running when SSH drops (no tmux), and one browser page (phone too) shows every session and which ones wait for you, with a per-session diff. Also runs Codex, OpenCode, and Goose on the local machine over ACP. MIT.
 
 ## IDEs and Code Editors
 
@@ -153,6 +154,7 @@
 - [Tavero](https://github.com/baccaraaa/tavero) - MCP server and CLI that scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, colors and spacing, and gives the coding agent each fix with file and line references (`npx -y tavero mcp`). Free, MIT.
 - [CodeTrendy](https://codetrendy.com/mcp) - Read-only remote MCP server for searching a startup and software directory, browsing categories and finding product alternatives from coding agents. No API key or account required; paid listings receive priority in search results.
 - [DoomPay](https://github.com/doomsday-network/doom-pay) - MIT-licensed checkout widget and Python SDK for DOOM (Layer 1) and wDOOM (Base) payments, with an agent skill and MCP payment-verification tool for AI-assisted integrations.
+- [/call-me](https://github.com/radres/call-me) - Claude Code plugin and remote MCP server (also for Codex, Gemini CLI and other MCP clients) that let a coding agent ring or text the developer's iPhone when a session needs a decision, and read the spoken or typed reply back as text. The iPhone app needs a paid subscription.
 - [Lookout for VS Code](https://github.com/nimrod-teich/lookout) - MIT-licensed VS Code extension that shows every Claude Code, Codex and Copilot CLI session on one board in the side bar, quotes what each waiting session asks, jumps to its tab or terminal with one key, and searches every conversation. It reads only the files the agents already write on disk: no hooks, no credentials, nothing sent anywhere.
 
 ## Command Line Tools
@@ -234,6 +236,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [FixLoop Supabase Grants Checker](https://fixloop.dev/tools/supabase-grants-checker?src=awesome) - Free in-browser check for the Oct 30, 2026 Supabase Data API change: paste your SQL migrations, see which new `public` tables have no GRANT (and would return 42501 permission denied), and copy least-privilege GRANT statements. The SQL never leaves the browser; no signup.
 - [Security checklist for Lovable, Bolt and Cursor apps](https://project-feldspar.com/guides/ai-built-app-security-checklist.html) - Eight checks to run before real users join an app built with Lovable, Bolt or Cursor on Supabase: RLS, keys, storage, ownership checks and secrets.
 - [BountyGuard](https://github.com/doomsday-network/bounty-guard) - Free, MIT-licensed CLI, agent skill and MCP toolkit that screens GitHub repositories and issues for known honeypots, prompt-injection signals and bounty escrow evidence.
+- [DeployVet](https://deployvet.com/?utm_source=gh1&utm_medium=directory&utm_campaign=listing) - Free security and bug check for a live app built with Lovable, Bolt, Replit, Cursor or a no-code tool. Looks from the outside for leaked keys, open Supabase tables, exposed files, weak headers and broken pages, and explains each fix in plain English. Not a penetration test; paid scan and fix pack optional.
 
 ## Documentation for AI Coding
 
@@ -243,6 +246,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [CodeGuide](https://www.codeguide.dev/) - Creates detailed Documentation for your AI Coding Projects.
 - [LegacyDoc AI](https://www.romanticode.com/legacydoc-ai/) - VS Code extension that generates documentation, architecture maps, and AI-ready context packs for vibe-coded codebases.
 - [ContextStream](https://contextstream.io) - Shared project context for Cursor, Claude Code, Codex, Grok. Remote MCP: https://mcp.contextstream.io/mcp. Intelligence isn’t the bottleneck. Context is.
+- [AgentKit Drawer Guides](https://agentkitdrawer.com/guides/) - Free guides and copy-paste AGENTS.md, CLAUDE.md and Cursor rules for the holes AI agents leave open: Supabase RLS, Stripe webhooks, Claude Code hooks; the Starter AGENTS.md is a free download.
 - [AGENTS.md Generator](https://agentkitco.com/tools/agents-md-generator/) - Free in-browser tool that writes AGENTS.md plus matching CLAUDE.md, Cursor rule and Copilot instructions files for your stack.
 - [Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html) - Free browser tool for turning a vague Codex CLI project goal into a scoped first-task prompt with file boundaries, constraints, and acceptance checks.
 - [Pineflow](https://dotsystems.dev/pineflow) - Free, open source path from an idea to a mobile app in the App Store with Claude Code and Expo: 12 chapters with exact commands, prompts and checks, plus AGENTS.md, PRD and hooks templates. MIT licensed. Formerly vibeprompt.
@@ -282,6 +286,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [FixStack](https://getfixstack.com/) - Free library of fixes for common errors in Lovable, Cursor, Bolt, Replit, Supabase, Vercel and Stripe, with the exact error text, the cause, and the steps to fix it.
 - [agent-doctrine](https://github.com/sisig-ai/agent-doctrine) - Instructions, role prompts and skills that one sync installs into Claude Code, Codex, Cursor, OpenCode and more, so a lead agent plans, delegates to implementer and reviewer subagents, and returns a tested PR. MIT.
 -  [AgentRank](https://agentrank.tools/) - Independent rankings of AI coding agents, app builders, hosting and databases for vibe coders, with dated free-plan limits and a daily releases feed (RSS).
+- [Daily Vibe Challenge](https://dailyvibechallenge.github.io/) - Free daily vibe coding challenge (AI agents, games, rapid prototypes, tech toys), each with a copy-paste starter prompt for Claude Code, Cursor, Lovable or Replit, plus an archive, project ideas and a beginner guide. No signup needed.
 
 ## News and Social Media
 
