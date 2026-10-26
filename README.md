@@ -233,6 +233,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [FixLoop Supabase Grants Checker](https://fixloop.dev/tools/supabase-grants-checker?src=awesome) - Free in-browser check for the Oct 30, 2026 Supabase Data API change: paste your SQL migrations, see which new `public` tables have no GRANT (and would return 42501 permission denied), and copy least-privilege GRANT statements. The SQL never leaves the browser; no signup.
 - [Security checklist for Lovable, Bolt and Cursor apps](https://project-feldspar.com/guides/ai-built-app-security-checklist.html) - Eight checks to run before real users join an app built with Lovable, Bolt or Cursor on Supabase: RLS, keys, storage, ownership checks and secrets.
 - [BountyGuard](https://github.com/doomsday-network/bounty-guard) - Free, MIT-licensed CLI, agent skill and MCP toolkit that screens GitHub repositories and issues for known honeypots, prompt-injection signals and bounty escrow evidence.
+- [DeployVet](https://deployvet.com/?utm_source=gh1&utm_medium=directory&utm_campaign=listing) - Free security and bug check for a live app built with Lovable, Bolt, Replit, Cursor or a no-code tool. Looks from the outside for leaked keys, open Supabase tables, exposed files, weak headers and broken pages, and explains each fix in plain English. Not a penetration test; paid scan and fix pack optional.
 
 ## Documentation for AI Coding
 
