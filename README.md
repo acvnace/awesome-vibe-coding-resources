@@ -153,6 +153,7 @@
 - [Tavero](https://github.com/baccaraaa/tavero) - MCP server and CLI that scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, colors and spacing, and gives the coding agent each fix with file and line references (`npx -y tavero mcp`). Free, MIT.
 - [CodeTrendy](https://codetrendy.com/mcp) - Read-only remote MCP server for searching a startup and software directory, browsing categories and finding product alternatives from coding agents. No API key or account required; paid listings receive priority in search results.
 - [DoomPay](https://github.com/doomsday-network/doom-pay) - MIT-licensed checkout widget and Python SDK for DOOM (Layer 1) and wDOOM (Base) payments, with an agent skill and MCP payment-verification tool for AI-assisted integrations.
+- [Lookout for VS Code](https://github.com/nimrod-teich/lookout) - MIT-licensed VS Code extension that shows every Claude Code, Codex and Copilot CLI session on one board in the side bar, quotes what each waiting session asks, jumps to its tab or terminal with one key, and searches every conversation. It reads only the files the agents already write on disk: no hooks, no credentials, nothing sent anywhere.
 
 ## Command Line Tools
 
