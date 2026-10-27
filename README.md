@@ -156,6 +156,7 @@
 - [DoomPay](https://github.com/doomsday-network/doom-pay) - MIT-licensed checkout widget and Python SDK for DOOM (Layer 1) and wDOOM (Base) payments, with an agent skill and MCP payment-verification tool for AI-assisted integrations.
 - [/call-me](https://github.com/radres/call-me) - Claude Code plugin and remote MCP server (also for Codex, Gemini CLI and other MCP clients) that let a coding agent ring or text the developer's iPhone when a session needs a decision, and read the spoken or typed reply back as text. The iPhone app needs a paid subscription.
 - [Lookout for VS Code](https://github.com/nimrod-teich/lookout) - MIT-licensed VS Code extension that shows every Claude Code, Codex and Copilot CLI session on one board in the side bar, quotes what each waiting session asks, jumps to its tab or terminal with one key, and searches every conversation. It reads only the files the agents already write on disk: no hooks, no credentials, nothing sent anywhere.
+- [voicehook](https://voicehook.ai/?utm_source=awesome-vibe-coding&utm_campaign=d21-vibe-list) - Talk with your agents: a voice call in the browser that Claude Code, Codex, opencode or any agent with a shell can start or join, through a remote MCP server (`https://voicehook.ai/mcp`) or plain HTTPS/curl with no install. The voice in the call answers from a status board and FAQ the agent keeps updated, so the agent keeps working while you talk. About 10 free minutes a day without login, no subscription.
 
 ## Command Line Tools
 
