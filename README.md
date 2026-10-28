@@ -291,6 +291,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 -  [AgentRank](https://agentrank.tools/) - Independent rankings of AI coding agents, app builders, hosting and databases for vibe coders, with dated free-plan limits and a daily releases feed (RSS).
 - [Daily Vibe Challenge](https://dailyvibechallenge.github.io/) - Free daily vibe coding challenge (AI agents, games, rapid prototypes, tech toys), each with a copy-paste starter prompt for Claude Code, Cursor, Lovable or Replit, plus an archive, project ideas and a beginner guide. No signup needed.
 - [Faber agent docs](https://faberlang.dev/llms.txt) - llms.txt index, install guide and four agent skills (`npx skills add https://faberlang.dev`) for Faber, an experimental statically typed language built for coding agents to write and people to read. It compiles to Rust, TypeScript, Go, Swift and more.
+- [WhichAICoder](https://whichaicoder.com) - Free guide picking one AI coding tool per use case (11 use cases, 39 tools), scored on a public 100-point rubric with dated, sourced price checks.
 
 ## News and Social Media
 
