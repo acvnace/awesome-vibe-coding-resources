@@ -297,6 +297,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Faber agent docs](https://faberlang.dev/llms.txt) - llms.txt index, install guide and four agent skills (`npx skills add https://faberlang.dev`) for Faber, an experimental statically typed language built for coding agents to write and people to read. It compiles to Rust, TypeScript, Go, Swift and more.
 - [WhichAICoder](https://whichaicoder.com) - Free guide picking one AI coding tool per use case (11 use cases, 39 tools), scored on a public 100-point rubric with dated, sourced price checks.
 - [publish-browser-game](https://github.com/Xmo101/publish-browser-game) - MIT checklist, Claude Code skill, Cursor rule and AGENTS.md snippet that walk a coding agent through shipping a browser game (load speed, touch controls, share tags) and finding its first players.
+- [Agent Cookbook: Claude Code use cases](https://agentcookbook.dev/claude-code-use-cases) - Free, sourced collection of Claude Code workflows (some paired with Codex), each linked to the builder's own post, repo or doc, with their template or prompt when published.
 
 ## News and Social Media
 
