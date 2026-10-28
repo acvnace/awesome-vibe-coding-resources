@@ -156,6 +156,7 @@
 - [DoomPay](https://github.com/doomsday-network/doom-pay) - MIT-licensed checkout widget and Python SDK for DOOM (Layer 1) and wDOOM (Base) payments, with an agent skill and MCP payment-verification tool for AI-assisted integrations.
 - [/call-me](https://github.com/radres/call-me) - Claude Code plugin and remote MCP server (also for Codex, Gemini CLI and other MCP clients) that let a coding agent ring or text the developer's iPhone when a session needs a decision, and read the spoken or typed reply back as text. The iPhone app needs a paid subscription.
 - [Lookout for VS Code](https://github.com/nimrod-teich/lookout) - MIT-licensed VS Code extension that shows every Claude Code, Codex and Copilot CLI session on one board in the side bar, quotes what each waiting session asks, jumps to its tab or terminal with one key, and searches every conversation. It reads only the files the agents already write on disk: no hooks, no credentials, nothing sent anywhere.
+- [Agent Standup](https://github.com/Atoll92/agent-standup) - MIT-licensed VS Code extension (also an npm CLI, a Claude Code plugin and a macOS app) that shows your Claude Code, Codex and Mistral Vibe sessions as a live, animated team call: who is working, stuck, waiting on another agent or waiting for you, read from the session files on disk.
 
 ## Command Line Tools
 
@@ -205,6 +206,7 @@
 - [Praex](https://github.com/ailucius/praex-cli) - Terminal coding agent (MIT, opencode fork) that reads the repo, edits files with approval, and runs commands and tests. Free hosted model or your own API keys; `/rc` Remote Control continues a terminal session from your phone. Linux and macOS.
 - [5dive](https://github.com/5dive-ai/5dive) - Runs a team of coding agents (Claude Code, Codex, Pi, OpenCode and more) on your own Linux server, each one a Linux user and systemd service, handing work to each other through a shared task queue. MIT.
 - [Flisk](https://github.com/flisk-sh/flisk) - Local environment generator: one command takes an empty folder to a running stack (Docker Compose, Tilt, Traefik, databases) with the app autodetected, so the agent writes application code instead of editing Dockerfiles and Tiltfiles. MIT, on npm as @flisk-sh/flisk.
+- [Light Cloud](https://light-cloud.com) - Hosting for what you build with an agent: deploy from the `lc` CLI, from Claude Code or another agent through its MCP server (`@light-cloud/mcp-server`), or from GitHub, GitLab or Bitbucket. Free plan with no card: $1 of usage a month, unlimited static sites and 3 server apps that scale to zero.
 
 ## Security & Pre-Deploy Checks
 
@@ -237,6 +239,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Security checklist for Lovable, Bolt and Cursor apps](https://project-feldspar.com/guides/ai-built-app-security-checklist.html) - Eight checks to run before real users join an app built with Lovable, Bolt or Cursor on Supabase: RLS, keys, storage, ownership checks and secrets.
 - [BountyGuard](https://github.com/doomsday-network/bounty-guard) - Free, MIT-licensed CLI, agent skill and MCP toolkit that screens GitHub repositories and issues for known honeypots, prompt-injection signals and bounty escrow evidence.
 - [DeployVet](https://deployvet.com/?utm_source=gh1&utm_medium=directory&utm_campaign=listing) - Free security and bug check for a live app built with Lovable, Bolt, Replit, Cursor or a no-code tool. Looks from the outside for leaked keys, open Supabase tables, exposed files, weak headers and broken pages, and explains each fix in plain English. Not a penetration test; paid scan and fix pack optional.
+- [Ironheights](https://github.com/Frank-Masciopinto/ironheights) - Apache-2.0 local CLI and agent skill (`npx ironheights scan <path>`) that checks third-party agent skills (`SKILL.md` folders for OpenClaw/ClawHub and similar agents) before you install them into your coding agent: prompt injection, hidden text, credential reads, remote-exec installs and persistence. Pins installed skill files to a local integrity baseline so later changes are caught. Nothing uploaded.
 - [Tuvio](https://tuvio.dev/) - Scans the GitHub repo and the live site of an AI-built app: leaked keys in git history (coverage may be limited for very large repositories), Supabase RLS policies in SQL migrations, Stripe webhook checks, AI SDK misuse and vulnerable packages, with a fix prompt per finding from an optional AI review. Works from Claude Code, Cursor and Codex. Free scans; optional AI reviews and monitoring have paid plans.
 
 ## Documentation for AI Coding
@@ -289,11 +292,13 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 -  [AgentRank](https://agentrank.tools/) - Independent rankings of AI coding agents, app builders, hosting and databases for vibe coders, with dated free-plan limits and a daily releases feed (RSS).
 - [Daily Vibe Challenge](https://dailyvibechallenge.github.io/) - Free daily vibe coding challenge (AI agents, games, rapid prototypes, tech toys), each with a copy-paste starter prompt for Claude Code, Cursor, Lovable or Replit, plus an archive, project ideas and a beginner guide. No signup needed.
 - [Faber agent docs](https://faberlang.dev/llms.txt) - llms.txt index, install guide and four agent skills (`npx skills add https://faberlang.dev`) for Faber, an experimental statically typed language built for coding agents to write and people to read. It compiles to Rust, TypeScript, Go, Swift and more.
+- [WhichAICoder](https://whichaicoder.com) - Free guide picking one AI coding tool per use case (11 use cases, 39 tools), scored on a public 100-point rubric with dated, sourced price checks.
 
 ## News and Social Media
 
 > This section displays items in reverse chronological order, with the most recent entries at the top.
 
+- [Foundplay](https://foundplay.io/) - free place to list a vibe-coded browser game: it goes out in the next drop and Play opens it on the site where you published it, with a [ranking of vibe-coded games](https://foundplay.io/lists/vibe-coded-games) by plays and a hosted [MCP server](https://foundplay.io/mcp/creators) so Claude Code or Cursor can check a game and get its free listing link.
 - [Shipped & Paid](https://shippedandpaid.com) - Directory of apps built mostly with AI coding tools that report revenue, each labelled Verified (payment-provider data), Screenshot or Self-reported, plus a free revenue calculator.
 - [Vibe Coding 101 with Replit - DeepLearning.AI](https://www.deeplearning.ai/short-courses/vibe-coding-101-with-replit/)
 - [The "vibe coding" mind virus explained… by Fireship - YouTube](https://www.youtube.com/watch?v=Tw18-4U7mts)
