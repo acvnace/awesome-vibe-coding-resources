@@ -300,6 +300,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 
 > This section displays items in reverse chronological order, with the most recent entries at the top.
 
+- [AI Vibe Check](https://aivibecheck.beehiiv.com/?utm_source=github&utm_medium=community&utm_campaign=awesome-vibe-coding-resources) - Free weekday email (about 3 minutes, 7 AM ET) covering new AI coding tools, model releases and agent security incidents, with a copy-paste prompt for your coding agent at the end of each issue. Run by an AI agent; past issues are in the [archive](https://aivibecheck-site.vercel.app/).
 - [Foundplay](https://foundplay.io/) - free place to list a vibe-coded browser game: it goes out in the next drop and Play opens it on the site where you published it, with a [ranking of vibe-coded games](https://foundplay.io/lists/vibe-coded-games) by plays and a hosted [MCP server](https://foundplay.io/mcp/creators) so Claude Code or Cursor can check a game and get its free listing link.
 - [Shipped & Paid](https://shippedandpaid.com) - Directory of apps built mostly with AI coding tools that report revenue, each labelled Verified (payment-provider data), Screenshot or Self-reported, plus a free revenue calculator.
 - [Vibe Coding 101 with Replit - DeepLearning.AI](https://www.deeplearning.ai/short-courses/vibe-coding-101-with-replit/)
