@@ -206,6 +206,7 @@
 - [Praex](https://github.com/ailucius/praex-cli) - Terminal coding agent (MIT, opencode fork) that reads the repo, edits files with approval, and runs commands and tests. Free hosted model or your own API keys; `/rc` Remote Control continues a terminal session from your phone. Linux and macOS.
 - [5dive](https://github.com/5dive-ai/5dive) - Runs a team of coding agents (Claude Code, Codex, Pi, OpenCode and more) on your own Linux server, each one a Linux user and systemd service, handing work to each other through a shared task queue. MIT.
 - [Flisk](https://github.com/flisk-sh/flisk) - Local environment generator: one command takes an empty folder to a running stack (Docker Compose, Tilt, Traefik, databases) with the app autodetected, so the agent writes application code instead of editing Dockerfiles and Tiltfiles. MIT, on npm as @flisk-sh/flisk.
+- [Light Cloud](https://light-cloud.com) - Hosting for what you build with an agent: deploy from the `lc` CLI, from Claude Code or another agent through its MCP server (`@light-cloud/mcp-server`), or from GitHub, GitLab or Bitbucket. Free plan with no card: $1 of usage a month, unlimited static sites and 3 server apps that scale to zero.
 
 ## Security & Pre-Deploy Checks
 
