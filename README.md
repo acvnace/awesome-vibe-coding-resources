@@ -122,6 +122,7 @@
 - [ccx](https://github.com/aaronwong1999/ccx) - Free, MIT-licensed macOS menu bar app that moves a task between Claude Code and Codex with the full context (messages, tool calls, plan, git status), so you keep going when one side hits its usage limit. Local, no account.
 - [VoiceVibe](https://voicevibe.ai/) - An AI voice assistant you can use anywhere on your computer. Press a key and talk. It types, speaks and does what you say. Dictate, create or transform text. Hear any text read aloud. Chat with AI, or hand a task to an agent. Do more without losing your train of thought. Available for Windows, macOS and Linux (X11).
 - [Plainsay](https://github.com/conrader/plainsay) - Free, open-source (MIT) native macOS menu-bar dictation for speaking long prompts to coding agents: hold a key, talk, and the text is pasted where you started, including terminals and editors. Whisper or Parakeet run on device with no account; an optional paid Cloud mode exists.
+- [Mixdog](https://github.com/tribgames/mixdog) - Free, open-source (Apache-2.0) desktop coding agent for Windows, macOS and Linux: a lead model plans while cheaper models handle search, edits and review. Sign in with an existing Claude, ChatGPT or Grok subscription, or use an API key or a local model; MCP client support included.
 
 ## Plugins and Extensions
 
