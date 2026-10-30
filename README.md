@@ -64,6 +64,7 @@
 - [Tactyl](https://tactyl.co/?ref=github) - for the step before the app: an AI guide scores your business idea live, maps market, competition and revenue on a canvas, and opens the app builder once the idea reaches 30%. Free plan, no card.
 - [Newly](https://newly.app/) - Browser-based AI builder that turns prompts into native iOS and Android apps with React Native and Expo, with source-code export. Paid plans.
 - [AppWizzy](https://appwizzy.com/) - AI web app builder with a dedicated development VM, Git integration, and support for PHP, Python, and Node.js stacks. Free tier; commercial use of generated apps requires an active paid plan and per-app source-access activation.
+- [OpenWorld](https://open-world.gg/) - 3D browser game you change by describing it in chat: each request becomes a private version you can try, keep or discard, and you share only the one you like. Free to play; editing uses your own Anthropic API key.
 
 ## Mobile-first Tools
 
