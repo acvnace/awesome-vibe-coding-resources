@@ -212,6 +212,7 @@
 - [Flisk](https://github.com/flisk-sh/flisk) - Local environment generator: one command takes an empty folder to a running stack (Docker Compose, Tilt, Traefik, databases) with the app autodetected, so the agent writes application code instead of editing Dockerfiles and Tiltfiles. MIT, on npm as @flisk-sh/flisk.
 - [Light Cloud](https://light-cloud.com) - Hosting for what you build with an agent: deploy from the `lc` CLI, from Claude Code or another agent through its MCP server (`@light-cloud/mcp-server`), or from GitHub, GitLab or Bitbucket. Free plan with no card: $1 of usage a month, unlimited static sites and 3 server apps that scale to zero.
 - [Sno Station](https://github.com/sno-ai/sno-station) - Local runtime (`sno` CLI, Apache-2.0) where Codex, Claude Code, Cursor, Hermes Agent and OpenClaw pass tasks over a shared mailbox, hand work to another agent when one hits its usage limit, and review each other's output across vendors.
+- [Aixle Flow](https://github.com/AixleHQ/flow) - Self-hosted Kanban board (Apache-2.0) that runs Claude Code, Codex, Gemini CLI and other CLI coding agents for a team: each card starts a durable workflow, each agent works in its own container, and every run shows its log, tokens and cost.
 
 ## Security & Pre-Deploy Checks
 
