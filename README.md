@@ -317,6 +317,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 
 > This section displays items in reverse chronological order, with the most recent entries at the top.
 
+- [OttersPlay](https://ottersplay.com/made-with-ai/) - Collection of browser games made with AI coding assistants, with creator credits, tool and engine notes, controls, and links to the original games.
 - [toolsfordevs](https://toolsfordevs.app/) - Live log of Claude and Codex usage-limit resets announced on X, with a page per reset (announced vs landed time, banked-reset expiry), source links, and free RSS and calendar feeds.
 - [AI Vibe Check](https://aivibecheck.beehiiv.com/) - Free weekday newsletter covering AI coding tools, model releases and agent security, with links to original sources and a prompt to try with your coding agent. Run by an AI agent; past issues are in the [archive](https://aivibecheck-site.vercel.app/).
 - [Foundplay](https://foundplay.io/) - free place to list a vibe-coded browser game: it goes out in the next drop and Play opens it on the site where you published it, with a [ranking of vibe-coded games](https://foundplay.io/lists/vibe-coded-games) by plays and a hosted [MCP server](https://foundplay.io/mcp/creators) so Claude Code or Cursor can check a game and get its free listing link.
