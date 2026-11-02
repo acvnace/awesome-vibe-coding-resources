@@ -64,6 +64,7 @@
 - [Tactyl](https://tactyl.co/?ref=github) - for the step before the app: an AI guide scores your business idea live, maps market, competition and revenue on a canvas, and opens the app builder once the idea reaches 30%. Free plan, no card.
 - [Newly](https://newly.app/) - Browser-based AI builder that turns prompts into native iOS and Android apps with React Native and Expo, with source-code export. Paid plans.
 - [AppWizzy](https://appwizzy.com/) - AI web app builder with a dedicated development VM, Git integration, and support for PHP, Python, and Node.js stacks. Free tier; commercial use of generated apps requires an active paid plan and per-app source-access activation.
+- [OpenWorld](https://open-world.gg/) - 3D browser game you change by describing it in chat: each request becomes a private version you can try, keep or discard, and you share only the one you like. Free to play, with limited included text edits in beta when available; optional heavier edits use your own Anthropic API key and provider billing.
 
 ## Mobile-first Tools
 
@@ -124,6 +125,7 @@
 - [VoiceVibe](https://voicevibe.ai/) - An AI voice assistant you can use anywhere on your computer. Press a key and talk. It types, speaks and does what you say. Dictate, create or transform text. Hear any text read aloud. Chat with AI, or hand a task to an agent. Do more without losing your train of thought. Available for Windows, macOS and Linux (X11).
 - [Plainsay](https://github.com/conrader/plainsay) - Free, open-source (MIT) native macOS menu-bar dictation for speaking long prompts to coding agents: hold a key, talk, and the text is pasted where you started, including terminals and editors. Whisper or Parakeet run on device with no account; an optional paid Cloud mode exists.
 - [Mixdog](https://github.com/tribgames/mixdog) - Free, open-source (Apache-2.0) desktop coding agent for Windows, macOS and Linux: a lead model plans while cheaper models handle search, edits and review. Sign in with an existing Claude, ChatGPT or Grok subscription, or use an API key or a local model; MCP client support included.
+- [Joxo](https://joxo.ai) - Team workspace for AI coding agents: Claude Code, Codex, Cursor, Gemini CLI and OpenCode agents on different people's computers share one project, task board and handoffs, with desktop and iPhone apps and an MCP server.
 
 ## Plugins and Extensions
 
@@ -164,6 +166,7 @@
 - [Agent Standup](https://github.com/Atoll92/agent-standup) - MIT-licensed VS Code extension (also an npm CLI, a Claude Code plugin and a macOS app) that shows your Claude Code, Codex and Mistral Vibe sessions as a live, animated team call: who is working, stuck, waiting on another agent or waiting for you, read from the session files on disk.
 - [voicehook](https://voicehook.ai/?utm_source=awesome-vibe-coding&utm_campaign=d21-vibe-list) - Talk with your agents: a voice call in the browser that Claude Code, Codex, opencode or any agent with a shell can start or join, through a remote MCP server (`https://voicehook.ai/mcp`) or plain HTTPS/curl with no install. The voice in the call answers from a status board and FAQ the agent keeps updated, so the agent keeps working while you talk. About 10 free minutes a day without login, no subscription.
 - [YouTube Transcript Skills](https://github.com/tubeagentkit/youtube-transcript-skills) - Agent skill and remote MCP server (`https://getyoutubetranscript.com/api/mcp`) that let Claude Code, Codex and Cursor read YouTube video transcripts, search YouTube and browse channels and playlists, for building video summarizers, research tools and RAG pipelines. Paid API, 1 credit per call, 100 credits on sign-up.
+- [BrewPage](https://brewpage.app/) - Free MCP server, Claude Code skill and GitHub Action that publish AI-generated HTML pages, Markdown, static sites and files to temporary HTTPS links, no signup or API key.
 - [Model Salt](https://github.com/modelsalt/model-salt) - MIT-licensed local MCP server for Claude Code, Codex, Gemini CLI and Kimi Code that uses external randomness to vary creative choices in tasks such as page design, SVG generation and naming. Uses additional model calls or tokens. Install: `npx -y @modelsalt/model-salt setup claude`.
 
 ## Command Line Tools
@@ -218,6 +221,7 @@
 - [Light Cloud](https://light-cloud.com) - Hosting for what you build with an agent: deploy from the `lc` CLI, from Claude Code or another agent through its MCP server (`@light-cloud/mcp-server`), or from GitHub, GitLab or Bitbucket. Free plan with no card: $1 of usage a month, unlimited static sites and 3 server apps that scale to zero.
 - [Sno Station](https://github.com/sno-ai/sno-station) - Local runtime (`sno` CLI, Apache-2.0) where Codex, Claude Code, Cursor, Hermes Agent and OpenClaw pass tasks over a shared mailbox, hand work to another agent when one hits its usage limit, and review each other's output across vendors.
 - [Aixle Flow](https://github.com/AixleHQ/flow) - Self-hosted Kanban board (Apache-2.0) that runs Claude Code, Codex, Gemini CLI and other CLI coding agents for a team: each card starts a durable workflow, each agent works in its own container, and every run shows its log, tokens and cost.
+- [DESIGN:OS](https://github.com/jangtrinh/design-os) - Free command-line design tool for Claude Code, Codex and Antigravity: run `npx @easestart/design-os init`, describe a UI in plain words, and the agent builds web, SwiftUI or Figma-ready output that deterministic taste gates check. Source-available (PolyForm Shield 1.0.0).
 
 ## Security & Pre-Deploy Checks
 
@@ -308,11 +312,13 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [WhichAICoder](https://whichaicoder.com) - Free guide picking one AI coding tool per use case (11 use cases, 39 tools), scored on a public 100-point rubric with dated, sourced price checks.
 - [publish-browser-game](https://github.com/Xmo101/publish-browser-game) - MIT checklist, Claude Code skill, Cursor rule and AGENTS.md snippet that walk a coding agent through shipping a browser game (load speed, touch controls, share tags) and finding its first players.
 - [Agent Cookbook: Claude Code use cases](https://agentcookbook.dev/claude-code-use-cases) - Free, sourced collection of Claude Code workflows (some paired with Codex), each linked to the builder's own post, repo or doc, with their template or prompt when published.
+- [StackVersus AI Limits](https://getstackversus.com/limits) - Prices and every stated usage limit for 73 plans across Claude, ChatGPT + Codex, Cursor, Copilot, Gemini, Lovable, v0, Bolt and more, each quoted from the vendor page with a check date, plus a dated change log (RSS) and free JSON/CSV.
 
 ## News and Social Media
 
 > This section displays items in reverse chronological order, with the most recent entries at the top.
 
+- [OttersPlay](https://ottersplay.com/made-with-ai/) - Collection of browser games made with AI coding assistants, with creator credits, tool and engine notes, controls, and links to the original games.
 - [toolsfordevs](https://toolsfordevs.app/) - Live log of Claude and Codex usage-limit resets announced on X, with a page per reset (announced vs landed time, banked-reset expiry), source links, and free RSS and calendar feeds.
 - [AI Vibe Check](https://aivibecheck.beehiiv.com/) - Free weekday newsletter covering AI coding tools, model releases and agent security, with links to original sources and a prompt to try with your coding agent. Run by an AI agent; past issues are in the [archive](https://aivibecheck-site.vercel.app/).
 - [Foundplay](https://foundplay.io/) - free place to list a vibe-coded browser game: it goes out in the next drop and Play opens it on the site where you published it, with a [ranking of vibe-coded games](https://foundplay.io/lists/vibe-coded-games) by plays and a hosted [MCP server](https://foundplay.io/mcp/creators) so Claude Code or Cursor can check a game and get its free listing link.
