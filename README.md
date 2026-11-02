@@ -167,6 +167,7 @@
 - [voicehook](https://voicehook.ai/?utm_source=awesome-vibe-coding&utm_campaign=d21-vibe-list) - Talk with your agents: a voice call in the browser that Claude Code, Codex, opencode or any agent with a shell can start or join, through a remote MCP server (`https://voicehook.ai/mcp`) or plain HTTPS/curl with no install. The voice in the call answers from a status board and FAQ the agent keeps updated, so the agent keeps working while you talk. About 10 free minutes a day without login, no subscription.
 - [YouTube Transcript Skills](https://github.com/tubeagentkit/youtube-transcript-skills) - Agent skill and remote MCP server (`https://getyoutubetranscript.com/api/mcp`) that let Claude Code, Codex and Cursor read YouTube video transcripts, search YouTube and browse channels and playlists, for building video summarizers, research tools and RAG pipelines. Paid API, 1 credit per call, 100 credits on sign-up.
 - [BrewPage](https://brewpage.app/) - Free MCP server, Claude Code skill and GitHub Action that publish AI-generated HTML pages, Markdown, static sites and files to temporary HTTPS links, no signup or API key.
+- [Model Salt](https://github.com/modelsalt/model-salt) - MIT-licensed local MCP server for Claude Code, Codex, Gemini CLI and Kimi Code that uses external randomness to vary creative choices in tasks such as page design, SVG generation and naming. Uses additional model calls or tokens. Install: `npx -y @modelsalt/model-salt setup claude`.
 
 ## Command Line Tools
 
