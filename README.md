@@ -312,6 +312,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [publish-browser-game](https://github.com/Xmo101/publish-browser-game) - MIT checklist, Claude Code skill, Cursor rule and AGENTS.md snippet that walk a coding agent through shipping a browser game (load speed, touch controls, share tags) and finding its first players.
 - [Agent Cookbook: Claude Code use cases](https://agentcookbook.dev/claude-code-use-cases) - Free, sourced collection of Claude Code workflows (some paired with Codex), each linked to the builder's own post, repo or doc, with their template or prompt when published.
 - [StackVersus AI Limits](https://getstackversus.com/limits) - Prices and every stated usage limit for 73 plans across Claude, ChatGPT + Codex, Cursor, Copilot, Gemini, Lovable, v0, Bolt and more, each quoted from the vendor page with a check date, plus a dated change log (RSS) and free JSON/CSV.
+- [Vibe Coding Rules Starter](https://github.com/theodorecreatesco/vibe-coding-rules-starter) - Free, MIT-licensed AGENTS.md, CLAUDE.md and always-on Cursor rule with guidance on planning, scope, testing, secrets and authorization checks, plus a 10-point pre-launch security checklist and 3 copy-paste prompts. The README also links a paid full kit.
 
 ## News and Social Media
 
