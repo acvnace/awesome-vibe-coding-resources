@@ -52,7 +52,6 @@
 - [kdpbook.io](https://kdpbook.io) - vibe coding for books: describe a book in a chat and get it written, illustrated and typeset, with the Amazon KDP print PDF, full-wrap cover, Kindle eBook and listing ready to upload.
 - [Scrollhaus](https://scrollhaus.ai) - library of animated, scroll-driven website templates with live previews, editable source and prompts to paste into Lovable, Bolt, Claude or Codex.
 - [NewGameDrops.com](https://newgamedrops.com) - daily directory showcasing vibe-coded browser games, playable instantly with an original guide for each.
-- [OttersPlay](https://ottersplay.com/) - directory of browser games made with AI coding assistants, with creator credits, tool and engine notes, controls, and links to the original games.
 - [Vibld](https://vibld.com/) - open-source AI app builder that turns a prompt into a plain React, TypeScript and Vite repo you can publish to GitHub, Cloudflare or Docker.
 - [Kleap](https://kleap.co/) - AI website and app builder: describe a site in chat, edit it and publish it, with a hosted [MCP server](https://kleap.co/mcp) so Claude, Cursor and other agents can build and publish sites too.
 - [iter0](https://iter0.com/) - AI website builder for tech founders: talk to the Launch CEO, pick a design, edit it, then export the HTML or open a GitHub pull request, with a hosted [MCP server](https://iter0.com/mcp) so AI agents can create and edit pages too.
@@ -313,6 +312,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 
 > This section displays items in reverse chronological order, with the most recent entries at the top.
 
+- [OttersPlay](https://ottersplay.com/made-with-ai/) - Collection of browser games made with AI coding assistants, with creator credits, tool and engine notes, controls, and links to the original games.
 - [toolsfordevs](https://toolsfordevs.app/) - Live log of Claude and Codex usage-limit resets announced on X, with a page per reset (announced vs landed time, banked-reset expiry), source links, and free RSS and calendar feeds.
 - [AI Vibe Check](https://aivibecheck.beehiiv.com/) - Free weekday newsletter covering AI coding tools, model releases and agent security, with links to original sources and a prompt to try with your coding agent. Run by an AI agent; past issues are in the [archive](https://aivibecheck-site.vercel.app/).
 - [Foundplay](https://foundplay.io/) - free place to list a vibe-coded browser game: it goes out in the next drop and Play opens it on the site where you published it, with a [ranking of vibe-coded games](https://foundplay.io/lists/vibe-coded-games) by plays and a hosted [MCP server](https://foundplay.io/mcp/creators) so Claude Code or Cursor can check a game and get its free listing link.
