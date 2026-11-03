@@ -65,6 +65,9 @@
 - [Newly](https://newly.app/) - Browser-based AI builder that turns prompts into native iOS and Android apps with React Native and Expo, with source-code export. Paid plans.
 - [AppWizzy](https://appwizzy.com/) - AI web app builder with a dedicated development VM, Git integration, and support for PHP, Python, and Node.js stacks. Free tier; commercial use of generated apps requires an active paid plan and per-app source-access activation.
 - [OpenWorld](https://open-world.gg/) - 3D browser game you change by describing it in chat: each request becomes a private version you can try, keep or discard, and you share only the one you like. Free to play, with limited included text edits in beta when available; optional heavier edits use your own Anthropic API key and provider billing.
+- [PromptImage](https://promptimage.cloud) - Free AI image & video studio with a prompt library (signup credits, multi-model). Freemium
+- [TeslaWraps](https://teslawraps.design) - Browser Tesla Paint Shop wrap designer — core editing + PNG export free without account; optional AI credit…
+- [GrokVideo Studio](https://grokvideogenerator.dev) - Independent web app for text/image-to-video via Grok Imagine API (Free Trial, 20 credits). Not an official …
 
 ## Mobile-first Tools
 
