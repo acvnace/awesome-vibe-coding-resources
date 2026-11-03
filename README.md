@@ -316,6 +316,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Agent Cookbook: Claude Code use cases](https://agentcookbook.dev/claude-code-use-cases) - Free, sourced collection of Claude Code workflows (some paired with Codex), each linked to the builder's own post, repo or doc, with their template or prompt when published.
 - [StackVersus AI Limits](https://getstackversus.com/limits) - Prices and every stated usage limit for 73 plans across Claude, ChatGPT + Codex, Cursor, Copilot, Gemini, Lovable, v0, Bolt and more, each quoted from the vendor page with a check date, plus a dated change log (RSS) and free JSON/CSV.
 - [Vibe Coding Rules Starter](https://github.com/theodorecreatesco/vibe-coding-rules-starter) - Free, MIT-licensed AGENTS.md, CLAUDE.md and always-on Cursor rule with guidance on planning, scope, testing, secrets and authorization checks, plus a 10-point pre-launch security checklist and 3 copy-paste prompts. The README also links a paid full kit.
+- [Most Capable Agent System Prompt](https://github.com/fainir/most-capable-agent-system-prompt) - MIT-licensed, copy-paste system prompt that has Claude Code, Codex or Cursor build a self-improving agent system with task graphs, verification, evals and file-based memory any agent can resume from (AGENTS.md, plan.md, tasks.md), in a fixed build order.
 
 ## News and Social Media
 
