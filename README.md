@@ -225,6 +225,7 @@
 - [Sno Station](https://github.com/sno-ai/sno-station) - Local runtime (`sno` CLI, Apache-2.0) where Codex, Claude Code, Cursor, Hermes Agent and OpenClaw pass tasks over a shared mailbox, hand work to another agent when one hits its usage limit, and review each other's output across vendors.
 - [Aixle Flow](https://github.com/AixleHQ/flow) - Self-hosted Kanban board (Apache-2.0) that runs Claude Code, Codex, Gemini CLI and other CLI coding agents for a team: each card starts a durable workflow, each agent works in its own container, and every run shows its log, tokens and cost.
 - [DESIGN:OS](https://github.com/jangtrinh/design-os) - Free command-line design tool for Claude Code, Codex and Antigravity: run `npx @easestart/design-os init`, describe a UI in plain words, and the agent builds web, SwiftUI or Figma-ready output that deterministic taste gates check. Source-available (PolyForm Shield 1.0.0).
+- [Ponder](https://github.com/Quinnod345/ponder) - MIT-licensed, zero-dependency Node.js CLI and skill for coding agents that records multi-perspective reviews in an append-only ledger, tracks file coverage and finding changes, and blocks stopping while declared review units remain ungraded. Available on npm as `@quinnod345/ponder`.
 
 ## Security & Pre-Deploy Checks
 
