@@ -169,6 +169,7 @@
 - [YouTube Transcript Skills](https://github.com/tubeagentkit/youtube-transcript-skills) - Agent skill and remote MCP server (`https://getyoutubetranscript.com/api/mcp`) that let Claude Code, Codex and Cursor read YouTube video transcripts, search YouTube and browse channels and playlists, for building video summarizers, research tools and RAG pipelines. Paid API, 1 credit per call, 100 credits on sign-up.
 - [BrewPage](https://brewpage.app/) - Free MCP server, Claude Code skill and GitHub Action that publish AI-generated HTML pages, Markdown, static sites and files to temporary HTTPS links, no signup or API key.
 - [Model Salt](https://github.com/modelsalt/model-salt) - MIT-licensed local MCP server for Claude Code, Codex, Gemini CLI and Kimi Code that uses external randomness to vary creative choices in tasks such as page design, SVG generation and naming. Uses additional model calls or tokens. Install: `npx -y @modelsalt/model-salt setup claude`.
+- [Arcmira: YouTube Transcript Search](https://arcmira.com) - Hosted MCP server for Claude Code, Codex and Cursor to search indexed YouTube and podcast transcripts, find timestamped quotes, and build research or clip-shortlist workflows. Requires an Arcmira account; free plan available. [MCP setup](https://arcmira.com/docs/mcp-server) · [API docs](https://arcmira.com/docs).
 
 ## Command Line Tools
 
