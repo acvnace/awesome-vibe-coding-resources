@@ -171,6 +171,7 @@
 - [YouTube Transcript Skills](https://github.com/tubeagentkit/youtube-transcript-skills) - Agent skill and remote MCP server (`https://getyoutubetranscript.com/api/mcp`) that let Claude Code, Codex and Cursor read YouTube video transcripts, search YouTube and browse channels and playlists, for building video summarizers, research tools and RAG pipelines. Paid API, 1 credit per call, 100 credits on sign-up.
 - [BrewPage](https://brewpage.app/) - Free MCP server, Claude Code skill and GitHub Action that publish AI-generated HTML pages, Markdown, static sites and files to temporary HTTPS links, no signup or API key.
 - [Model Salt](https://github.com/modelsalt/model-salt) - MIT-licensed local MCP server for Claude Code, Codex, Gemini CLI and Kimi Code that uses external randomness to vary creative choices in tasks such as page design, SVG generation and naming. Uses additional model calls or tokens. Install: `npx -y @modelsalt/model-salt setup claude`.
+- [Webly](https://github.com/Webly-AI/webly-plugin) - Agent skill and remote MCP server (`https://api.webly.ai/v1/mcp`) for Claude Code, Codex, Cursor, Gemini CLI and Hermes that publish a vibe-coded website or shared files to a live `*.webly.site` URL with no signup, then let you claim it, edit it over MCP and publish drafts you approve.
 
 ## Command Line Tools
 
