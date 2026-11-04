@@ -65,6 +65,7 @@
 - [Newly](https://newly.app/) - Browser-based AI builder that turns prompts into native iOS and Android apps with React Native and Expo, with source-code export. Paid plans.
 - [AppWizzy](https://appwizzy.com/) - AI web app builder with a dedicated development VM, Git integration, and support for PHP, Python, and Node.js stacks. Free tier; commercial use of generated apps requires an active paid plan and per-app source-access activation.
 - [OpenWorld](https://open-world.gg/) - 3D browser game you change by describing it in chat: each request becomes a private version you can try, keep or discard, and you share only the one you like. Free to play, with limited included text edits in beta when available; optional heavier edits use your own Anthropic API key and provider billing.
+- [NightMarquee](https://nightmarquee.com/) - growing library of cinematic website prompts, each a finished site with a live demo you can scroll and a prompt for Lovable, Bolt, Cursor, Claude and Codex, plus an MCP server so the prompts open inside your editor. Start free, no account needed.
 
 ## Mobile-first Tools
 
@@ -77,6 +78,7 @@
 - [vibepanel](https://github.com/jiangmuran/vibepanel) - self-hosted, MIT-licensed web console for running many Claude Code and Codex sessions in parallel from a desktop browser or a phone; each session lives in tmux, so agents keep running through panel restarts, upgrades and dropped connections.
 - [Open Walnut](https://github.com/EvanZhang008/open-walnut) - self-hosted web console for Claude Code on your laptop and remote dev boxes; a daemon on each machine owns the `claude` processes, so sessions keep running when SSH drops (no tmux), and one browser page (phone too) shows every session and which ones wait for you, with a per-session diff. Also runs Codex, OpenCode, and Goose on the local machine over ACP. MIT.
 - [Bivy](https://github.com/bivysh/bivy) - open-source (MIT) workspace that runs Claude Code, Codex and other coding-agent CLIs on your own Mac or Linux machine or a cloud computer that sleeps when idle; follow a session from your phone, answer questions, approve tool calls, open the app the agent built in a live preview, and get push notifications. Installable web app (PWA).
+- [OpenTandem](https://github.com/opentandem/opentandem) - workspace that puts Claude Code, Codex, OpenCode and 15 more coding-agent CLIs on all your computers in one page, so you can start, switch and follow tasks from your phone; switch agent or model inside a task without losing the conversation, see live quota, and preview a localhost page on your phone. The CLI and Runner are open source (AGPL-3.0), and the web and mobile app are a hosted service.
 
 ## IDEs and Code Editors
 
@@ -127,6 +129,7 @@
 - [Plainsay](https://github.com/conrader/plainsay) - Free, open-source (MIT) native macOS menu-bar dictation for speaking long prompts to coding agents: hold a key, talk, and the text is pasted where you started, including terminals and editors. Whisper or Parakeet run on device with no account; an optional paid Cloud mode exists.
 - [Mixdog](https://github.com/tribgames/mixdog) - Free, open-source (Apache-2.0) desktop coding agent for Windows, macOS and Linux: a lead model plans while cheaper models handle search, edits and review. Sign in with an existing Claude, ChatGPT or Grok subscription, or use an API key or a local model; MCP client support included.
 - [Joxo](https://joxo.ai) - Team workspace for AI coding agents: Claude Code, Codex, Cursor, Gemini CLI and OpenCode agents on different people's computers share one project, task board and handoffs, with desktop and iPhone apps and an MCP server.
+- [AgentVera](https://agentvera.dev/en/) - Desktop app for macOS, Windows and Linux that runs Claude Code, Codex, Gemini CLI, Copilot, Cursor and 13 more coding agents side by side per project, each in a real terminal with your own CLI install and login, plus a team kanban board that hands cards to agents and an MCP manager. Free plan; Pro $9.99/month.
 
 ## Plugins and Extensions
 
@@ -169,6 +172,7 @@
 - [YouTube Transcript Skills](https://github.com/tubeagentkit/youtube-transcript-skills) - Agent skill and remote MCP server (`https://getyoutubetranscript.com/api/mcp`) that let Claude Code, Codex and Cursor read YouTube video transcripts, search YouTube and browse channels and playlists, for building video summarizers, research tools and RAG pipelines. Paid API, 1 credit per call, 100 credits on sign-up.
 - [BrewPage](https://brewpage.app/) - Free MCP server, Claude Code skill and GitHub Action that publish AI-generated HTML pages, Markdown, static sites and files to temporary HTTPS links, no signup or API key.
 - [Model Salt](https://github.com/modelsalt/model-salt) - MIT-licensed local MCP server for Claude Code, Codex, Gemini CLI and Kimi Code that uses external randomness to vary creative choices in tasks such as page design, SVG generation and naming. Uses additional model calls or tokens. Install: `npx -y @modelsalt/model-salt setup claude`.
+- [Webly](https://github.com/Webly-AI/webly-plugin) - Agent skill and remote MCP server (`https://api.webly.ai/v1/mcp`) for Claude Code, Codex, Cursor, Gemini CLI and Hermes that publish a vibe-coded website or shared files to a live `*.webly.site` URL with no signup, then let you claim it, edit it over MCP and publish drafts you approve.
 
 ## Command Line Tools
 
@@ -223,6 +227,7 @@
 - [Sno Station](https://github.com/sno-ai/sno-station) - Local runtime (`sno` CLI, Apache-2.0) where Codex, Claude Code, Cursor, Hermes Agent and OpenClaw pass tasks over a shared mailbox, hand work to another agent when one hits its usage limit, and review each other's output across vendors.
 - [Aixle Flow](https://github.com/AixleHQ/flow) - Self-hosted Kanban board (Apache-2.0) that runs Claude Code, Codex, Gemini CLI and other CLI coding agents for a team: each card starts a durable workflow, each agent works in its own container, and every run shows its log, tokens and cost.
 - [DESIGN:OS](https://github.com/jangtrinh/design-os) - Free command-line design tool for Claude Code, Codex and Antigravity: run `npx @easestart/design-os init`, describe a UI in plain words, and the agent builds web, SwiftUI or Figma-ready output that deterministic taste gates check. Source-available (PolyForm Shield 1.0.0).
+- [Ponder](https://github.com/Quinnod345/ponder) - MIT-licensed, zero-dependency Node.js CLI and skill for coding agents that records multi-perspective reviews in an append-only ledger, tracks file coverage and finding changes, and blocks stopping while declared review units remain ungraded. Available on npm as `@quinnod345/ponder`.
 - [Vectoree](https://vectoree.ai) - Backend for coding agents: one project key for multi-provider models via an OpenAI-compatible gateway, plus auth, Postgres and storage; CLI + agent skill; pay-as-you-go with $5 welcome credit.
 
 ## Security & Pre-Deploy Checks
@@ -244,6 +249,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [VibeFix](https://vibe-fixer.com/) - An AI agent uses your live, published app like a first customer (sign-up, the main flow, checkout, on a phone and a computer) and lists what breaks, with a fix prompt to paste into your AI builder and a re-test of the live app. First test free, no account; also an MCP server at `https://vibe-fixer.com/mcp`.
 - [Nutilz Security Headers](https://nutilz.com/security-headers) - Free browser-based security headers grader and validator (CSP, HSTS, CORS, X-Frame-Options) with copy-paste remediation snippets to test and fix missing headers before launch. No signup required.
 - [VibeLocked](https://vibelocked.com/) - Free in-browser scanner that finds exposed OpenAI, Stripe, Supabase service role, AWS, and GitHub keys in a public GitHub repo, plus plain-language security guides and checklists for Supabase RLS, Firebase rules, Stripe webhooks, and AI API routes.
+- [AI Package Hallucination Exercise](https://ransomleak.com/exercises/invented-dependency/) - Free browser exercise on checking AI-suggested npm packages in the registry before installing, after one runs a malicious postinstall script.
 - [SealMyApp](https://sealmyapp.com/) - Read-only security scan for apps built with Lovable, Bolt, Cursor, Replit and v0 that only runs after you verify you own the app (DNS record or file). Checks for Supabase tables readable without login, open Firebase rules, secret keys in the JS bundle and exposed `.env`/`.git` files. Free scan and free tools (key checker, Supabase RLS audit SQL); paid tiers add builder-specific fix prompts with a verified re-scan and daily monitoring.
 - [nextjs-supabase-stripe-security-checker](https://github.com/edtrackai/nextjs-supabase-stripe-security-checker) - MIT-licensed local CLI and GitHub Action (`npx github:edtrackai/nextjs-supabase-stripe-security-checker .`) with 24 checks for Next.js + Supabase + Stripe apps: leaked or service-role keys in client code, missing RLS and grants, and unverified Stripe webhooks. No account, nothing uploaded.
 - [FixLoop Scan](https://fixloop.dev/scan) - Free scan of a deployed app's public surface: HTTPS, security headers, keys leaked in the HTML and same-origin JavaScript, robots.txt and sitemap. Read-only, no login, no signup.
@@ -261,6 +267,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [SniffPup](https://sniffpup.com/) - Free passive scan of a live AI-built web app for leaked secrets, public `.env`/`.git` files, source maps, missing security headers, and anonymously readable Supabase tables. No exploit payloads or use of discovered secret keys. Also available as a [GitHub Action](https://github.com/sniffpup/scan-action); full fix reports and deeper checks have paid options.
 - [npmscan](https://github.com/salemalem/npmscan-mcp-plugin) - MIT-licensed plugin connecting coding agents to a free, read-only MCP service for checking npm packages before installation: known vulnerabilities and malware, suspicious install scripts, maintainer history, licenses and transitive dependencies. Remote MCP endpoint: `https://npmscan.com/api/mcp`.
 - [ReviveDB](https://revivedb.dev/) - Automatic Supabase backups of your whole project: data, user accounts, files and server code, stored in the EU. Every database backup is restore-tested. Covers the Supabase project behind an app built with Lovable, Bolt, Cursor or v0, including Edge Functions deployed from the builder that have no other copy. Free for one project with weekly backups.
+- [PatchAndShip Check](https://patchandship.com/check.html) - Free passive check of an authorized live app's homepage, up to 10 linked JavaScript files, and response headers for exposed secrets and missing security headers. No signup or database queries; does not verify Supabase table permissions.
 
 ## Documentation for AI Coding
 
@@ -274,6 +281,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [AGENTS.md Generator](https://agentkitco.com/tools/agents-md-generator/) - Free in-browser tool that writes AGENTS.md plus matching CLAUDE.md, Cursor rule and Copilot instructions files for your stack.
 - [Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html) - Free browser tool for turning a vague Codex CLI project goal into a scoped first-task prompt with file boundaries, constraints, and acceptance checks.
 - [Pineflow](https://dotsystems.dev/pineflow) - Free, open source path from an idea to a mobile app in the App Store with Claude Code and Expo: 12 chapters with exact commands, prompts and checks, plus AGENTS.md, PRD and hooks templates. MIT licensed. Formerly vibeprompt.
+- [SkillHey](https://skillhey.com) - Free, searchable directory of Claude/agent Skills (SKILL.md) by category, with install guides for Claude Code, Codex, and Cursor.
 - [Wikivibe](https://wikivibe.ru/en/) - Practical knowledge base for AI-assisted development with guides, a glossary, jobs, and a public MCP endpoint.
 - [QuotaBurn](https://quotaburn.com/) - Free, source-linked tracker of AI coding agent prices and usage limits (Claude Code, Cursor, Codex, Copilot, Windsurf, Devin, Gemini CLI) with a monthly cost calculator and 18 model API prices.
 - [Vibe Coding with Confidence](https://zalt.me/guides/vibe-coding) - Web handbook on building AI-assisted apps that work beyond the demo: plan, build, debug, harden, ship, operate, and scale.
@@ -317,6 +325,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Agent Cookbook: Claude Code use cases](https://agentcookbook.dev/claude-code-use-cases) - Free, sourced collection of Claude Code workflows (some paired with Codex), each linked to the builder's own post, repo or doc, with their template or prompt when published.
 - [StackVersus AI Limits](https://getstackversus.com/limits) - Prices and every stated usage limit for 73 plans across Claude, ChatGPT + Codex, Cursor, Copilot, Gemini, Lovable, v0, Bolt and more, each quoted from the vendor page with a check date, plus a dated change log (RSS) and free JSON/CSV.
 - [Vibe Coding Rules Starter](https://github.com/theodorecreatesco/vibe-coding-rules-starter) - Free, MIT-licensed AGENTS.md, CLAUDE.md and always-on Cursor rule with guidance on planning, scope, testing, secrets and authorization checks, plus a 10-point pre-launch security checklist and 3 copy-paste prompts. The README also links a paid full kit.
+- [Most Capable Agent System Prompt](https://github.com/fainir/most-capable-agent-system-prompt) - MIT-licensed, copy-paste system prompt that has Claude Code, Codex or Cursor build a self-improving agent system with task graphs, verification, evals and file-based memory any agent can resume from (AGENTS.md, plan.md, tasks.md), in a fixed build order.
 
 ## News and Social Media
 
