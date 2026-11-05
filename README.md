@@ -130,6 +130,7 @@
 - [Mixdog](https://github.com/tribgames/mixdog) - Free, open-source (Apache-2.0) desktop coding agent for Windows, macOS and Linux: a lead model plans while cheaper models handle search, edits and review. Sign in with an existing Claude, ChatGPT or Grok subscription, or use an API key or a local model; MCP client support included.
 - [Joxo](https://joxo.ai) - Team workspace for AI coding agents: Claude Code, Codex, Cursor, Gemini CLI and OpenCode agents on different people's computers share one project, task board and handoffs, with desktop and iPhone apps and an MCP server.
 - [AgentVera](https://agentvera.dev/en/) - Desktop app for macOS, Windows and Linux that runs Claude Code, Codex, Gemini CLI, Copilot, Cursor and 13 more coding agents side by side per project, each in a real terminal with your own CLI install and login, plus a team kanban board that hands cards to agents and an MCP manager. Free plan; Pro $9.99/month.
+- [Unvibe](https://unvibe.site/) - Desktop app for understanding AI-written code: select code in any app, press Control+U (Ctrl+Alt+U on Windows), and it is explained in plain English beside your editor. Available for Mac and Windows with a free tier of 50 explanations per month; sign-in required after the first 30 days. No separate API key.
 
 ## Plugins and Extensions
 
@@ -174,6 +175,7 @@
 - [Model Salt](https://github.com/modelsalt/model-salt) - MIT-licensed local MCP server for Claude Code, Codex, Gemini CLI and Kimi Code that uses external randomness to vary creative choices in tasks such as page design, SVG generation and naming. Uses additional model calls or tokens. Install: `npx -y @modelsalt/model-salt setup claude`.
 - [Webly](https://github.com/Webly-AI/webly-plugin) - Agent skill and remote MCP server (`https://api.webly.ai/v1/mcp`) for Claude Code, Codex, Cursor, Gemini CLI and Hermes that publish a vibe-coded website or shared files to a live `*.webly.site` URL with no signup, then let you claim it, edit it over MCP and publish drafts you approve.
 - [Arcmira: YouTube Transcript Search](https://arcmira.com) - Hosted MCP server for Claude Code, Codex and Cursor to search indexed YouTube and podcast transcripts, find timestamped quotes, and build research or clip-shortlist workflows. Requires an Arcmira account; free plan available. [MCP setup](https://arcmira.com/docs/mcp-server) · [API docs](https://arcmira.com/docs).
+- [UberLLM](https://github.com/PSA-Team-source/uberllm) - MIT-licensed plugins and setup skill for Claude Code and Codex, with a hosted MCP server for listing models, quoting requests, generating images and videos, and checking credit. Provides OpenAI- and Anthropic-compatible API endpoints backed by third-party model providers. Requires an account, API key and prepaid credit; no free tier.
 - [GenClass](https://github.com/genclass-dev/genclass-plugin) - Apache-2.0 plugin for Claude Code, Codex, Cursor and Gemini CLI with a local MCP server and skill that show the agent what happened in a web app's development pages in causal order (clicks, requests, responses, the state writes it can see), re-run a page with responses delivered in different orders to find race conditions, replay one order to check a fix and write a Playwright test. The page side uses `@genclass/runtime`, whose anonymous diagnostics are on by default on public hosts, off on localhost, and turned off with `telemetry: false`.
 
 ## Command Line Tools
@@ -328,11 +330,13 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [StackVersus AI Limits](https://getstackversus.com/limits) - Prices and every stated usage limit for 73 plans across Claude, ChatGPT + Codex, Cursor, Copilot, Gemini, Lovable, v0, Bolt and more, each quoted from the vendor page with a check date, plus a dated change log (RSS) and free JSON/CSV.
 - [Vibe Coding Rules Starter](https://github.com/theodorecreatesco/vibe-coding-rules-starter) - Free, MIT-licensed AGENTS.md, CLAUDE.md and always-on Cursor rule with guidance on planning, scope, testing, secrets and authorization checks, plus a 10-point pre-launch security checklist and 3 copy-paste prompts. The README also links a paid full kit.
 - [Most Capable Agent System Prompt](https://github.com/fainir/most-capable-agent-system-prompt) - MIT-licensed, copy-paste system prompt that has Claude Code, Codex or Cursor build a self-improving agent system with task graphs, verification, evals and file-based memory any agent can resume from (AGENTS.md, plan.md, tasks.md), in a fixed build order.
+- [OTF Fitness Kit](https://otf-kit.dev/templates/fitness-kit) - Paid React Native/Expo fitness-app starter for iOS, Android and web with full source, CLAUDE.md, Cursor rules, 22 task prompts and a custom Claude skill. $99 one-time.
 
 ## News and Social Media
 
 > This section displays items in reverse chronological order, with the most recent entries at the top.
 
+- [Devtoolwatch](https://www.devtoolwatch.com/) - Free weekly email and public Board that rank AI coding agents, MCP servers and other AI dev tools by new GitHub stars and npm/PyPI download growth.
 - [OttersPlay](https://ottersplay.com/made-with-ai/) - Collection of browser games made with AI coding assistants, with creator credits, tool and engine notes, controls, and links to the original games.
 - [toolsfordevs](https://toolsfordevs.app/) - Live log of Claude and Codex usage-limit resets announced on X, with a page per reset (announced vs landed time, banked-reset expiry), source links, and free RSS and calendar feeds.
 - [AI Vibe Check](https://aivibecheck.beehiiv.com/) - Free weekday newsletter covering AI coding tools, model releases and agent security, with links to original sources and a prompt to try with your coding agent. Run by an AI agent; past issues are in the [archive](https://aivibecheck-site.vercel.app/).
