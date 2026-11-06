@@ -331,6 +331,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Vibe Coding Rules Starter](https://github.com/theodorecreatesco/vibe-coding-rules-starter) - Free, MIT-licensed AGENTS.md, CLAUDE.md and always-on Cursor rule with guidance on planning, scope, testing, secrets and authorization checks, plus a 10-point pre-launch security checklist and 3 copy-paste prompts. The README also links a paid full kit.
 - [Most Capable Agent System Prompt](https://github.com/fainir/most-capable-agent-system-prompt) - MIT-licensed, copy-paste system prompt that has Claude Code, Codex or Cursor build a self-improving agent system with task graphs, verification, evals and file-based memory any agent can resume from (AGENTS.md, plan.md, tasks.md), in a fixed build order.
 - [OTF Fitness Kit](https://otf-kit.dev/templates/fitness-kit) - Paid React Native/Expo fitness-app starter for iOS, Android and web with full source, CLAUDE.md, Cursor rules, 22 task prompts and a custom Claude skill. $99 one-time.
+- [PrototypeVerdict usage study](https://prototypeverdict.com/ai-app-builder-usage-study/) - Same three prompts in Lovable, Base44, Bolt.new and Softr, with the credits, tokens, minutes and fixes each build used, plus a CSV download and a free cost calculator.
 
 ## News and Social Media
 
