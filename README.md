@@ -334,6 +334,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Most Capable Agent System Prompt](https://github.com/fainir/most-capable-agent-system-prompt) - MIT-licensed, copy-paste system prompt that has Claude Code, Codex or Cursor build a self-improving agent system with task graphs, verification, evals and file-based memory any agent can resume from (AGENTS.md, plan.md, tasks.md), in a fixed build order.
 - [OTF Fitness Kit](https://otf-kit.dev/templates/fitness-kit) - Paid React Native/Expo fitness-app starter for iOS, Android and web with full source, CLAUDE.md, Cursor rules, 22 task prompts and a custom Claude skill. $99 one-time.
 - [PrototypeVerdict usage study](https://prototypeverdict.com/ai-app-builder-usage-study/) - Same three prompts in Lovable, Base44, Bolt.new and Softr, with the credits, tokens, minutes and fixes each build used, plus a CSV download and a free cost calculator.
+- [Vibe Gaming Interactive Playbook](https://github.com/TripoGrowthLab/vibe-gaming-interactive-playbook) - MIT copy-paste prompt for Claude Code, Codex or Cursor that designs a small Three.js browser game, builds a playable greybox, then swaps in 3D models made in Tripo Studio; three example games with live demos.
 
 ## News and Social Media
 
