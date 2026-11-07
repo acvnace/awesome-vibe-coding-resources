@@ -235,6 +235,7 @@
 - [DESIGN:OS](https://github.com/jangtrinh/design-os) - Free command-line design tool for Claude Code, Codex and Antigravity: run `npx @easestart/design-os init`, describe a UI in plain words, and the agent builds web, SwiftUI or Figma-ready output that deterministic taste gates check. Source-available (PolyForm Shield 1.0.0).
 - [Ponder](https://github.com/Quinnod345/ponder) - MIT-licensed, zero-dependency Node.js CLI and skill for coding agents that records multi-perspective reviews in an append-only ledger, tracks file coverage and finding changes, and blocks stopping while declared review units remain ungraded. Available on npm as `@quinnod345/ponder`.
 - [Vectoree](https://vectoree.ai) - Backend for coding agents: one project key for multi-provider models via an OpenAI-compatible gateway, plus auth, Postgres and storage; CLI + agent skill; pay-as-you-go with $5 welcome credit.
+- [Code By AI](https://www.codebyai.net/) - Pay-per-token API gateway for coding agents: one key and one prepaid balance call Claude, GPT/Codex and Gemini models over Anthropic, OpenAI and Gemini formats, so Claude Code, Codex CLI, Gemini CLI and OpenCode work by changing the base URL; one-line setup script, no subscription.
 
 ## Security & Pre-Deploy Checks
 
