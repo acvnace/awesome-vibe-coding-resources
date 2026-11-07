@@ -339,6 +339,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 
 > This section displays items in reverse chronological order, with the most recent entries at the top.
 
+- [ClaudeUser](https://claudeuser.mailcheap.ai/) - Free weekly newsletter, sent every Sunday, with everything that changed in Claude that week, in plain English, with every claim linked to its source.
 - [Devtoolwatch](https://www.devtoolwatch.com/) - Free weekly email and public Board that rank AI coding agents, MCP servers and other AI dev tools by new GitHub stars and npm/PyPI download growth.
 - [OttersPlay](https://ottersplay.com/made-with-ai/) - Collection of browser games made with AI coding assistants, with creator credits, tool and engine notes, controls, and links to the original games.
 - [toolsfordevs](https://toolsfordevs.app/) - Live log of Claude and Codex usage-limit resets announced on X, with a page per reset (announced vs landed time, banked-reset expiry), source links, and free RSS and calendar feeds.
