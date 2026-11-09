@@ -279,6 +279,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 
 - [AI Game Dev Framework](https://github.com/Cooperzheng/ai-game-dev-framework) - MIT-licensed documentation and agent workflow starter for game development, with design decision boundaries, project onboarding, and versioned delivery reviews.
 - [AI Coding Tools Guide](https://ai-coding-tools-guide.vercel.app/cursor-alternatives/) - Workflow-based comparisons for Cursor alternatives, Claude Code, Windsurf, Cline, GitHub Copilot, Aider, Continue, and MCP-enabled AI coding.
+- [Awesome AI Coding Tools](https://github.com/mahmoudsajjadi/awesome-ai-coding-tools) - Curated 3-tier taxonomy of AI coding IDEs, CLI pair programmers, MCP servers, local GPU VRAM sizing guides, and starter `AGENTS.md` / `.cursor/rules` templates.
 - [AI Book: AI Coding](https://aibook.ren/categories/ai-coding) - Chinese AI coding handbook covering coding-agent workflows, tool selection, prompts, and practical AI-assisted development guides.
 - [CodeGuide](https://www.codeguide.dev/) - Creates detailed Documentation for your AI Coding Projects.
 - [LegacyDoc AI](https://www.romanticode.com/legacydoc-ai/) - VS Code extension that generates documentation, architecture maps, and AI-ready context packs for vibe-coded codebases.
