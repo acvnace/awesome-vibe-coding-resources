@@ -66,6 +66,7 @@
 - [AppWizzy](https://appwizzy.com/) - AI web app builder with a dedicated development VM, Git integration, and support for PHP, Python, and Node.js stacks. Free tier; commercial use of generated apps requires an active paid plan and per-app source-access activation.
 - [OpenWorld](https://open-world.gg/) - 3D browser game you change by describing it in chat: each request becomes a private version you can try, keep or discard, and you share only the one you like. Free to play, with limited included text edits in beta when available; optional heavier edits use your own Anthropic API key and provider billing.
 - [NightMarquee](https://nightmarquee.com/) - growing library of cinematic website prompts, each a finished site with a live demo you can scroll and a prompt for Lovable, Bolt, Cursor, Claude and Codex, plus an MCP server so the prompts open inside your editor. Start free, no account needed.
+- [NextJSON](https://nextjson.com/) - free browser-based JSON toolbox to decode nested JSON, format, diff, and convert JSON to TOON for LLM prompts; no sign-up.
 
 ## Mobile-first Tools
 
