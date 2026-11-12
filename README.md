@@ -275,6 +275,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [npmscan](https://github.com/salemalem/npmscan-mcp-plugin) - MIT-licensed plugin connecting coding agents to a free, read-only MCP service for checking npm packages before installation: known vulnerabilities and malware, suspicious install scripts, maintainer history, licenses and transitive dependencies. Remote MCP endpoint: `https://npmscan.com/api/mcp`.
 - [ReviveDB](https://revivedb.dev/) - Automatic Supabase backups of your whole project: data, user accounts, files and server code, stored in the EU. Every database backup is restore-tested. Covers the Supabase project behind an app built with Lovable, Bolt, Cursor or v0, including Edge Functions deployed from the builder that have no other copy. Free for one project with weekly backups.
 - [PatchAndShip Check](https://patchandship.com/check.html) - Free passive check of an authorized live app's homepage, up to 10 linked JavaScript files, and response headers for exposed secrets and missing security headers. No signup or database queries; does not verify Supabase table permissions.
+- [Lovable app security checklist](https://madsalt.tech/blog/lovable-app-security-checklist/) - 12 checks for a Lovable app on Supabase, each with the query or test that proves it, plus 8 gaps most checklists miss.
 
 ## Documentation for AI Coding
 
