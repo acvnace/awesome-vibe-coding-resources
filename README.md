@@ -132,6 +132,7 @@
 - [Joxo](https://joxo.ai) - Team workspace for AI coding agents: Claude Code, Codex, Cursor, Gemini CLI and OpenCode agents on different people's computers share one project, task board and handoffs, with desktop and iPhone apps and an MCP server.
 - [AgentVera](https://agentvera.dev/en/) - Desktop app for macOS, Windows and Linux that runs Claude Code, Codex, Gemini CLI, Copilot, Cursor and 13 more coding agents side by side per project, each in a real terminal with your own CLI install and login, plus a team kanban board that hands cards to agents and an MCP manager. Free plan; Pro $9.99/month.
 - [Unvibe](https://unvibe.site/) - Desktop app for understanding AI-written code: select code in any app, press Control+U (Ctrl+Alt+U on Windows), and it is explained in plain English beside your editor. Available for Mac and Windows with a free tier of 50 explanations per month; sign-in required after the first 30 days. No separate API key.
+- [Muxflow](https://github.com/gal064/muxflow) - Free, open-source (MIT) remote-first tmux IDE for Claude Code, Codex and pi on macOS and Linux, with an Android client: agent notifications on desktop and phone, voice replies, screenshot paste over SSH, multi-host, files and Git.
 
 ## Plugins and Extensions
 
