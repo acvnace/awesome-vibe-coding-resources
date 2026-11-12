@@ -67,6 +67,7 @@
 - [OpenWorld](https://open-world.gg/) - 3D browser game you change by describing it in chat: each request becomes a private version you can try, keep or discard, and you share only the one you like. Free to play, with limited included text edits in beta when available; optional heavier edits use your own Anthropic API key and provider billing.
 - [NightMarquee](https://nightmarquee.com/) - growing library of cinematic website prompts, each a finished site with a live demo you can scroll and a prompt for Lovable, Bolt, Cursor, Claude and Codex, plus an MCP server so the prompts open inside your editor. Start free, no account needed.
 - [PlayDrop](https://www.playdrop.ai/create) - Make a browser game by describing it, or publish one your AI app made, and share it with a link.
+- [Effect Atlas](https://effectatlas.com/) - A growing library of 50+ web motion effects (cursors, hovers, text, scroll, page transitions) in plain JavaScript and CSS, each with notes written for AI coding tools like Cursor and Claude Code. Free to use.
 
 ## Mobile-first Tools
 
