@@ -180,6 +180,7 @@
 - [GenClass](https://github.com/genclass-dev/genclass-plugin) - Apache-2.0 plugin for Claude Code, Codex, Cursor and Gemini CLI with a local MCP server and skill that show the agent what happened in a web app's development pages in causal order (clicks, requests, responses, the state writes it can see), re-run a page with responses delivered in different orders to find race conditions, replay one order to check a fix and write a Playwright test. The page side uses `@genclass/runtime`, whose anonymous diagnostics are on by default on public hosts, off on localhost, and turned off with `telemetry: false`.
 - [LogoAPI.sh](https://logoapi.sh/docs/mcp) - Free company logo API with a remote MCP server, so Claude Code, Cursor, Lovable or Bolt can drop real brand logos into an app: logo by domain, search by name, or favicon, as SVG or PNG. Streamable HTTP at `https://logoapi.sh/mcp`. No API key, no signup; 2M requests a month per site free.
 - [Pixel Buddy](https://github.com/SimakovIgor/pixel-buddy) - MIT-licensed Claude Code mod: a pixel pet in the footer that grows from your work (answers, passing tests and commits feed it), earns trophies and tells a random fact while Claude thinks. No network, no tokens.
+- [Datacircle](https://datacircle.dev) - Free GTM API benchmark with an open REST API and a remote MCP server, so Claude Code or Cursor can find the best data API for a build: list every API, see who is best for each, search every plan. No API key. Spec at `https://api.datacircle.dev/v1/openapi.json`.
 
 ## Command Line Tools
 
