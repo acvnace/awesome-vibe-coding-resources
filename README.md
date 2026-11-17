@@ -68,6 +68,7 @@
 - [NightMarquee](https://nightmarquee.com/) - growing library of cinematic website prompts, each a finished site with a live demo you can scroll and a prompt for Lovable, Bolt, Cursor, Claude and Codex, plus an MCP server so the prompts open inside your editor. Start free, no account needed.
 - [PlayDrop](https://www.playdrop.ai/create) - Make a browser game by describing it, or publish one your AI app made, and share it with a link.
 - [Orbital Supply](https://orbital.supply/) - Library of website prompts and code for AI builders: full templates with HTML and React builds, looping backgrounds and DESIGN.md design systems. Free tier; paid membership.
+- [NextJSON](https://nextjson.com/) - free browser-based JSON toolbox to decode nested JSON, format, diff, and convert JSON to TOON for LLM prompts; no sign-up.
 
 ## Mobile-first Tools
 
