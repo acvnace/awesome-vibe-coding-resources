@@ -187,6 +187,7 @@
 - [Pixel Buddy](https://github.com/SimakovIgor/pixel-buddy) - MIT-licensed Claude Code mod: a pixel pet in the footer that grows from your work (answers, passing tests and commits feed it), earns trophies and tells a random fact while Claude thinks. No network, no tokens.
 - [assumption-judge](https://github.com/mirac221/assumption-judge) - Apache-2.0 Agent Skill for Claude Code, Cursor, Codex and Antigravity that uses a second model to check agent replies against your instructions, project files and the web, and return evidence for suspected hallucinations. Uses your own model access and tokens.
 - [frame-judge](https://github.com/mirac221/frame-judge) - Apache-2.0 Agent Skill for Claude Code, Cursor, Codex and Antigravity that renders the work and asks a separate critic to compare screenshots and animation frames with the original request.
+- [Atlas Cloud MCP Server](https://github.com/AtlasCloudAI/mcp-server) - Remote MCP server (`https://mcp.atlascloud.ai/mcp`, browser sign-in) and local npm server (`npx -y atlascloud-mcp`, API key) that let Claude Code, Codex, Cursor and Gemini CLI browse the Atlas Cloud model catalog, generate images, video, audio and 3D, chat with LLMs, and check balance and usage. Atlas Cloud also offers an OpenAI-compatible API at `https://api.atlascloud.ai/v1`. Requires an Atlas Cloud account; generation is billed to it.
 
 ## Command Line Tools
 
