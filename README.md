@@ -243,6 +243,7 @@
 - [Vectoree](https://vectoree.ai) - Backend for coding agents: one project key for multi-provider models via an OpenAI-compatible gateway, plus auth, Postgres and storage; CLI + agent skill; pay-as-you-go with $5 welcome credit.
 - [CodeI Lab](https://www.codeilab.com/) - Third-party GPT API gateway for coding agents: one key serves OpenAI Responses/Chat Completions and Anthropic Messages endpoints, so Claude Code, Codex CLI, OpenCode and Cursor work by changing the base URL; one-line setup script; paid plans from a $3 one-week trial.
 - [Code By AI](https://www.codebyai.net/) - Third-party pay-per-token API gateway for coding agents: one key and one prepaid balance call Claude, GPT/Codex and Gemini models over Anthropic, OpenAI and Gemini formats, so Claude Code, Codex CLI, Gemini CLI and OpenCode work by changing the base URL; one-line setup script, no subscription.
+- [OMK](https://github.com/dmae97/omk) - Open-source multi-agent coding CLI for the terminal (TypeScript, MIT). Switch models mid-session; finish goals only when your test passes.
 
 ## Security & Pre-Deploy Checks
 
