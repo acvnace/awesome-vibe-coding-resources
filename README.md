@@ -198,6 +198,9 @@
 - [SFXMint](https://github.com/sfxmint/sfxmint-mcp) - MCP server and npm CLI (`npx sfxmint`) that let Claude Code, Codex or Cursor add sound effects to a game or app: ask for the usual sound for an event (coin, jump, UI click), take a set, or search by description, then download the MP3 into the project. 10,800+ AI-generated sounds, all CC0. No API key to try: 20 lookups and 5 downloads a day; WAV needs a paid pack.
 - [Louis Studios](https://studios.lou15.com/agents) - Remote MCP server for Claude Code, Cursor and Codex that offers design directions, plans React pages and installs animated components fitted to a brand, with static checks for contrast, mobile width and reduced motion. Free account includes two component coins a month for personal use; commercial use requires paid coins. Planning and previews are free.
 - [Off Grid AI skills](https://github.com/off-grid-ai/skills) - 49 free, MIT-licensed skills for Claude Code, Codex and Cursor covering tests in the real app, before-and-after screen reviews, legacy code changes, design, launch and growth.
+- [Vibe-Shield](https://github.com/avivgerz-hue/vibe-shield) - MIT-licensed local CLI, MCP server and agent skill with 92 static security rules covering secret patterns, injection risks, Supabase RLS, webhook checks and prompt-injection patterns in agent instructions. Offline scanner; findings are heuristics that need review.
+- [Unslop](https://github.com/avivgerz-hue/unslop) - MIT-licensed local CLI, MCP server and agent skill that audits frontend code with 72 rules for contrast, typography, layout, motion and design consistency, and provides ten design presets.
+- [Ghost-QA](https://github.com/avivgerz-hue/ghost-qa) - MIT-licensed Playwright browser QA CLI, local MCP server and agent skill that checks a running app across desktop, tablet and mobile viewports for unresponsive controls, runtime errors, broken assets and horizontal overflow.
 
 ## Command Line Tools
 
