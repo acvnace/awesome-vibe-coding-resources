@@ -349,6 +349,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [OTF Fitness Kit](https://otf-kit.dev/templates/fitness-kit) - Paid React Native/Expo fitness-app starter for iOS, Android and web with full source, CLAUDE.md, Cursor rules, 22 task prompts and a custom Claude skill. $99 one-time.
 - [PrototypeVerdict usage study](https://prototypeverdict.com/ai-app-builder-usage-study/) - Same three prompts in Lovable, Base44, Bolt.new and Softr, with the credits, tokens, minutes and fixes each build used, plus a CSV download and a free cost calculator.
 - [Awesome AI Coding Tools](https://github.com/mahmoudsajjadi/awesome-ai-coding-tools) - Curated 3-tier taxonomy of AI coding IDEs, CLI pair programmers, MCP servers, local GPU VRAM sizing guides, and starter `AGENTS.md` / `.cursor/rules` templates.
+- [RulesFile](https://rulesfile.pages.dev) - Free in-browser generator for AGENTS.md, CLAUDE.md, Cursor .mdc rules and Copilot instructions, with 46 stack pages and format guides. No sign-up.
 
 ## News and Social Media
 
