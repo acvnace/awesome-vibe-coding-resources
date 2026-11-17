@@ -66,6 +66,9 @@
 - [AppWizzy](https://appwizzy.com/) - AI web app builder with a dedicated development VM, Git integration, and support for PHP, Python, and Node.js stacks. Free tier; commercial use of generated apps requires an active paid plan and per-app source-access activation.
 - [OpenWorld](https://open-world.gg/) - 3D browser game you change by describing it in chat: each request becomes a private version you can try, keep or discard, and you share only the one you like. Free to play, with limited included text edits in beta when available; optional heavier edits use your own Anthropic API key and provider billing.
 - [NightMarquee](https://nightmarquee.com/) - growing library of cinematic website prompts, each a finished site with a live demo you can scroll and a prompt for Lovable, Bolt, Cursor, Claude and Codex, plus an MCP server so the prompts open inside your editor. Start free, no account needed.
+- [PlayDrop](https://www.playdrop.ai/create) - Make a browser game by describing it, or publish one your AI app made, and share it with a link.
+- [Orbital Supply](https://orbital.supply/) - Library of website prompts and code for AI builders: full templates with HTML and React builds, looping backgrounds and DESIGN.md design systems. Free tier; paid membership.
+- [NextJSON](https://nextjson.com/) - free browser-based JSON toolbox to decode nested JSON, format, diff, and convert JSON to TOON for LLM prompts; no sign-up.
 
 ## Mobile-first Tools
 
@@ -131,6 +134,7 @@
 - [Joxo](https://joxo.ai) - Team workspace for AI coding agents: Claude Code, Codex, Cursor, Gemini CLI and OpenCode agents on different people's computers share one project, task board and handoffs, with desktop and iPhone apps and an MCP server.
 - [AgentVera](https://agentvera.dev/en/) - Desktop app for macOS, Windows and Linux that runs Claude Code, Codex, Gemini CLI, Copilot, Cursor and 13 more coding agents side by side per project, each in a real terminal with your own CLI install and login, plus a team kanban board that hands cards to agents and an MCP manager. Free plan; Pro $9.99/month.
 - [Unvibe](https://unvibe.site/) - Desktop app for understanding AI-written code: select code in any app, press Control+U (Ctrl+Alt+U on Windows), and it is explained in plain English beside your editor. Available for Mac and Windows with a free tier of 50 explanations per month; sign-in required after the first 30 days. No separate API key.
+- [Orchestrator](https://orchestrator.inc/) - Open-source (Apache-2.0) desktop app for macOS, Windows and Linux where an orchestrator agent splits the work across Claude Code, Codex and other coding agents, each in its own git worktree. Failed CI checks and review comments go back to the agent that owns the PR, and iPhone and Android apps let you check in remotely.
 - [Muxflow](https://github.com/gal064/muxflow) - Free, open-source (MIT) remote-first tmux IDE for Claude Code, Codex and pi on macOS and Linux, with an Android client: agent notifications on desktop and phone, voice replies, screenshot paste over SSH, multi-host, files and Git.
 
 ## Plugins and Extensions
@@ -156,7 +160,7 @@
 - [Yap MCP](https://github.com/founden-bot/yap-mcp) - Open-source (MIT) MCP server and CLI for Claude Code, Claude Desktop, Cursor, VS Code, Windsurf and Gemini CLI that transcribes audio files on your computer with NVIDIA Parakeet (25 European languages, no API key, no upload) and searches your local Yap dictation history.
 - [lavela](https://github.com/ym2629/lavela-mcp) - Claude Code plugin and remote MCP server (beta) that deploys a GitHub repo to a live server from chat and checks on it afterwards: status, logs, health, managed Postgres, and a custom domain. Sign in with a lavela account; prepaid balance, no subscription.
 - - [ShipToPaid Lite](https://github.com/shiptopaid/shiptopaid-lite) - Three agent skills for Claude Code, Cursor and Codex that add Polar payments to a vibe-coded Next.js app: checkout tied to the signed-in user, signature-checked payment webhooks that ignore duplicate and late events, and a pre-launch payment checklist marked PASS, FAIL or NOT RUN. Free, MIT.
-- [Off the Wall](https://github.com/toranalytics/off-the-wall) - MIT-licensed hooks plugin for Claude Code and Codex that quotes your own past corrections back to the agent before it answers, reports what you correct most with `otw report`, and has the orchestrator name a model for each subagent call. Free, local.
+- [Dude Toldya](https://github.com/toranalytics/dude-toldya) - MIT-licensed hooks plugin for Claude Code and Codex that quotes your own past corrections back to the agent before it answers, reports what you correct most with `duto report`, and has the orchestrator name a model for each subagent call. Free, local.
 - [deed.page](https://github.com/f-o-x11/deed-page-skill) - Agent Skill and remote [MCP server](https://deed.page/mcp) that let Claude Code, Codex, Cursor and other agents publish the HTML or static folder they just built to a permanent public URL with one PUT, no account or claim step.
 - [Soundza](https://github.com/soundza/soundza-mcp/tree/main/skills/soundza) - Agent skill and remote MCP server that let Claude Code, Codex, Cursor and other agents find sound effects, music loops and ambience, play free previews so you can pick, generate new sound effects from a prompt, and add the chosen WAV or MP3 files to your game, video or app. Free for commercial use, no attribution needed; free account.
 - [LLMSlim](https://github.com/Thanatos9404/llmslim) - MIT Claude Code plugin and local MCP server that lets Claude Code, Cursor and Claude Desktop remember project conventions and past decisions across sessions, stored in local SQLite.
@@ -180,6 +184,8 @@
 - [GenClass](https://github.com/genclass-dev/genclass-plugin) - Apache-2.0 plugin for Claude Code, Codex, Cursor and Gemini CLI with a local MCP server and skill that show the agent what happened in a web app's development pages in causal order (clicks, requests, responses, the state writes it can see), re-run a page with responses delivered in different orders to find race conditions, replay one order to check a fix and write a Playwright test. The page side uses `@genclass/runtime`, whose anonymous diagnostics are on by default on public hosts, off on localhost, and turned off with `telemetry: false`.
 - [LogoAPI.sh](https://logoapi.sh/docs/mcp) - Free company logo API with a remote MCP server, so Claude Code, Cursor, Lovable or Bolt can drop real brand logos into an app: logo by domain, search by name, or favicon, as SVG or PNG. Streamable HTTP at `https://logoapi.sh/mcp`. No API key, no signup; 2M requests a month per site free.
 - [Pixel Buddy](https://github.com/SimakovIgor/pixel-buddy) - MIT-licensed Claude Code mod: a pixel pet in the footer that grows from your work (answers, passing tests and commits feed it), earns trophies and tells a random fact while Claude thinks. No network, no tokens.
+- [assumption-judge](https://github.com/mirac221/assumption-judge) - Apache-2.0 Agent Skill for Claude Code, Cursor, Codex and Antigravity that uses a second model to check agent replies against your instructions, project files and the web, and return evidence for suspected hallucinations. Uses your own model access and tokens.
+- [frame-judge](https://github.com/mirac221/frame-judge) - Apache-2.0 Agent Skill for Claude Code, Cursor, Codex and Antigravity that renders the work and asks a separate critic to compare screenshots and animation frames with the original request.
 
 ## Command Line Tools
 
@@ -236,6 +242,9 @@
 - [DESIGN:OS](https://github.com/jangtrinh/design-os) - Free command-line design tool for Claude Code, Codex and Antigravity: run `npx @easestart/design-os init`, describe a UI in plain words, and the agent builds web, SwiftUI or Figma-ready output that deterministic taste gates check. Source-available (PolyForm Shield 1.0.0).
 - [Ponder](https://github.com/Quinnod345/ponder) - MIT-licensed, zero-dependency Node.js CLI and skill for coding agents that records multi-perspective reviews in an append-only ledger, tracks file coverage and finding changes, and blocks stopping while declared review units remain ungraded. Available on npm as `@quinnod345/ponder`.
 - [Vectoree](https://vectoree.ai) - Backend for coding agents: one project key for multi-provider models via an OpenAI-compatible gateway, plus auth, Postgres and storage; CLI + agent skill; pay-as-you-go with $5 welcome credit.
+- [CodeI Lab](https://www.codeilab.com/) - Third-party GPT API gateway for coding agents: one key serves OpenAI Responses/Chat Completions and Anthropic Messages endpoints, so Claude Code, Codex CLI, OpenCode and Cursor work by changing the base URL; one-line setup script; paid plans from a $3 one-week trial.
+- [Code By AI](https://www.codebyai.net/) - Third-party pay-per-token API gateway for coding agents: one key and one prepaid balance call Claude, GPT/Codex and Gemini models over Anthropic, OpenAI and Gemini formats, so Claude Code, Codex CLI, Gemini CLI and OpenCode work by changing the base URL; one-line setup script, no subscription.
+- [OMK](https://github.com/dmae97/omk) - Open-source multi-agent coding CLI for the terminal (TypeScript, MIT). Switch models mid-session; finish goals only when your test passes.
 
 ## Security & Pre-Deploy Checks
 
@@ -275,6 +284,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [npmscan](https://github.com/salemalem/npmscan-mcp-plugin) - MIT-licensed plugin connecting coding agents to a free, read-only MCP service for checking npm packages before installation: known vulnerabilities and malware, suspicious install scripts, maintainer history, licenses and transitive dependencies. Remote MCP endpoint: `https://npmscan.com/api/mcp`.
 - [ReviveDB](https://revivedb.dev/) - Automatic Supabase backups of your whole project: data, user accounts, files and server code, stored in the EU. Every database backup is restore-tested. Covers the Supabase project behind an app built with Lovable, Bolt, Cursor or v0, including Edge Functions deployed from the builder that have no other copy. Free for one project with weekly backups.
 - [PatchAndShip Check](https://patchandship.com/check.html) - Free passive check of an authorized live app's homepage, up to 10 linked JavaScript files, and response headers for exposed secrets and missing security headers. No signup or database queries; does not verify Supabase table permissions.
+- [GuardLayer](https://www.guardlayer.io/) - Security check for Next.js + Supabase apps built with Lovable, Bolt or Cursor. Connect your Supabase project read-only to see tables anyone can read, functions anon can call and weak Auth settings (it reads structure, never rows), or scan the GitHub repo for missing RLS, exposed keys and unprotected Server Actions. Every finding comes with the SQL fix and a prompt to paste into your AI builder. Free live check without an account and free public-repo scans; free monitoring covers one project; paid plans add private repos and monitoring for more projects.
 
 ## Documentation for AI Coding
 
@@ -335,6 +345,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Most Capable Agent System Prompt](https://github.com/fainir/most-capable-agent-system-prompt) - MIT-licensed, copy-paste system prompt that has Claude Code, Codex or Cursor build a self-improving agent system with task graphs, verification, evals and file-based memory any agent can resume from (AGENTS.md, plan.md, tasks.md), in a fixed build order.
 - [OTF Fitness Kit](https://otf-kit.dev/templates/fitness-kit) - Paid React Native/Expo fitness-app starter for iOS, Android and web with full source, CLAUDE.md, Cursor rules, 22 task prompts and a custom Claude skill. $99 one-time.
 - [PrototypeVerdict usage study](https://prototypeverdict.com/ai-app-builder-usage-study/) - Same three prompts in Lovable, Base44, Bolt.new and Softr, with the credits, tokens, minutes and fixes each build used, plus a CSV download and a free cost calculator.
+- [Awesome AI Coding Tools](https://github.com/mahmoudsajjadi/awesome-ai-coding-tools) - Curated 3-tier taxonomy of AI coding IDEs, CLI pair programmers, MCP servers, local GPU VRAM sizing guides, and starter `AGENTS.md` / `.cursor/rules` templates.
 
 ## News and Social Media
 
