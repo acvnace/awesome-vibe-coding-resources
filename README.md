@@ -69,6 +69,7 @@
 - [PlayDrop](https://www.playdrop.ai/create) - Make a browser game by describing it, or publish one your AI app made, and share it with a link.
 - [Orbital Supply](https://orbital.supply/) - Library of website prompts and code for AI builders: full templates with HTML and React builds, looping backgrounds and DESIGN.md design systems. Free tier; paid membership.
 - [NextJSON](https://nextjson.com/) - free browser-based JSON toolbox to decode nested JSON, format, diff, and convert JSON to TOON for LLM prompts; no sign-up.
+- [Effect Atlas](https://effectatlas.com/) - A growing library of 50+ web motion effects (cursors, hovers, text, scroll, page transitions) in plain JavaScript and CSS, each with notes written for AI coding tools like Cursor and Claude Code. Free to use.
 
 ## Mobile-first Tools
 
