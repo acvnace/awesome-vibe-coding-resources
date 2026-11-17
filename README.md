@@ -197,6 +197,7 @@
 - [CloudGPU MCP](https://github.com/cloudgpu-app/cloudgpu-mcp) - MIT-licensed local MCP server (`npx -y cloudgpu-mcp`) that lets coding agents compare GPU prices, request approval for paid compute, upload code and data, run jobs, download results and shut instances down. Also provides access to an OpenAI-compatible model API. Requires a CloudGPU account and prepaid balance.
 - [SFXMint](https://github.com/sfxmint/sfxmint-mcp) - MCP server and npm CLI (`npx sfxmint`) that let Claude Code, Codex or Cursor add sound effects to a game or app: ask for the usual sound for an event (coin, jump, UI click), take a set, or search by description, then download the MP3 into the project. 10,800+ AI-generated sounds, all CC0. No API key to try: 20 lookups and 5 downloads a day; WAV needs a paid pack.
 - [Louis Studios](https://studios.lou15.com/agents) - Remote MCP server for Claude Code, Cursor and Codex that offers design directions, plans React pages and installs animated components fitted to a brand, with static checks for contrast, mobile width and reduced motion. Free account includes two component coins a month for personal use; commercial use requires paid coins. Planning and previews are free.
+- [Off Grid AI skills](https://github.com/off-grid-ai/skills) - 49 free, MIT-licensed skills for Claude Code, Codex and Cursor covering tests in the real app, before-and-after screen reviews, legacy code changes, design, launch and growth.
 
 ## Command Line Tools
 
