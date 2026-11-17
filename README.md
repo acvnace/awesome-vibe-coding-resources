@@ -140,6 +140,7 @@
 - [Muxflow](https://github.com/gal064/muxflow) - Free, open-source (MIT) remote-first tmux IDE for Claude Code, Codex and pi on macOS and Linux, with an Android client: agent notifications on desktop and phone, voice replies, screenshot paste over SSH, multi-host, files and Git.
 - [Reliant](https://reliantlabs.io/) - Desktop (macOS, Windows, Linux) and web app for running coding agents with your own model keys, where workflows are YAML files in the repo: loops that implement, run lint, tests and build, and review until the checks pass, parallel attempts in separate git worktrees, and approval gates. Agents run on your computer or on paid cloud machines that keep working after you close the laptop. Source-available (BSL 1.1). [Source](https://github.com/reliant-labs/reliant)
 - [Yenpo](https://yenpo.app/) - macOS app for reading and reviewing code changes an AI coding agent makes in your local git repo: a commit, a branch against main, or uncommitted changes. Optional AI Reader uses your own model provider and sends relevant code to that provider.
+- [gpu.nz Code](https://github.com/gpunz/gpunz-code) - MIT-licensed desktop coding agent for Windows, macOS and Linux, built on OpenCode, that rents a cloud GPU and runs an open model for the agent. The app is free; GPU rental requires a gpu.nz account and is billed by the minute rather than per token.
 
 ## Plugins and Extensions
 
