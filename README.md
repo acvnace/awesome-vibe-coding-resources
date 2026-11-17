@@ -302,6 +302,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Madsalt Supabase Checker](https://madsalt.tech/tools/supabase-security-check/) - Free read-only check of a Supabase project: approve OAuth for one project and get 46 checks on RLS, policies, grants, auth settings, storage and Edge Functions, grouped by OWASP Top 10:2025, with fixes per finding. Reads project metadata and settings rather than table rows; access is revoked after the check.
 - [BlitzHash Launch-Ready Check](https://github.com/blitzhash360-web/blitzhash-launch-ready-check) - MIT-licensed CLI and small web UI that check a live URL for security headers, secret patterns in HTML and same-origin JavaScript, rate-limit signals, SEO basics and auth heuristics, with a score and suggested fixes. No account or API keys; a heuristic first pass, with an optional rate-limit probe.
 - [Lovable app security checklist](https://madsalt.tech/blog/lovable-app-security-checklist/) - 12 checks for a Lovable app on Supabase, each with the query or test that proves it, plus 8 gaps most checklists miss.
+- [Leakproof](https://github.com/beingRealFrank/leakproof) - Free, MIT-licensed local CLI and GitHub Action that flag patterns such as missing Supabase RLS in SQL, permissive policies, secrets in public environment variables, open Firebase rules and server actions without caller checks. Zero dependencies; code stays local, while dependency names and versions are checked with OSV unless `--offline` is used.
 
 ## Documentation for AI Coding
 
