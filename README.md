@@ -192,6 +192,7 @@
 - [frame-judge](https://github.com/mirac221/frame-judge) - Apache-2.0 Agent Skill for Claude Code, Cursor, Codex and Antigravity that renders the work and asks a separate critic to compare screenshots and animation frames with the original request.
 - [Atlas Cloud MCP Server](https://github.com/AtlasCloudAI/mcp-server) - Remote MCP server (`https://mcp.atlascloud.ai/mcp`, browser sign-in) and local npm server (`npx -y atlascloud-mcp`, API key) that let Claude Code, Codex, Cursor and Gemini CLI browse the Atlas Cloud model catalog, generate images, video, audio and 3D, chat with LLMs, and check balance and usage. Atlas Cloud also offers an OpenAI-compatible API at `https://api.atlascloud.ai/v1`. Requires an Atlas Cloud account; generation is billed to it.
 - [Datacircle](https://datacircle.dev) - Free GTM API benchmark with an open REST API and a remote MCP server, so Claude Code or Cursor can find the best data API for a build: list every API, see who is best for each, search every plan. No API key. Spec at `https://api.datacircle.dev/v1/openapi.json`.
+- [CloudGPU MCP](https://github.com/cloudgpu-app/cloudgpu-mcp) - MIT-licensed local MCP server (`npx -y cloudgpu-mcp`) that lets coding agents compare GPU prices, request approval for paid compute, upload code and data, run jobs, download results and shut instances down. Also provides access to an OpenAI-compatible model API. Requires a CloudGPU account and prepaid balance.
 
 ## Command Line Tools
 
