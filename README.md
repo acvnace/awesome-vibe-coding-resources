@@ -299,6 +299,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [ShipCheck](https://tryshipcheck.com/) - Free scan of a live URL or public GitHub repo for AI-built apps: leaked API keys in HTML and shipped JavaScript, exposed or committed .env files, security headers, HTTPS, broken links and mobile speed, with plain-English fixes and a copy-paste fix prompt for Lovable, Bolt, Cursor or Claude Code. Read-only, no signup, free during beta. Does not test Supabase RLS.
 - [Madsalt Supabase Checker](https://madsalt.tech/tools/supabase-security-check/) - Free read-only check of a Supabase project: approve OAuth for one project and get 46 checks on RLS, policies, grants, auth settings, storage and Edge Functions, grouped by OWASP Top 10:2025, with fixes per finding. Reads project metadata and settings rather than table rows; access is revoked after the check.
 - [BlitzHash Launch-Ready Check](https://github.com/blitzhash360-web/blitzhash-launch-ready-check) - MIT-licensed CLI and small web UI that check a live URL for security headers, secret patterns in HTML and same-origin JavaScript, rate-limit signals, SEO basics and auth heuristics, with a score and suggested fixes. No account or API keys; a heuristic first pass, with an optional rate-limit probe.
+- [Lovable app security checklist](https://madsalt.tech/blog/lovable-app-security-checklist/) - 12 checks for a Lovable app on Supabase, each with the query or test that proves it, plus 8 gaps most checklists miss.
 
 ## Documentation for AI Coding
 
