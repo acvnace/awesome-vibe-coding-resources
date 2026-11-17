@@ -57,6 +57,7 @@
 - [iter0](https://iter0.com/) - AI website builder for tech founders: talk to the Launch CEO, pick a design, edit it, then export the HTML or open a GitHub pull request, with a hosted [MCP server](https://iter0.com/mcp) so AI agents can create and edit pages too.
 - [onomeo](https://onomeo.com/) - builds small browser games from a one-sentence prompt, using free models with no card required; in public beta.
 - [ArtiGram](https://artigram.cafeboon.com) - free place to publish what your AI built (HTML, React, SVG, Markdown, Mermaid) as a live shareable page, with a hosted [MCP server](https://artigram.cafeboon.com/mcp) so Claude and other agents can search and post.
+- [FileShare Pro](https://file-share-pro.com/) - host the HTML file or folder your AI tool made (a Claude artifact, ChatGPT canvas or exported build) at a link that stays out of search; replace the file and the same link shows the new version, and viewers can comment on the page without an account. Has an MCP server so Claude can publish pages. Free plan.
 
 - [Massvai](https://massvai.com/) - AI agent that builds full-stack Next.js apps from a prompt, with live preview, Supabase setup, GitHub sync and one-click Vercel deploy.
 - [SPOE](https://spoe.ai/) - prompt to a full-stack Next.js, Fastify and Postgres app; a second model from another family reviews every change, and the export is signed and runs with docker compose up, with nothing of SPOE inside.
