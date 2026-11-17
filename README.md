@@ -137,6 +137,7 @@
 - [Unvibe](https://unvibe.site/) - Desktop app for understanding AI-written code: select code in any app, press Control+U (Ctrl+Alt+U on Windows), and it is explained in plain English beside your editor. Available for Mac and Windows with a free tier of 50 explanations per month; sign-in required after the first 30 days. No separate API key.
 - [Orchestrator](https://orchestrator.inc/) - Open-source (Apache-2.0) desktop app for macOS, Windows and Linux where an orchestrator agent splits the work across Claude Code, Codex and other coding agents, each in its own git worktree. Failed CI checks and review comments go back to the agent that owns the PR, and iPhone and Android apps let you check in remotely.
 - [Muxflow](https://github.com/gal064/muxflow) - Free, open-source (MIT) remote-first tmux IDE for Claude Code, Codex and pi on macOS and Linux, with an Android client: agent notifications on desktop and phone, voice replies, screenshot paste over SSH, multi-host, files and Git.
+- [Reliant](https://reliantlabs.io/) - Desktop (macOS, Windows, Linux) and web app for running coding agents with your own model keys, where workflows are YAML files in the repo: loops that implement, run lint, tests and build, and review until the checks pass, parallel attempts in separate git worktrees, and approval gates. Agents run on your computer or on paid cloud machines that keep working after you close the laptop. Source-available (BSL 1.1). [Source](https://github.com/reliant-labs/reliant)
 
 ## Plugins and Extensions
 
