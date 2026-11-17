@@ -139,6 +139,7 @@
 - [Orchestrator](https://orchestrator.inc/) - Open-source (Apache-2.0) desktop app for macOS, Windows and Linux where an orchestrator agent splits the work across Claude Code, Codex and other coding agents, each in its own git worktree. Failed CI checks and review comments go back to the agent that owns the PR, and iPhone and Android apps let you check in remotely.
 - [Muxflow](https://github.com/gal064/muxflow) - Free, open-source (MIT) remote-first tmux IDE for Claude Code, Codex and pi on macOS and Linux, with an Android client: agent notifications on desktop and phone, voice replies, screenshot paste over SSH, multi-host, files and Git.
 - [Reliant](https://reliantlabs.io/) - Desktop (macOS, Windows, Linux) and web app for running coding agents with your own model keys, where workflows are YAML files in the repo: loops that implement, run lint, tests and build, and review until the checks pass, parallel attempts in separate git worktrees, and approval gates. Agents run on your computer or on paid cloud machines that keep working after you close the laptop. Source-available (BSL 1.1). [Source](https://github.com/reliant-labs/reliant)
+- [Yenpo](https://yenpo.app/) - macOS app for reading and reviewing code changes an AI coding agent makes in your local git repo: a commit, a branch against main, or uncommitted changes. Optional AI Reader uses your own model provider and sends relevant code to that provider.
 
 ## Plugins and Extensions
 
