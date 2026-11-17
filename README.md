@@ -181,6 +181,10 @@
 - [LogoAPI.sh](https://logoapi.sh/docs/mcp) - Free company logo API with a remote MCP server, so Claude Code, Cursor, Lovable or Bolt can drop real brand logos into an app: logo by domain, search by name, or favicon, as SVG or PNG. Streamable HTTP at `https://logoapi.sh/mcp`. No API key, no signup; 2M requests a month per site free.
 - [Pixel Buddy](https://github.com/SimakovIgor/pixel-buddy) - MIT-licensed Claude Code mod: a pixel pet in the footer that grows from your work (answers, passing tests and commits feed it), earns trophies and tells a random fact while Claude thinks. No network, no tokens.
 
+- [Vibe-Shield](https://github.com/avivgerz-hue/vibe-shield) - MIT-licensed plugin, local MCP server, CLI and skill for Claude Code, Cursor, Codex and Windsurf that runs a 92-rule static security scan (SAST) across secrets, SQL/command injection, SSRF, IDOR, Supabase RLS, webhook bypass, and SKILL.md/.cursorrules prompt-injection vectors. Runs 100% locally with zero API keys or telemetry.
+- [Unslop](https://github.com/avivgerz-hue/unslop) - MIT-licensed UI design craft engine, local MCP server, CLI and skill for Claude Code, Cursor and Codex that audits frontend code against 72 design rules across 7 pillars (WCAG 2.1 AA/AAA + APCA perceptual contrast math, typography, layout, motion, and anti-slop signals) and applies 10 studio design presets. Runs 100% locally.
+- [Ghost-QA](https://github.com/avivgerz-hue/ghost-qa) - MIT-licensed autonomous headless Playwright browser QA CLI, local MCP server and skill that crawls your live localhost app across Desktop, Tablet and Mobile viewports to catch dead buttons, uncaught runtime exceptions, broken assets, and horizontal mobile overflow.
+
 ## Command Line Tools
 
 - [anthropics/claude-code](https://github.com/anthropics/claude-code) - Coding agent that understands your codebase, automates tasks, explains code, and manages git, all via natural language.
