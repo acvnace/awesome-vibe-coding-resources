@@ -248,6 +248,7 @@
 - [Code By AI](https://www.codebyai.net/) - Third-party pay-per-token API gateway for coding agents: one key and one prepaid balance call Claude, GPT/Codex and Gemini models over Anthropic, OpenAI and Gemini formats, so Claude Code, Codex CLI, Gemini CLI and OpenCode work by changing the base URL; one-line setup script, no subscription.
 - [OMK](https://github.com/dmae97/omk) - Open-source multi-agent coding CLI for the terminal (TypeScript, MIT). Switch models mid-session; finish goals only when your test passes.
 - [deja-vu](https://github.com/vshulcz/deja-vu) - Local CLI and MCP server that indexes session transcripts from coding agents including Claude Code, Codex, Cursor, Windsurf, Copilot, Gemini CLI and OpenCode for cross-session search, `deja blame`, recovery of overwritten uncommitted files with `deja restore`, and cross-agent handoffs. Single Go binary, MIT.
+- [claude-bulkhead](https://github.com/dooly6276/claude-bulkhead) - MIT-licensed, zero-dependency hooks for Claude Code, Codex, Gemini CLI, Cursor and OpenCode that stop one agent session from killing another session's processes or ports, or running `git add -A`, stash, reset or checkout over its uncommitted work on the same machine.
 
 ## Security & Pre-Deploy Checks
 
