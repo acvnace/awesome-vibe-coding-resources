@@ -201,6 +201,7 @@
 - [Vibe-Shield](https://github.com/avivgerz-hue/vibe-shield) - MIT-licensed local CLI, MCP server and agent skill with 92 static security rules covering secret patterns, injection risks, Supabase RLS, webhook checks and prompt-injection patterns in agent instructions. Offline scanner; findings are heuristics that need review.
 - [Unslop](https://github.com/avivgerz-hue/unslop) - MIT-licensed local CLI, MCP server and agent skill that audits frontend code with 72 rules for contrast, typography, layout, motion and design consistency, and provides ten design presets.
 - [Ghost-QA](https://github.com/avivgerz-hue/ghost-qa) - MIT-licensed Playwright browser QA CLI, local MCP server and agent skill that checks a running app across desktop, tablet and mobile viewports for unresponsive controls, runtime errors, broken assets and horizontal overflow.
+- [Runheed](https://runheed.com/mcp-server?ref=awesome-vibe-coding-resources) - Plugin and hosted MCP server that lets Claude Code, Cursor, Codex and other agents read your app's production errors, fix them and mark them resolved. Plugin repo: https://github.com/getrunheed/runheed-plugin (MIT). Paid hosted service from $29/month with a 7-day trial; a demo server with sample errors needs no account.
 
 ## Command Line Tools
 
