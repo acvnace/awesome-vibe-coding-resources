@@ -201,6 +201,7 @@
 - [Vibe-Shield](https://github.com/avivgerz-hue/vibe-shield) - MIT-licensed local CLI, MCP server and agent skill with 92 static security rules covering secret patterns, injection risks, Supabase RLS, webhook checks and prompt-injection patterns in agent instructions. Offline scanner; findings are heuristics that need review.
 - [Unslop](https://github.com/avivgerz-hue/unslop) - MIT-licensed local CLI, MCP server and agent skill that audits frontend code with 72 rules for contrast, typography, layout, motion and design consistency, and provides ten design presets.
 - [Ghost-QA](https://github.com/avivgerz-hue/ghost-qa) - MIT-licensed Playwright browser QA CLI, local MCP server and agent skill that checks a running app across desktop, tablet and mobile viewports for unresponsive controls, runtime errors, broken assets and horizontal overflow.
+- [Taskhold](https://taskhold.com/?ref=awesome-vibe-coding-resources) - Hosted task list with a remote MCP server and Claude Code skill: Claude Code, Cursor and Codex plan tasks in steps, report live progress, and ask questions from a shared board.
 
 ## Command Line Tools
 
