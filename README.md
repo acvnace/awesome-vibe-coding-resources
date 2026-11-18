@@ -262,6 +262,7 @@
 - [OMK](https://github.com/dmae97/omk) - Open-source multi-agent coding CLI for the terminal (TypeScript, MIT). Switch models mid-session; finish goals only when your test passes.
 - [deja-vu](https://github.com/vshulcz/deja-vu) - Local CLI and MCP server that indexes session transcripts from coding agents including Claude Code, Codex, Cursor, Windsurf, Copilot, Gemini CLI and OpenCode for cross-session search, `deja blame`, recovery of overwritten uncommitted files with `deja restore`, and cross-agent handoffs. Single Go binary, MIT.
 - [claude-bulkhead](https://github.com/dooly6276/claude-bulkhead) - MIT-licensed, zero-dependency hooks for Claude Code, Codex, Gemini CLI, Cursor and OpenCode that stop one agent session from killing another session's processes or ports, or running `git add -A`, stash, reset or checkout over its uncommitted work on the same machine.
+- [bdy](https://buddy.works/docs/cli) - Buddy.Works CLI that a coding agent or a person can drive from the terminal: create cloud sandboxes, run commands and apps in them and expose them on public endpoints, run pipelines, open tunnels to localhost, and proxy the Buddy MCP server with `bdy mcp`. Installs with `npm i -g bdy` or Homebrew.
 
 ## Security & Pre-Deploy Checks
 
