@@ -268,6 +268,7 @@
 - [claude-bulkhead](https://github.com/dooly6276/claude-bulkhead) - MIT-licensed, zero-dependency hooks for Claude Code, Codex, Gemini CLI, Cursor and OpenCode that stop one agent session from killing another session's processes or ports, or running `git add -A`, stash, reset or checkout over its uncommitted work on the same machine.
 - [AsItIs](https://github.com/Katta041/asitis-agent-tools) - Free, read-only CLI and MCP server that checks your CLAUDE.md, AGENTS.md and Cursor rules, shows which ones your agent actually loads, and estimates what they cost in tokens. MIT, on npm as @asitis/mcp.
 - [bdy](https://buddy.works/docs/cli) - Buddy.Works CLI that a coding agent or a person can drive from the terminal: create cloud sandboxes, run commands and apps in them and expose them on public endpoints, run pipelines, open tunnels to localhost, and proxy the Buddy MCP server with `bdy mcp`. Installs with `npm i -g bdy` or Homebrew.
+- [catude](https://github.com/catude/catude) - Terminal app and CLI that shows where Claude Code tokens go, what loads into each session's context, and what subagents cost, with per-project switches for skills and MCP servers. MIT, single Go binary, no telemetry.
 
 ## Security & Pre-Deploy Checks
 
