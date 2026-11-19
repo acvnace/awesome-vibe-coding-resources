@@ -57,6 +57,7 @@
 - [iter0](https://iter0.com/) - AI website builder for tech founders: talk to the Launch CEO, pick a design, edit it, then export the HTML or open a GitHub pull request, with a hosted [MCP server](https://iter0.com/mcp) so AI agents can create and edit pages too.
 - [onomeo](https://onomeo.com/) - builds small browser games from a one-sentence prompt, using free models with no card required; in public beta.
 - [ArtiGram](https://artigram.cafeboon.com) - free place to publish what your AI built (HTML, React, SVG, Markdown, Mermaid) as a live shareable page, with a hosted [MCP server](https://artigram.cafeboon.com/mcp) so Claude and other agents can search and post.
+- [FileShare Pro](https://file-share-pro.com/) - host the HTML file or folder your AI tool made (a Claude artifact, ChatGPT canvas or exported build) at a link that stays out of search; replace the file and the same link shows the new version, and viewers can comment on the page without an account. Has an MCP server so Claude can publish pages. Free plan.
 
 - [Massvai](https://massvai.com/) - AI agent that builds full-stack Next.js apps from a prompt, with live preview, Supabase setup, GitHub sync and one-click Vercel deploy.
 - [SPOE](https://spoe.ai/) - prompt to a full-stack Next.js, Fastify and Postgres app; a second model from another family reviews every change, and the export is signed and runs with docker compose up, with nothing of SPOE inside.
@@ -71,6 +72,7 @@
 - [NextJSON](https://nextjson.com/) - free browser-based JSON toolbox to decode nested JSON, format, diff, and convert JSON to TOON for LLM prompts; no sign-up.
 - [Effect Atlas](https://effectatlas.com/) - A growing library of 50+ web motion effects (cursors, hovers, text, scroll, page transitions) in plain JavaScript and CSS, each with notes written for AI coding tools like Cursor and Claude Code. Free to use.
 - [EveryApp](https://everyapp.pro/app-builder) - Browser-based AI app builder that turns a description into a hosted app with its own URL and access for people you invite. Supports previews, revisions and downloading the app and its data. Requires EveryApp Pro; usage allowance with optional top-ups.
+- [PolyDraft](https://polydraft.ai/) - AI website builder that researches, writes and builds a complete site from a business brief; review the build free, pay to publish.
 
 ## Mobile-first Tools
 
@@ -201,6 +203,7 @@
 - [Vibe-Shield](https://github.com/avivgerz-hue/vibe-shield) - MIT-licensed local CLI, MCP server and agent skill with 92 static security rules covering secret patterns, injection risks, Supabase RLS, webhook checks and prompt-injection patterns in agent instructions. Offline scanner; findings are heuristics that need review.
 - [Unslop](https://github.com/avivgerz-hue/unslop) - MIT-licensed local CLI, MCP server and agent skill that audits frontend code with 72 rules for contrast, typography, layout, motion and design consistency, and provides ten design presets.
 - [Ghost-QA](https://github.com/avivgerz-hue/ghost-qa) - MIT-licensed Playwright browser QA CLI, local MCP server and agent skill that checks a running app across desktop, tablet and mobile viewports for unresponsive controls, runtime errors, broken assets and horizontal overflow.
+- [Runheed](https://runheed.com/mcp-server?ref=awesome-vibe-coding-resources) - Plugin and hosted MCP server that lets Claude Code, Cursor, Codex and other agents read your app's production errors, fix them and mark them resolved. Plugin repo: https://github.com/getrunheed/runheed-plugin (MIT). Paid hosted service from $29/month with a 7-day trial; a demo server with sample errors needs no account.
 
 ## Command Line Tools
 
@@ -262,6 +265,7 @@
 - [OMK](https://github.com/dmae97/omk) - Open-source multi-agent coding CLI for the terminal (TypeScript, MIT). Switch models mid-session; finish goals only when your test passes.
 - [deja-vu](https://github.com/vshulcz/deja-vu) - Local CLI and MCP server that indexes session transcripts from coding agents including Claude Code, Codex, Cursor, Windsurf, Copilot, Gemini CLI and OpenCode for cross-session search, `deja blame`, recovery of overwritten uncommitted files with `deja restore`, and cross-agent handoffs. Single Go binary, MIT.
 - [claude-bulkhead](https://github.com/dooly6276/claude-bulkhead) - MIT-licensed, zero-dependency hooks for Claude Code, Codex, Gemini CLI, Cursor and OpenCode that stop one agent session from killing another session's processes or ports, or running `git add -A`, stash, reset or checkout over its uncommitted work on the same machine.
+- [AsItIs](https://github.com/Katta041/asitis-agent-tools) - Free, read-only CLI and MCP server that checks your CLAUDE.md, AGENTS.md and Cursor rules, shows which ones your agent actually loads, and estimates what they cost in tokens. MIT, on npm as @asitis/mcp.
 - [bdy](https://buddy.works/docs/cli) - Buddy.Works CLI that a coding agent or a person can drive from the terminal: create cloud sandboxes, run commands and apps in them and expose them on public endpoints, run pipelines, open tunnels to localhost, and proxy the Buddy MCP server with `bdy mcp`. Installs with `npm i -g bdy` or Homebrew.
 
 ## Security & Pre-Deploy Checks
@@ -311,6 +315,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Leakproof](https://github.com/beingRealFrank/leakproof) - Free, MIT-licensed local CLI and GitHub Action that flag patterns such as missing Supabase RLS in SQL, permissive policies, secrets in public environment variables, open Firebase rules and server actions without caller checks. Zero dependencies; code stays local, while dependency names and versions are checked with OSV unless `--offline` is used.
 - [Keybrum](https://keybrum.com/) - Automated penetration test of a live app built with Lovable, Bolt, Replit, v0, Cursor or Claude Code, run only after you prove you own the app (tag, DNS record or file). Attacks it as a stranger and as a brand-new account: Supabase tables without RLS, open Firebase rules, secret keys in the JS bundle, one user reading another's data, exposed `.env` files and known Next.js CVEs. Each finding comes with the request that worked and a fix prompt for your coding agent, and closes when the same attack fails on a retest. Free passive check with no account, plus free Supabase RLS, Firebase rules and Next.js CVE checkers; attack runs are paid (€49 one-time report, plans from €29/mo).
 - [VibeSitter](https://vibesitter.app/) - Read-only security checks for Lovable, Bolt, v0 and Supabase apps, with a free public surface scan, plain-English fixes and prompts for AI coding tools. Optional Supabase OAuth checks inspect policies and settings; continuous monitoring has paid plans.
+- [Ship-Ready Lite](https://github.com/getshipready/ship-ready-skills) - MIT-licensed Agent Skills plus an offline quick scan (standard-library Python, no network calls) that reads an AI-built repo for committed secrets, Supabase tables with RLS off, `using (true)` policies, views without `security_invoker`, API routes with no caller check and unsigned Stripe webhooks.
 
 ## Documentation for AI Coding
 
@@ -374,11 +379,13 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Awesome AI Coding Tools](https://github.com/mahmoudsajjadi/awesome-ai-coding-tools) - Curated 3-tier taxonomy of AI coding IDEs, CLI pair programmers, MCP servers, local GPU VRAM sizing guides, and starter `AGENTS.md` / `.cursor/rules` templates.
 - [RulesFile](https://rulesfile.pages.dev) - Free in-browser generator for AGENTS.md, CLAUDE.md, Cursor .mdc rules and Copilot instructions, with 46 stack pages and format guides. No sign-up.
 - [From Demo to Production (从 Demo 到商用)](https://luochen211.github.io/demo-to-production/) - Free, MIT-licensed Chinese book for beginners on taking an AI-coded demo to a paid, long-running project: scoping, splitting tasks for AI and reviewing its output, deployment and stability, payments and refunds, permissions and privacy, cost, quoting and delivery. Chapters are first drafts; not tied to one AI coding tool.
+- [Little Cups of Claude](https://littlecupsofclaude.com) - Short, focused tips for Claude Code, the Claude API, the Agent SDK and MCP, one per weekday.
 
 ## News and Social Media
 
 > This section displays items in reverse chronological order, with the most recent entries at the top.
 
+- [Vibe1Up](https://vibe1up.com/) - Free directory of browser games made with AI, with 10 new picks every morning, each linking to the creator's own page, and a daily link check that archives games that go offline.
 - [Devtoolwatch](https://www.devtoolwatch.com/) - Free weekly email and public Board that rank AI coding agents, MCP servers and other AI dev tools by new GitHub stars and npm/PyPI download growth.
 - [OttersPlay](https://ottersplay.com/made-with-ai/) - Collection of browser games made with AI coding assistants, with creator credits, tool and engine notes, controls, and links to the original games.
 - [toolsfordevs](https://toolsfordevs.app/) - Live log of Claude and Codex usage-limit resets announced on X, with a page per reset (announced vs landed time, banked-reset expiry), source links, and free RSS and calendar feeds.
