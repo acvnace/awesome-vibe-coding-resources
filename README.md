@@ -263,6 +263,7 @@
 - [OMK](https://github.com/dmae97/omk) - Open-source multi-agent coding CLI for the terminal (TypeScript, MIT). Switch models mid-session; finish goals only when your test passes.
 - [deja-vu](https://github.com/vshulcz/deja-vu) - Local CLI and MCP server that indexes session transcripts from coding agents including Claude Code, Codex, Cursor, Windsurf, Copilot, Gemini CLI and OpenCode for cross-session search, `deja blame`, recovery of overwritten uncommitted files with `deja restore`, and cross-agent handoffs. Single Go binary, MIT.
 - [claude-bulkhead](https://github.com/dooly6276/claude-bulkhead) - MIT-licensed, zero-dependency hooks for Claude Code, Codex, Gemini CLI, Cursor and OpenCode that stop one agent session from killing another session's processes or ports, or running `git add -A`, stash, reset or checkout over its uncommitted work on the same machine.
+- [AsItIs](https://github.com/Katta041/asitis-agent-tools) - Free, read-only CLI and MCP server that checks your CLAUDE.md, AGENTS.md and Cursor rules, shows which ones your agent actually loads, and estimates what they cost in tokens. MIT, on npm as @asitis/mcp.
 
 ## Security & Pre-Deploy Checks
 
