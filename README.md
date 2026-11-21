@@ -73,6 +73,7 @@
 - [Effect Atlas](https://effectatlas.com/) - A growing library of 50+ web motion effects (cursors, hovers, text, scroll, page transitions) in plain JavaScript and CSS, each with notes written for AI coding tools like Cursor and Claude Code. Free to use.
 - [EveryApp](https://everyapp.pro/app-builder) - Browser-based AI app builder that turns a description into a hosted app with its own URL and access for people you invite. Supports previews, revisions and downloading the app and its data. Requires EveryApp Pro; usage allowance with optional top-ups.
 - [PolyDraft](https://polydraft.ai/) - AI website builder that researches, writes and builds a complete site from a business brief; review the build free, pay to publish.
+- [iavica](https://iavica.com/) - storage, email sign-in, sharing and hosting for the single-file HTML apps that ChatGPT, Claude or Gemini write: the assistant connects it from one sentence in the prompt, and the app gets its own address at name.iavica.app, private or public.
 
 ## Mobile-first Tools
 
