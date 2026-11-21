@@ -144,6 +144,7 @@
 - [Yenpo](https://yenpo.app/) - macOS app for reading and reviewing code changes an AI coding agent makes in your local git repo: a commit, a branch against main, or uncommitted changes. Optional AI Reader uses your own model provider and sends relevant code to that provider.
 - [gpu.nz Code](https://github.com/gpunz/gpunz-code) - MIT-licensed desktop coding agent for Windows, macOS and Linux, built on OpenCode, that rents a cloud GPU and runs an open model for the agent. The app is free; GPU rental requires a gpu.nz account and is billed by the minute rather than per token.
 - [Wishbar](https://wishbar.app) - Mac menu bar app: type what you want in plain English or your own language, and your own AI (ChatGPT through Codex, or Claude) builds it as a live widget. Paid (pay once), free 7-day trial; macOS 13 or later.
+- [Valo](https://getvalo.dev/) - Desktop workspace for AI that runs Claude Code, Codex, Gemini, Cursor and GLM side by side on Windows, macOS and Linux, with Keyguard (the assistant uses your keys without seeing them), per-tool permissions and Guards, and chats you can reach from your phone. Closed-source with a free plan and optional Pro.
 
 ## Plugins and Extensions
 
