@@ -73,6 +73,8 @@
 - [Effect Atlas](https://effectatlas.com/) - A growing library of 50+ web motion effects (cursors, hovers, text, scroll, page transitions) in plain JavaScript and CSS, each with notes written for AI coding tools like Cursor and Claude Code. Free to use.
 - [EveryApp](https://everyapp.pro/app-builder) - Browser-based AI app builder that turns a description into a hosted app with its own URL and access for people you invite. Supports previews, revisions and downloading the app and its data. Requires EveryApp Pro; usage allowance with optional top-ups.
 - [PolyDraft](https://polydraft.ai/) - AI website builder that researches, writes and builds a complete site from a business brief; review the build free, pay to publish.
+- [Ginta](https://ginta.app/) - AI website builder for small businesses: describe the business and get a live website with contact forms, bookings, a shop and a blog, with a hosted [MCP server](https://ginta.app/website-builder-mcp/) so Claude, ChatGPT and other agents can build and edit the sites too. Free plan.
+- [Kliv](https://kliv.dev) - AI web app builder: describe an app in chat and get a working, hosted web app with a database, sign-in, payments and email built in. Free plan; Pro is $19/month.
 - [iavica](https://iavica.com/) - storage, email sign-in, sharing and hosting for the single-file HTML apps that ChatGPT, Claude or Gemini write: the assistant connects it from one sentence in the prompt, and the app gets its own address at name.iavica.app, private or public.
 
 ## Mobile-first Tools
@@ -145,6 +147,7 @@
 - [Yenpo](https://yenpo.app/) - macOS app for reading and reviewing code changes an AI coding agent makes in your local git repo: a commit, a branch against main, or uncommitted changes. Optional AI Reader uses your own model provider and sends relevant code to that provider.
 - [gpu.nz Code](https://github.com/gpunz/gpunz-code) - MIT-licensed desktop coding agent for Windows, macOS and Linux, built on OpenCode, that rents a cloud GPU and runs an open model for the agent. The app is free; GPU rental requires a gpu.nz account and is billed by the minute rather than per token.
 - [Wishbar](https://wishbar.app) - Mac menu bar app: type what you want in plain English or your own language, and your own AI (ChatGPT through Codex, or Claude) builds it as a live widget. Paid (pay once), free 7-day trial; macOS 13 or later.
+- [Valo](https://getvalo.dev/) - Desktop workspace for AI that runs Claude Code, Codex, Gemini, Cursor and GLM side by side on Windows, macOS and Linux, with Keyguard (the assistant uses your keys without seeing them), per-tool permissions and Guards, and chats you can reach from your phone. Closed-source with a free plan and optional Pro.
 
 ## Plugins and Extensions
 
@@ -206,6 +209,8 @@
 - [Ghost-QA](https://github.com/avivgerz-hue/ghost-qa) - MIT-licensed Playwright browser QA CLI, local MCP server and agent skill that checks a running app across desktop, tablet and mobile viewports for unresponsive controls, runtime errors, broken assets and horizontal overflow.
 - [Runheed](https://runheed.com/mcp-server?ref=awesome-vibe-coding-resources) - Plugin and hosted MCP server that lets Claude Code, Cursor, Codex and other agents read your app's production errors, fix them and mark them resolved. Plugin repo: https://github.com/getrunheed/runheed-plugin (MIT). Paid hosted service from $29/month with a 7-day trial; a demo server with sample errors needs no account.
 - [Taskhold](https://taskhold.com/?ref=awesome-vibe-coding-resources) - Hosted task list with a remote MCP server and Claude Code skill: Claude Code, Cursor and Codex plan tasks in steps, report live progress, and ask questions from a shared board.
+- [Brilliant](https://brilliant.design/docs/agents/overview) - Vector design tool with a free MCP server: Claude Code, Cursor and Codex create and edit real vector layers on a canvas you also edit by hand, then export HTML and React.
+- [TailThemes](https://tailthemes.com/for-agents?utm_source=awesome-vibe-coding-resources&utm_medium=listing&utm_campaign=submissions) - 26 Tailwind CSS site themes for Next.js and plain HTML, each with an AGENTS.md file and four agent skills (rebrand, add-section, add-page, check-quality), plus a remote MCP server that lets agents search and read them. 4 themes are free and MIT licensed; the rest are paid.
 
 ## Command Line Tools
 
@@ -269,6 +274,7 @@
 - [claude-bulkhead](https://github.com/dooly6276/claude-bulkhead) - MIT-licensed, zero-dependency hooks for Claude Code, Codex, Gemini CLI, Cursor and OpenCode that stop one agent session from killing another session's processes or ports, or running `git add -A`, stash, reset or checkout over its uncommitted work on the same machine.
 - [AsItIs](https://github.com/Katta041/asitis-agent-tools) - Free, read-only CLI and MCP server that checks your CLAUDE.md, AGENTS.md and Cursor rules, shows which ones your agent actually loads, and estimates what they cost in tokens. MIT, on npm as @asitis/mcp.
 - [bdy](https://buddy.works/docs/cli) - Buddy.Works CLI that a coding agent or a person can drive from the terminal: create cloud sandboxes, run commands and apps in them and expose them on public endpoints, run pipelines, open tunnels to localhost, and proxy the Buddy MCP server with `bdy mcp`. Installs with `npm i -g bdy` or Homebrew.
+- [catude](https://github.com/catude/catude) - Terminal app and CLI that shows where Claude Code tokens go, what loads into each session's context, and what subagents cost, with per-project switches for skills and MCP servers. MIT, single Go binary, no telemetry.
 
 ## Security & Pre-Deploy Checks
 
@@ -382,6 +388,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [RulesFile](https://rulesfile.pages.dev) - Free in-browser generator for AGENTS.md, CLAUDE.md, Cursor .mdc rules and Copilot instructions, with 46 stack pages and format guides. No sign-up.
 - [From Demo to Production (从 Demo 到商用)](https://luochen211.github.io/demo-to-production/) - Free, MIT-licensed Chinese book for beginners on taking an AI-coded demo to a paid, long-running project: scoping, splitting tasks for AI and reviewing its output, deployment and stability, payments and refunds, permissions and privacy, cost, quoting and delivery. Chapters are first drafts; not tied to one AI coding tool.
 - [Little Cups of Claude](https://littlecupsofclaude.com) - Short, focused tips for Claude Code, the Claude API, the Agent SDK and MCP, one per weekday.
+- [aicharts coding agents](https://aicharts.io/agents) - Codex, Claude Code and Antigravity CLI compared using official Terminal-Bench results, with scores and cost per task across model and effort settings. Free, no account.
 
 ## News and Social Media
 
