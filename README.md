@@ -396,6 +396,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 
 > This section displays items in reverse chronological order, with the most recent entries at the top.
 
+- [VibeTopList](https://vibetoplist.com/) - Top vibe-coded games and AI-built indie games, ranked by player votes each month: list your game for free alongside 550+ browser, PC and mobile games, each with a Play link to the maker's own site.
 - [Vibe1Up](https://vibe1up.com/) - Free directory of browser games made with AI, with 10 new picks every morning, each linking to the creator's own page, and a daily link check that archives games that go offline.
 - [Devtoolwatch](https://www.devtoolwatch.com/) - Free weekly email and public Board that rank AI coding agents, MCP servers and other AI dev tools by new GitHub stars and npm/PyPI download growth.
 - [OttersPlay](https://ottersplay.com/made-with-ai/) - Collection of browser games made with AI coding assistants, with creator credits, tool and engine notes, controls, and links to the original games.
