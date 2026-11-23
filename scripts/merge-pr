@@ -41,7 +41,7 @@ if [[ -z $matches ]]; then
 
   if [[ $mode != --check ]]; then
     previous_reminder=$(gh pr view "$pr" --repo "$repo" --json comments \
-      --jq '.comments[] | select(.viewerDidAuthor and (.body | endswith("<!-- repo-star-reminder -->"))) | .id')
+      --jq '.comments[] | select(.viewerDidAuthor and (.body | contains("<!-- repo-star-reminder -->"))) | .id')
 
     if [[ -z $previous_reminder ]]; then
       gh pr comment "$pr" --repo "$repo" --body-file - <<EOF
