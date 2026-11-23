@@ -8,9 +8,15 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+## Contribute
+
+> [!IMPORTANT]
+> **⭐ Before we can merge your pull request, [star this repository](https://github.com/acvnace/awesome-vibe-coding-resources) with the GitHub account that opened it.**
+
 ## Contents <!-- omit in toc -->
 
 - [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops.
+- [Contribute](#contribute)
 - [What is Vibe Coding](#what-is-vibe-coding)
 - [Browser-based Tools](#browser-based-tools)
 - [IDEs and Code Editors](#ides-and-code-editors)
@@ -19,7 +25,6 @@
 - [Security & Pre-Deploy Checks](#security--pre-deploy-checks)
 - [Documentation for AI Coding](#documentation-for-ai-coding)
 - [News and Social Media](#news-and-social-media)
-- [Contribute](#contribute)
 
 ## What is Vibe Coding
 
