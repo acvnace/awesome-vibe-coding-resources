@@ -78,6 +78,7 @@ Add resources that help people build, test, or ship software with AI. Use the re
 - [Ginta](https://ginta.app/) - AI website builder for small businesses: describe the business and get a live website with contact forms, bookings, a shop and a blog, with a hosted [MCP server](https://ginta.app/website-builder-mcp/) so Claude, ChatGPT and other agents can build and edit the sites too. Free plan.
 - [Kliv](https://kliv.dev) - AI web app builder: describe an app in chat and get a working, hosted web app with a database, sign-in, payments and email built in. Free plan; Pro is $19/month.
 - [iavica](https://iavica.com/) - storage, email sign-in, sharing and hosting for the single-file HTML apps that ChatGPT, Claude or Gemini write: the assistant connects it from one sentence in the prompt, and the app gets its own address at name.iavica.app, private or public.
+- [Vibes DIY](https://vibes.diy/) - Browser-based AI app builder: describe an app in a sentence and get a hosted web app with synced data, sign-in and a shareable link; agents can build apps through the `npx vibes-diy` CLI or MCP.
 
 ## Mobile-first Tools
 
