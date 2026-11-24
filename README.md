@@ -149,6 +149,7 @@ Add resources that help people build, test, or ship software with AI. Use the re
 - [Wishbar](https://wishbar.app) - Mac menu bar app: type what you want in plain English or your own language, and your own AI (ChatGPT through Codex, or Claude) builds it as a live widget. Paid (pay once), free 7-day trial; macOS 13 or later.
 - [Valo](https://getvalo.dev/) - Desktop workspace for AI that runs Claude Code, Codex, Gemini, Cursor and GLM side by side on Windows, macOS and Linux, with Keyguard (the assistant uses your keys without seeing them), per-tool permissions and Guards, and chats you can reach from your phone. Closed-source with a free plan and optional Pro.
 - [MyAgents](https://github.com/hAcKlyc/MyAgents) - Open-source macOS and Windows workbench for running Claude Code, Codex, or DeepSeek Harness in local project workspaces and handing tasks to an agent on another online device under the same account.
+- [Codealong](https://github.com/codealong/codealong) - Open-source (Apache-2.0) desktop app for macOS and Linux that groups coding-agent sessions by repository, worktree, and pull request. It supports approvals and optional agent-drafted PR reviews.
 
 ## Plugins and Extensions
 
