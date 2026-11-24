@@ -1,0 +1,39 @@
+name: README review
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, reopened, synchronize, ready_for_review]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  readme-review:
+    name: README review
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Review README changes
+        env:
+          PREVIOUS_SHA: ${{ github.event.before }}
+        run: |
+          base=HEAD
+          checker="$PWD/scripts/check-readme.py"
+          if [[ "$GITHUB_EVENT_NAME" == pull_request ]]; then
+            base=HEAD^1
+            checker="$RUNNER_TEMP/check-readme.py"
+            git show "${base}:scripts/check-readme.py" > "$checker"
+          elif [[ "$GITHUB_EVENT_NAME" == push && "$PREVIOUS_SHA" =~ ^[0-9a-f]{40}$ ]] &&
+               git cat-file -e "${PREVIOUS_SHA}^{commit}"; then
+            base="$PREVIOUS_SHA"
+          fi
+          git show "${base}:README.md" > "$RUNNER_TEMP/README-base.md"
+          git show HEAD:README.md > "$RUNNER_TEMP/README.md"
+          python3 -I "$checker" "$RUNNER_TEMP/README-base.md" "$RUNNER_TEMP/README.md"

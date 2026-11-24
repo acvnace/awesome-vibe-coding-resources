@@ -10,16 +10,16 @@
 
 ## Contribute
 
-> [!IMPORTANT]
-> **⭐ Before we can merge your pull request, [star this repository](https://github.com/acvnace/awesome-vibe-coding-resources) with the GitHub account that opened it.**
+Add resources that help people build, test, or ship software with AI. Use the relevant section and give a short, factual description. Keep product listings out of the table of contents and the introduction. Leave out advertisements, affiliate links, and discount codes. If you're submitting a resource you're involved with, disclose that in the pull request.
 
 ## Contents <!-- omit in toc -->
 
-- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops.
 - [Contribute](#contribute)
 - [What is Vibe Coding](#what-is-vibe-coding)
 - [Browser-based Tools](#browser-based-tools)
+- [Mobile-first Tools](#mobile-first-tools)
 - [IDEs and Code Editors](#ides-and-code-editors)
+- [Desktop Apps](#desktop-apps)
 - [Plugins and Extensions](#plugins-and-extensions)
 - [Command Line Tools](#command-line-tools)
 - [Security & Pre-Deploy Checks](#security--pre-deploy-checks)
@@ -28,8 +28,6 @@
 
 ## What is Vibe Coding
 
-- **[Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain)** - Self-evolving AI coding intelligence with infinite memory (TurboQuant), genetic algorithm self-evolution, predictive bug detection, PageRank knowledge graphs, swarm intelligence, and adversarial defense.
-- **[Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge)** - 50,000+ curated AI agent skills for Claude Code, Cursor, Copilot, Windsurf, Cline. Visual dashboard, one-click install, skill doctor, auto-update.
 - [Andrej Karpathy on X](https://x.com/karpathy/status/1886192184808149383) - "There's a new kind of coding I call "vibe coding", where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. (.) I'm building a project or webapp, but it's not really coding - I just see stuff, say stuff, run stuff, and copy paste stuff, and it mostly works".
 - [What is hive coding?](https://thehivecode.ai/learn/what-is-hive-coding) - Plain-English definition of hive coding (many people and many AIs), how it differs from vibe and swarm coding, and where the term came from.
 
@@ -129,8 +127,6 @@
 - [Lunavect](https://github.com/lovach/Lunavect) - Free, open-source (MIT) Mac menu bar app for Claude Code and Codex that shows which session is working, waiting for you, or done, plus weekly and five-hour usage limits with reset times, notifications, and desktop widgets.
 - [VibeDesk](https://github.com/fxd-gif/vibedesk) - Free, open-source (MIT) Windows desktop for Claude Code: several sessions side by side with status dots, permission requests as cards you can approve from the desk or your phone, live preview, git window and project memory, with a calm lofi/rain backdrop.
 - [Lockpaw](https://github.com/sorkila/lockpaw) - Open-source macOS menu-bar app that covers the screen with a hotkey while Claude Code, Codex or Gemini CLI keep running (lid closed too), and glows when an agent needs you.
-- [Drevon](https://www.drevon.dev) - Mac app that connects to your Claude Code or Codex and turns it into an end-to-end GTM operator: research, grunt work, analysis and actions across your stack from a single prompt, in your own browser with your own logins.
-- [Kamply](https://kamplyapp.com) - Mac desktop app that puts a marketing crew on top of your Claude Code or Codex plan to make social posts, carousels, video reels, ads and decks in your own branding. Paid; Apple silicon, macOS 11 or later.
 - [Pinrail](https://github.com/forgeplane/pinrail) - Open-source desktop app where Claude Code, Codex, Cursor, and other coding agents ask for a review before they act, show it in a view made for its content, and get back structured decisions.
 - [Wardlume](https://wardlume.github.io) - Locks your Mac's keyboard, mouse, and trackpad while Claude Code, Codex, Cursor or Gemini CLI keep running in view, so you can step away without anyone typing into the session. Unlocks with Touch ID or Apple Watch; free for personal use, sandboxed with no network access.
 - [Appto](https://appto.store) - Mac app that takes an iPhone app from idea to the App Store on your own Claude Code or Codex plan. It checks the niche on live App Store data, writes native SwiftUI, makes store screenshots and text in every language and fills in App Store Connect after you confirm. Paid; free demo in the app, macOS on Apple silicon and Intel.
@@ -162,7 +158,6 @@
 - [avante.nvim](https://github.com/yetone/avante.nvim) - Neovim plugin designed to emulate the behavior of the Cursor AI IDE. It provides AI-driven code suggestions and allows you to apply recommendations directly to your source files with minimal effort.
 - [backnotprop/prompt-tower](https://github.com/backnotprop/prompt-tower) - A tool that helps you build prompts with many code blocks.
 - [NEDIO](https://marketplace.visualstudio.com/items?itemName=nedio.pomodoro-focus-music) - Pomodoro timer, focus music, and structured AI sprint reviews for focused work in VS Code and Cursor.
-- [ThreadFox Lite](https://github.com/amflimited/threadfox-lite) - Free Claude Code / Codex plugin with read-only Reddit research tools and a skill for launching on Reddit without getting removed.
 - [Better Design](https://github.com/better-designs/better-design-plugin) - Plugin for Claude Code, Cursor and Gemini CLI that gives the agent design systems, UI and UX principles, icons and UI review through the Better Design MCP server. Free account.
 - [LogNorm](https://github.com/lognorm/lognorm-mcp) - Remote MCP server and skill that lets Claude Code, Codex and Cursor work a ranked SEO and AI-visibility (GEO) backlog: site audits, fixes, content drafts and AI-answer tracking. MIT repo; free plan.
 - [workkit](https://github.com/ITW-Creative-Works/workkit) - Claude Code plugin that runs GitHub Issues as the agent work pipeline: a manager agent specs each issue, hands the build to worker subagents, has a verifier review it, and parks it for your QA.
@@ -177,18 +172,15 @@
 - [AgentaOS](https://github.com/AgentaOS/agentaos) - Claude Code plugin and remote MCP server that let the agent add payments to the app you just built: products, checkout links and subscriptions, with AgentaOS as the merchant of record handling VAT, sales tax and invoices.
 - [Yap MCP](https://github.com/founden-bot/yap-mcp) - Open-source (MIT) MCP server and CLI for Claude Code, Claude Desktop, Cursor, VS Code, Windsurf and Gemini CLI that transcribes audio files on your computer with NVIDIA Parakeet (25 European languages, no API key, no upload) and searches your local Yap dictation history.
 - [lavela](https://github.com/ym2629/lavela-mcp) - Claude Code plugin and remote MCP server (beta) that deploys a GitHub repo to a live server from chat and checks on it afterwards: status, logs, health, managed Postgres, and a custom domain. Sign in with a lavela account; prepaid balance, no subscription.
-- - [ShipToPaid Lite](https://github.com/shiptopaid/shiptopaid-lite) - Three agent skills for Claude Code, Cursor and Codex that add Polar payments to a vibe-coded Next.js app: checkout tied to the signed-in user, signature-checked payment webhooks that ignore duplicate and late events, and a pre-launch payment checklist marked PASS, FAIL or NOT RUN. Free, MIT.
+- [ShipToPaid Lite](https://github.com/shiptopaid/shiptopaid-lite) - Three agent skills for Claude Code, Cursor and Codex that add Polar payments to a vibe-coded Next.js app: checkout tied to the signed-in user, signature-checked payment webhooks that ignore duplicate and late events, and a pre-launch payment checklist marked PASS, FAIL or NOT RUN. Free, MIT.
 - [Dude Toldya](https://github.com/toranalytics/dude-toldya) - MIT-licensed hooks plugin for Claude Code and Codex that quotes your own past corrections back to the agent before it answers, reports what you correct most with `duto report`, and has the orchestrator name a model for each subagent call. Free, local.
 - [deed.page](https://github.com/f-o-x11/deed-page-skill) - Agent Skill and remote [MCP server](https://deed.page/mcp) that let Claude Code, Codex, Cursor and other agents publish the HTML or static folder they just built to a permanent public URL with one PUT, no account or claim step.
 - [Soundza](https://github.com/soundza/soundza-mcp/tree/main/skills/soundza) - Agent skill and remote MCP server that let Claude Code, Codex, Cursor and other agents find sound effects, music loops and ambience, play free previews so you can pick, generate new sound effects from a prompt, and add the chosen WAV or MP3 files to your game, video or app. Free for commercial use, no attribution needed; free account.
 - [LLMSlim](https://github.com/Thanatos9404/llmslim) - MIT Claude Code plugin and local MCP server that lets Claude Code, Cursor and Claude Desktop remember project conventions and past decisions across sessions, stored in local SQLite.
 - [SitePatent](https://sitepatent.com/mcp) - Read-only remote MCP server for the SitePatent product discovery directory, so Claude Code, Cursor, Codex and other MCP clients can search the startups, SaaS and AI tools listed there, read full listing profiles, find alternatives to a named product and see what is trending before you build or launch. Streamable HTTP at `https://sitepatent.com/api/mcp`, no API key, no account.
 - [Copy That](https://github.com/jack-reson8/copy-that) - MIT plugin marketplace for Claude Code and Codex with five taste-first skills for shipping what you vibe coded: a launch film rendered in code and cut to the beat, a 0-to-1 launch plan (naming, references, style frames), native-looking share images, human-sounding Chinese copy, and a skill linter.
-- [MEDIAPRONET](https://mediapronet.com/mcp) - Read-only remote MCP server for a product launch directory, with search, product profiles, alternatives and trending listings for coding agents. No API key or account required; paid listings receive priority in search results.
 - [toolkb-mcp](https://github.com/jack-reson8/toolkb-mcp) - Free, local MIT MCP server for Claude Code, Codex and Cursor that turns any link into clean Markdown: web articles, YouTube transcripts and playlists, and App Store reviews. No API key, nothing sent to a third party.
 - [Tavero](https://github.com/baccaraaa/tavero) - MCP server and CLI that scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, colors and spacing, and gives the coding agent each fix with file and line references (`npx -y tavero mcp`). Free, MIT.
-- [CodeTrendy](https://codetrendy.com/mcp) - Read-only remote MCP server for searching a startup and software directory, browsing categories and finding product alternatives from coding agents. No API key or account required; paid listings receive priority in search results.
-- [DoomPay](https://github.com/doomsday-network/doom-pay) - MIT-licensed checkout widget and Python SDK for DOOM (Layer 1) and wDOOM (Base) payments, with an agent skill and MCP payment-verification tool for AI-assisted integrations.
 - [/call-me](https://github.com/radres/call-me) - Claude Code plugin and remote MCP server (also for Codex, Gemini CLI and other MCP clients) that let a coding agent ring or text the developer's iPhone when a session needs a decision, and read the spoken or typed reply back as text. The iPhone app needs a paid subscription.
 - [Lookout for VS Code](https://github.com/nimrod-teich/lookout) - MIT-licensed VS Code extension that shows every Claude Code, Codex and Copilot CLI session on one board in the side bar, quotes what each waiting session asks, jumps to its tab or terminal with one key, and searches every conversation. It reads only the files the agents already write on disk: no hooks, no credentials, nothing sent anywhere.
 - [Agent Standup](https://github.com/Atoll92/agent-standup) - MIT-licensed VS Code extension (also an npm CLI, a Claude Code plugin and a macOS app) that shows your Claude Code, Codex and Mistral Vibe sessions as a live, animated team call: who is working, stuck, waiting on another agent or waiting for you, read from the session files on disk.
@@ -382,7 +374,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [AI Coding Rules Sampler](https://github.com/elirankotzero/ai-coding-rules-sampler) - Free MIT starter set of rules files and three workflow skills (plan a feature, review changes, record decisions) for Cursor, Claude Code (CLAUDE.md), Codex (AGENTS.md), Windsurf and Copilot, one folder per tool to copy into a project.
 - [FixStack](https://getfixstack.com/) - Free library of fixes for common errors in Lovable, Cursor, Bolt, Replit, Supabase, Vercel and Stripe, with the exact error text, the cause, and the steps to fix it.
 - [agent-doctrine](https://github.com/sisig-ai/agent-doctrine) - Instructions, role prompts and skills that one sync installs into Claude Code, Codex, Cursor, OpenCode and more, so a lead agent plans, delegates to implementer and reviewer subagents, and returns a tested PR. MIT.
--  [AgentRank](https://agentrank.tools/) - Independent rankings of AI coding agents, app builders, hosting and databases for vibe coders, with dated free-plan limits and a daily releases feed (RSS).
+- [AgentRank](https://agentrank.tools/) - Independent rankings of AI coding agents, app builders, hosting and databases for vibe coders, with dated free-plan limits and a daily releases feed (RSS).
 - [Daily Vibe Challenge](https://dailyvibechallenge.github.io/) - Free daily vibe coding challenge (AI agents, games, rapid prototypes, tech toys), each with a copy-paste starter prompt for Claude Code, Cursor, Lovable or Replit, plus an archive, project ideas and a beginner guide. No signup needed.
 - [Faber agent docs](https://faberlang.dev/llms.txt) - llms.txt index, install guide and four agent skills (`npx skills add https://faberlang.dev`) for Faber, an experimental statically typed language built for coding agents to write and people to read. It compiles to Rust, TypeScript, Go, Swift and more.
 - [WhichAICoder](https://whichaicoder.com) - Free guide picking one AI coding tool per use case (11 use cases, 39 tools), scored on a public 100-point rubric with dated, sourced price checks.
