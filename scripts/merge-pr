@@ -1,0 +1,66 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo=acvnace/awesome-vibe-coding-resources
+mode=${2:-"--check"}
+pr=${1:-}
+
+if [[ $# -gt 2 || ! $pr =~ ^[1-9][0-9]*$ ]]; then
+  printf 'Usage: %s <PR number> [--check | --notify | --merge]\n' "$0" >&2
+  exit 2
+fi
+
+case $mode in
+  --check | --notify | --merge) ;;
+  *) printf 'Unknown option: %s\n' "$mode" >&2; exit 2 ;;
+esac
+
+pr_info=$(gh api "repos/$repo/pulls/$pr" \
+  --jq '[.user.id, .user.login, .head.sha, .state, .draft] | @tsv')
+IFS=$'\t' read -r author_id author_login head_sha state draft <<< "$pr_info"
+
+if [[ ! $author_id =~ ^[1-9][0-9]*$ || -z $author_login || -z $head_sha ]]; then
+  printf 'Could not identify the author or head commit of PR #%s.\n' "$pr" >&2
+  exit 1
+fi
+
+if [[ $mode != --check && ( $state != open || $draft != false ) ]]; then
+  printf 'PR #%s must be open and ready for review.\n' "$pr" >&2
+  exit 1
+fi
+
+if ! matches=$(gh api --paginate "repos/$repo/stargazers?per_page=100" \
+  --jq ".[] | select(.id == $author_id) | .id"); then
+  printf 'Could not verify the repository star for PR #%s.\n' "$pr" >&2
+  exit 1
+fi
+
+if [[ -z $matches ]]; then
+  printf 'PR #%s author @%s must star https://github.com/%s before merge.\n' \
+    "$pr" "$author_login" "$repo" >&2
+
+  if [[ $mode != --check ]]; then
+    previous_reminder=$(gh pr view "$pr" --repo "$repo" --json comments \
+      --jq '.comments[] | select(.viewerDidAuthor and (.body | contains("<!-- repo-star-reminder -->"))) | .id')
+
+    if [[ -z $previous_reminder ]]; then
+      gh pr comment "$pr" --repo "$repo" --body-file - <<EOF
+Thanks for contributing, @$author_login! Please [star this repository](https://github.com/$repo) with the GitHub account you used to open this PR so we can merge it after review. Reply here once you've starred it.
+
+<!-- repo-star-reminder -->
+EOF
+    fi
+
+    if [[ $mode == --notify ]]; then
+      exit 0
+    fi
+  fi
+
+  exit 1
+fi
+
+printf 'PR #%s author @%s has starred %s.\n' "$pr" "$author_login" "$repo"
+
+if [[ $mode == --merge ]]; then
+  gh pr merge "$pr" --repo "$repo" --squash --delete-branch --match-head-commit "$head_sha"
+fi
