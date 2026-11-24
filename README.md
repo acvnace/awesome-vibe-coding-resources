@@ -215,6 +215,7 @@ Add resources that help people build, test, or ship software with AI. Use the re
 - [SamurAIGPT/muapi-mcp-server](https://github.com/SamurAIGPT/muapi-mcp-server) - MuAPI MCP server with hosted Streamable HTTP and self-hosted options for discovering models, generating images, video and audio, editing media, and enhancing images.
 - [melthond/sharpen](https://github.com/melthond/sharpen) - Claude Code plugin that, when turned on, rewrites each eligible prompt into a specific one using the conversation, the codebase and the installed skills, agents and MCP tools, and shows it for approval before any work starts.
 - [web-animation-skills](https://github.com/iart-ai/web-animation-skills) - Nine MIT-licensed agent skills for Claude Code, Cursor and Codex covering web animation: GSAP, SVG, Lottie, micro-interactions, page transitions, 60fps performance and reduced-motion handling.
+- [Perq](https://github.com/f-o-x11/perq-skill) - Agent Skill and remote [MCP server](https://perq.sh/mcp) that let Claude Code, Codex, Cursor and other agents look up verified free AI credits, free tiers and startup programs (LLM APIs, GPUs, voice, vector DBs, dev tools) for the app they are building, each offer with the vendor's own terms, claim link, source link and last-verified date. Free, read-only, no account needed.
 
 ## Command Line Tools
 
