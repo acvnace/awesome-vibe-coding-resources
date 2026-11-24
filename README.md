@@ -150,7 +150,7 @@ Add resources that help people build, test, or ship software with AI. Use the re
 - [Valo](https://getvalo.dev/) - Desktop workspace for AI that runs Claude Code, Codex, Gemini, Cursor and GLM side by side on Windows, macOS and Linux, with Keyguard (the assistant uses your keys without seeing them), per-tool permissions and Guards, and chats you can reach from your phone. Closed-source with a free plan and optional Pro.
 - [MyAgents](https://github.com/hAcKlyc/MyAgents) - Open-source macOS and Windows workbench for running Claude Code, Codex, or DeepSeek Harness in local project workspaces and handing tasks to an agent on another online device under the same account.
 - [Codealong](https://github.com/codealong/codealong) - Open-source (Apache-2.0) desktop app for macOS and Linux that groups coding-agent sessions by repository, worktree, and pull request. It supports approvals and optional agent-drafted PR reviews.
-- [TernaryCode](https://github.com/ilhamnadhif/ternarycode) - Free, MIT-licensed native Rust workspace (macOS, Windows, Linux) for running Claude Code, Codex, OpenCode, and Antigravity CLI across projects in one window, with hook-backed status and waiting alerts (`⌘J`), multi-account 5-hour/weekly failover, git worktrees with one-button PR, an embedded MCP browser, and a local Wi-Fi phone companion.
+- [TernaryCode](https://github.com/ilhamnadhif/ternarycode) - MIT-licensed desktop workspace for macOS, Windows, and Linux that runs Claude Code, Codex, OpenCode, and Antigravity CLI across projects. Includes agent status and approval alerts, Git worktrees, and a local Wi-Fi phone companion.
 
 ## Plugins and Extensions
 
