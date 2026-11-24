@@ -212,6 +212,7 @@ Add resources that help people build, test, or ship software with AI. Use the re
 - [RankBrain AI](https://access.rankbrain.app/awesome-vibe-coding-resources) - MCP server that reads a site built with Lovable, Bolt or Replit and applies SEO fixes to page titles, meta descriptions, schema markup and link text after you approve each change.
 - [SamurAIGPT/muapi-mcp-server](https://github.com/SamurAIGPT/muapi-mcp-server) - MuAPI MCP server with hosted Streamable HTTP and self-hosted options for discovering models, generating images, video and audio, editing media, and enhancing images.
 - [melthond/sharpen](https://github.com/melthond/sharpen) - Claude Code plugin that, when turned on, rewrites each eligible prompt into a specific one using the conversation, the codebase and the installed skills, agents and MCP tools, and shows it for approval before any work starts.
+- [web-animation-skills](https://github.com/iart-ai/web-animation-skills) - Nine MIT-licensed agent skills for Claude Code, Cursor and Codex covering web animation: GSAP, SVG, Lottie, micro-interactions, page transitions, 60fps performance and reduced-motion handling.
 
 ## Command Line Tools
 
