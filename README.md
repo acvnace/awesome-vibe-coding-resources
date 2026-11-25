@@ -226,7 +226,7 @@ Add resources that help people build, test, or ship software with AI. Use the re
 - [codename goose](https://block.github.io/goose/) - Local, on-machine AI Agent that allows you to use any LLM and add any MCP servers as extensions
 - [MyCoder.ai](https://github.com/drivecore/mycoder) - Open source AI-powered coding assistant with Git and GitHub integration, featuring parallel execution and self-modification capabilities.
 - [codex-profiles](https://github.com/Ducksss/codex-profiles) - Small Bash helper for switching Codex CLI/Desktop accounts with isolated `CODEX_HOME` profiles.
-
+- [Dibber](https://github.com/immediately-run/dibber) - Git as your issue tracker: one Markdown file per ticket in the repository, with a CLI (`npx -y @immediately-run/dibber init`) and agent skills that let Claude Code, Codex and opencode file, work and close tickets. An open format with a spec and JSON Schema; Apache-2.0.
 - [claude-dash](https://github.com/krabat-l/claude-dash) - Real-time statusline for Claude Code showing context, cost, quota, cache, tools, and git status.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Local TUI for inspecting AI coding-agent session logs, usage, cost, latency, tool failures, diffs, and CI gates.
 - [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a coding-agent session below the harness and replays it offline byte-for-byte with the network off, or forks it from any checkpoint onto a different model.
