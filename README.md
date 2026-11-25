@@ -396,6 +396,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [From Demo to Production (从 Demo 到商用)](https://luochen211.github.io/demo-to-production/) - Free, MIT-licensed Chinese book for beginners on taking an AI-coded demo to a paid, long-running project: scoping, splitting tasks for AI and reviewing its output, deployment and stability, payments and refunds, permissions and privacy, cost, quoting and delivery. Chapters are first drafts; not tied to one AI coding tool.
 - [Little Cups of Claude](https://littlecupsofclaude.com) - Short, focused tips for Claude Code, the Claude API, the Agent SDK and MCP, one per weekday.
 - [aicharts coding agents](https://aicharts.io/agents) - Codex, Claude Code and Antigravity CLI compared using official Terminal-Bench results, with scores and cost per task across model and effort settings. Free, no account.
+- [Free LLM API Hub](https://freellmapihub.com/) - Dated, sourced list of 60+ free LLM APIs, many OpenAI-compatible, for running AI coding tools without a paid key. MIT, with a no-auth JSON API.
 
 ## News and Social Media
 
