@@ -217,6 +217,7 @@ Add resources that help people build, test, or ship software with AI. Use the re
 - [melthond/sharpen](https://github.com/melthond/sharpen) - Claude Code plugin that, when turned on, rewrites each eligible prompt into a specific one using the conversation, the codebase and the installed skills, agents and MCP tools, and shows it for approval before any work starts.
 - [web-animation-skills](https://github.com/iart-ai/web-animation-skills) - Nine MIT-licensed agent skills for Claude Code, Cursor and Codex covering web animation: GSAP, SVG, Lottie, micro-interactions, page transitions, 60fps performance and reduced-motion handling.
 - [Mailtrap](https://github.com/mailtrap/mailtrap-skills) - MIT-licensed agent skills and plugin, with the Mailtrap MCP server (`npx -y mcp-mailtrap`), that let Claude Code, Codex, Cursor and other agents add email to an app: transactional and bulk sending via API, SMTP or official SDKs, sending-domain setup, templates, contacts and inbound email.
+- [Dopamine Talk](https://github.com/AnnenkovLabs/dopamine-talk) - Three MIT-licensed Markdown skills (EN and RU) for Claude Code, Codex, Cursor, Antigravity, and Gemini CLI that strip file-path recaps, hedging, and unasked critic-gates.
 
 ## Command Line Tools
 
