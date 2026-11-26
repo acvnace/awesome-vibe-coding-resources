@@ -397,6 +397,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Little Cups of Claude](https://littlecupsofclaude.com) - Short, focused tips for Claude Code, the Claude API, the Agent SDK and MCP, one per weekday.
 - [aicharts coding agents](https://aicharts.io/agents) - Codex, Claude Code and Antigravity CLI compared using official Terminal-Bench results, with scores and cost per task across model and effort settings. Free, no account.
 - [Free LLM API Hub](https://freellmapihub.com/) - Dated, sourced list of 60+ free LLM APIs, many OpenAI-compatible, for running AI coding tools without a paid key. MIT, with a no-auth JSON API.
+- [Mode VC LLM Inference Cost Calculator](https://modevc.com/tools/llm-inference-calculator) - Free browser calculator comparing monthly spend, gross margin, prompt caching, and hybrid routing across Claude, GPT, Gemini, DeepSeek, and Grok with no signup.
 
 ## News and Social Media
 
