@@ -419,3 +419,4 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [/r/vibecoding](https://www.reddit.com/r/vibecoding/)
 - [VibeHacker](https://vibehacker.com) - Product discovery community for AI builders and vibe coders: directory, reviews, discussions, and launches.
 - [BuiltByVibe](https://builtbyvibe.dev) - Community showcase and discovery directory for software built with AI coding tools.
+- [ClearCaption](https://github.com/Andrii2203/clearcaption-youtube-transcript) - YouTube transcripts, SRT/VTT subtitles and timestamped translation for videos, channels and playlists; works from cloud servers and as an MCP server.
