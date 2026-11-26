@@ -399,6 +399,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [aicharts coding agents](https://aicharts.io/agents) - Codex, Claude Code and Antigravity CLI compared using official Terminal-Bench results, with scores and cost per task across model and effort settings. Free, no account.
 - [Free LLM API Hub](https://freellmapihub.com/) - Dated, sourced list of 60+ free LLM APIs, many OpenAI-compatible, for running AI coding tools without a paid key. MIT, with a no-auth JSON API.
 - [Mode VC LLM Inference Cost Calculator](https://modevc.com/tools/llm-inference-calculator) - Free browser calculator comparing monthly spend, gross margin, prompt caching, and hybrid routing across Claude, GPT, Gemini, DeepSeek, and Grok with no signup.
+- [ReUI](https://reui.io/docs) - shadcn registry with free UI components and examples. Its hosted MCP server helps coding agents find components, inspect their APIs, and get installation commands. MCP requires a ReUI account and has a daily limit on the free tier. Premium blocks, icons, and templates require a paid license.
 
 ## News and Social Media
 
