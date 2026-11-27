@@ -29,6 +29,38 @@ if [[ $mode != --check && ( $state != open || $draft != false ) ]]; then
   exit 1
 fi
 
+if ! matches=$(gh api --paginate "repos/$repo/stargazers?per_page=100" \
+  --jq ".[] | select(.id == $author_id) | .id"); then
+  printf 'Could not verify the repository star for PR #%s.\n' "$pr" >&2
+  exit 1
+fi
+
+if [[ -z $matches ]]; then
+  printf 'PR #%s is blocked until @%s stars https://github.com/%s.\n' \
+    "$pr" "$author_login" "$repo" >&2
+
+  if [[ $mode != --check ]]; then
+    previous_reminder=$(gh pr view "$pr" --repo "$repo" --json comments \
+      --jq '.comments[] | select(.viewerDidAuthor and (.body | contains("<!-- repo-star-required -->"))) | .id')
+
+    if [[ -z $previous_reminder ]]; then
+      gh pr comment "$pr" --repo "$repo" --body-file - <<EOF
+@$author_login, this PR is blocked until you [star this repository](https://github.com/$repo) with the GitHub account that opened it. Reply here once you’ve starred it so we can verify and proceed.
+
+<!-- repo-star-required -->
+EOF
+    fi
+
+    if [[ $mode == --notify ]]; then
+      exit 0
+    fi
+  fi
+
+  exit 1
+fi
+
+printf 'PR #%s author @%s has starred %s.\n' "$pr" "$author_login" "$repo"
+
 if [[ $mode == --merge ]]; then
   if ! review_state=$(gh pr checks "$pr" --repo "$repo" --json name,state,workflow \
     --jq '.[] | select(.workflow == "README review" and .name == "README review") | .state'); then
@@ -41,35 +73,4 @@ if [[ $mode == --merge ]]; then
   fi
 
   gh pr merge "$pr" --repo "$repo" --squash --delete-branch --match-head-commit "$head_sha"
-  exit
 fi
-
-if ! matches=$(gh api --paginate "repos/$repo/stargazers?per_page=100" \
-  --jq ".[] | select(.id == $author_id) | .id"); then
-  printf 'Could not verify the repository star for PR #%s.\n' "$pr" >&2
-  exit 1
-fi
-
-if [[ -z $matches ]]; then
-  printf 'PR #%s author @%s has not starred https://github.com/%s.\n' \
-    "$pr" "$author_login" "$repo" >&2
-
-  if [[ $mode == --notify ]]; then
-    previous_reminder=$(gh pr view "$pr" --repo "$repo" --json comments \
-      --jq '.comments[] | select(.viewerDidAuthor and (.body | contains("<!-- repo-star-reminder -->"))) | .id')
-
-    if [[ -z $previous_reminder ]]; then
-      gh pr comment "$pr" --repo "$repo" --body-file - <<EOF
-Thanks for sharing your project, @$author_login! If this list has been useful to you, [a star](https://github.com/$repo) is a welcome way to support its upkeep.
-
-<!-- repo-star-reminder -->
-EOF
-    fi
-
-    exit 0
-  fi
-
-  exit 1
-fi
-
-printf 'PR #%s author @%s has starred %s.\n' "$pr" "$author_login" "$repo"

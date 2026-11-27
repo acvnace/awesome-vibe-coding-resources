@@ -12,6 +12,8 @@
 
 Add resources that help people build, test, or ship software with AI. Use the relevant section and give a short, factual description. Keep product listings out of the table of contents and the introduction. Leave out advertisements, affiliate links, and discount codes. If you're submitting a resource you're involved with, disclose that in the pull request.
 
+**A Star is required to merge any pull request.** [Star this repository](https://github.com/acvnace/awesome-vibe-coding-resources) with the GitHub account that opened the PR. The PR must also pass review and checks.
+
 ## Contents <!-- omit in toc -->
 
 - [Contribute](#contribute)
