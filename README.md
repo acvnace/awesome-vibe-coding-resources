@@ -217,6 +217,7 @@ Add resources that help people build, test, or ship software with AI. Use the re
 - [melthond/sharpen](https://github.com/melthond/sharpen) - Claude Code plugin that, when turned on, rewrites each eligible prompt into a specific one using the conversation, the codebase and the installed skills, agents and MCP tools, and shows it for approval before any work starts.
 - [web-animation-skills](https://github.com/iart-ai/web-animation-skills) - Nine MIT-licensed agent skills for Claude Code, Cursor and Codex covering web animation: GSAP, SVG, Lottie, micro-interactions, page transitions, 60fps performance and reduced-motion handling.
 - [Mailtrap](https://github.com/mailtrap/mailtrap-skills) - MIT-licensed agent skills and plugin, with the Mailtrap MCP server (`npx -y mcp-mailtrap`), that let Claude Code, Codex, Cursor and other agents add email to an app: transactional and bulk sending via API, SMTP or official SDKs, sending-domain setup, templates, contacts and inbound email.
+- [Scalekit](https://github.com/scalekit-inc/authstack/) - Agent skills and plugin for Claude Code, Codex, Cursor and GitHub Copilot (`npx @scalekit-inc/cli setup`) that add Scalekit, an AI agent integrations platform and MCP gateway, to the app you're building, so its agents call tools through each user's connected accounts. Requires a Scalekit account; free tier available.
 
 ## Command Line Tools
 
@@ -226,7 +227,7 @@ Add resources that help people build, test, or ship software with AI. Use the re
 - [codename goose](https://block.github.io/goose/) - Local, on-machine AI Agent that allows you to use any LLM and add any MCP servers as extensions
 - [MyCoder.ai](https://github.com/drivecore/mycoder) - Open source AI-powered coding assistant with Git and GitHub integration, featuring parallel execution and self-modification capabilities.
 - [codex-profiles](https://github.com/Ducksss/codex-profiles) - Small Bash helper for switching Codex CLI/Desktop accounts with isolated `CODEX_HOME` profiles.
-
+- [Dibber](https://github.com/immediately-run/dibber) - Git as your issue tracker: one Markdown file per ticket in the repository, with a CLI (`npx -y @immediately-run/dibber init`) and agent skills that let Claude Code, Codex and opencode file, work and close tickets. An open format with a spec and JSON Schema; Apache-2.0.
 - [claude-dash](https://github.com/krabat-l/claude-dash) - Real-time statusline for Claude Code showing context, cost, quota, cache, tools, and git status.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Local TUI for inspecting AI coding-agent session logs, usage, cost, latency, tool failures, diffs, and CI gates.
 - [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a coding-agent session below the harness and replays it offline byte-for-byte with the network off, or forks it from any checkpoint onto a different model.
@@ -396,7 +397,10 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [From Demo to Production (从 Demo 到商用)](https://luochen211.github.io/demo-to-production/) - Free, MIT-licensed Chinese book for beginners on taking an AI-coded demo to a paid, long-running project: scoping, splitting tasks for AI and reviewing its output, deployment and stability, payments and refunds, permissions and privacy, cost, quoting and delivery. Chapters are first drafts; not tied to one AI coding tool.
 - [Little Cups of Claude](https://littlecupsofclaude.com) - Short, focused tips for Claude Code, the Claude API, the Agent SDK and MCP, one per weekday.
 - [aicharts coding agents](https://aicharts.io/agents) - Codex, Claude Code and Antigravity CLI compared using official Terminal-Bench results, with scores and cost per task across model and effort settings. Free, no account.
-- [Self-Hosted Coding Agent Guide](https://orbi.build/guides/self-hosted-coding-agent/?ref=dir-vibe-coding-resources) - How to self-host Orbi, an open source AI coding agent that turns labeled GitHub issues into independently reviewed, merged PRs and tagged releases, covering setup, maintenance, cost, and usage limits compared with Orbi Cloud.
+- [Free LLM API Hub](https://freellmapihub.com/) - Dated, sourced list of 60+ free LLM APIs, many OpenAI-compatible, for running AI coding tools without a paid key. MIT, with a no-auth JSON API.
+- [Mode VC LLM Inference Cost Calculator](https://modevc.com/tools/llm-inference-calculator) - Free browser calculator comparing monthly spend, gross margin, prompt caching, and hybrid routing across Claude, GPT, Gemini, DeepSeek, and Grok with no signup.
+- [ReUI](https://reui.io/docs) - shadcn registry with free UI components and examples. Its hosted MCP server helps coding agents find components, inspect their APIs, and get installation commands. MCP requires a ReUI account and has a daily limit on the free tier. Premium blocks, icons, and templates require a paid license.
+- [Self-Hosted Orbi Guide](https://orbi.build/guides/self-hosted-coding-agent/) - Guide to running the open-source Orbi coding agent with GitHub Issues. Covers machine and model setup, scheduled runs, and how self-hosting compares with Orbi Cloud on maintenance, cost, and usage limits.
 
 ## News and Social Media
 
