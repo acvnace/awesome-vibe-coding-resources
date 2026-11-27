@@ -330,6 +330,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [VibeSitter](https://vibesitter.app/) - Read-only security checks for Lovable, Bolt, v0 and Supabase apps, with a free public surface scan, plain-English fixes and prompts for AI coding tools. Optional Supabase OAuth checks inspect policies and settings; continuous monitoring has paid plans.
 - [Ship-Ready Lite](https://github.com/getshipready/ship-ready-skills) - MIT-licensed Agent Skills plus an offline quick scan (standard-library Python, no network calls) that reads an AI-built repo for committed secrets, Supabase tables with RLS off, `using (true)` policies, views without `security_invoker`, API routes with no caller check and unsigned Stripe webhooks.
 - [AI Apps That Work security checklist](https://aiappsthatwork.com/tools/vibe-coding-security-checklist) - Free in-browser checklist of 20 checks for apps built with Lovable, Bolt, Cursor or v0, in five groups: who can read your data, keys and secrets, requests that check who's asking, abuse and surprise bills, and AI features. Each check has a prompt to paste into your coding agent. No sign-up; ticks are saved only in your browser.
+- [agentwhy](https://github.com/karolkozer/agentwhy) - Apache-2.0 local CLI (`npx @agentwhy/cli`) that refuses an AI coding agent's obvious reads of `.env` files and keys, and reads the session records Claude Code, Codex and GitHub Copilot keep to show which private file the agent reached, why, and which key to change. Not a sandbox.
 
 ## Documentation for AI Coding
 
