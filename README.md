@@ -219,6 +219,7 @@ Add resources that help people build, test, or ship software with AI. Use the re
 - [web-animation-skills](https://github.com/iart-ai/web-animation-skills) - Nine MIT-licensed agent skills for Claude Code, Cursor and Codex covering web animation: GSAP, SVG, Lottie, micro-interactions, page transitions, 60fps performance and reduced-motion handling.
 - [Mailtrap](https://github.com/mailtrap/mailtrap-skills) - MIT-licensed agent skills and plugin, with the Mailtrap MCP server (`npx -y mcp-mailtrap`), that let Claude Code, Codex, Cursor and other agents add email to an app: transactional and bulk sending via API, SMTP or official SDKs, sending-domain setup, templates, contacts and inbound email.
 - [Scalekit](https://github.com/scalekit-inc/authstack/) - Agent skills and plugin for Claude Code, Codex, Cursor and GitHub Copilot (`npx @scalekit-inc/cli setup`) that add Scalekit, an AI agent integrations platform and MCP gateway, to the app you're building, so its agents call tools through each user's connected accounts. Requires a Scalekit account; free tier available.
+- [LogBrew](https://github.com/LogBrewCo/skills) - MIT-licensed agent skills and plugins with a hosted MCP server for adding error tracking, investigating production errors with related logs and traces, and comparing deployments. Requires a LogBrew account. Free plan available.
 
 ## Command Line Tools
 
