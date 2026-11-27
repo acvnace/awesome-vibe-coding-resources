@@ -218,7 +218,7 @@ Add resources that help people build, test, or ship software with AI. Use the re
 - [web-animation-skills](https://github.com/iart-ai/web-animation-skills) - Nine MIT-licensed agent skills for Claude Code, Cursor and Codex covering web animation: GSAP, SVG, Lottie, micro-interactions, page transitions, 60fps performance and reduced-motion handling.
 - [Mailtrap](https://github.com/mailtrap/mailtrap-skills) - MIT-licensed agent skills and plugin, with the Mailtrap MCP server (`npx -y mcp-mailtrap`), that let Claude Code, Codex, Cursor and other agents add email to an app: transactional and bulk sending via API, SMTP or official SDKs, sending-domain setup, templates, contacts and inbound email.
 - [Scalekit](https://github.com/scalekit-inc/authstack/) - Agent skills and plugin for Claude Code, Codex, Cursor and GitHub Copilot (`npx @scalekit-inc/cli setup`) that add Scalekit, an AI agent integrations platform and MCP gateway, to the app you're building, so its agents call tools through each user's connected accounts. Requires a Scalekit account; free tier available.
-- [LogBrew](https://github.com/LogBrewCo/skills) - MIT-licensed agent skills and plugin, with the hosted LogBrew MCP server, that let Claude Code, Codex, Cursor and other agents add error tracking to an app, read its production errors, logs and traces, and check a release after a deploy. Install with `npx skills add LogBrewCo/skills`. Generous free tier, no card needed.
+- [LogBrew](https://github.com/LogBrewCo/skills) - MIT-licensed agent skills and plugins with a hosted MCP server for adding error tracking, investigating production errors with related logs and traces, and comparing deployments. Requires a LogBrew account. Free plan available.
 
 ## Command Line Tools
 
@@ -228,7 +228,7 @@ Add resources that help people build, test, or ship software with AI. Use the re
 - [codename goose](https://block.github.io/goose/) - Local, on-machine AI Agent that allows you to use any LLM and add any MCP servers as extensions
 - [MyCoder.ai](https://github.com/drivecore/mycoder) - Open source AI-powered coding assistant with Git and GitHub integration, featuring parallel execution and self-modification capabilities.
 - [codex-profiles](https://github.com/Ducksss/codex-profiles) - Small Bash helper for switching Codex CLI/Desktop accounts with isolated `CODEX_HOME` profiles.
-
+- [Dibber](https://github.com/immediately-run/dibber) - Git as your issue tracker: one Markdown file per ticket in the repository, with a CLI (`npx -y @immediately-run/dibber init`) and agent skills that let Claude Code, Codex and opencode file, work and close tickets. An open format with a spec and JSON Schema; Apache-2.0.
 - [claude-dash](https://github.com/krabat-l/claude-dash) - Real-time statusline for Claude Code showing context, cost, quota, cache, tools, and git status.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Local TUI for inspecting AI coding-agent session logs, usage, cost, latency, tool failures, diffs, and CI gates.
 - [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a coding-agent session below the harness and replays it offline byte-for-byte with the network off, or forks it from any checkpoint onto a different model.
