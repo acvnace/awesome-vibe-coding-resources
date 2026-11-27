@@ -227,7 +227,7 @@ Add resources that help people build, test, or ship software with AI. Use the re
 - [codename goose](https://block.github.io/goose/) - Local, on-machine AI Agent that allows you to use any LLM and add any MCP servers as extensions
 - [MyCoder.ai](https://github.com/drivecore/mycoder) - Open source AI-powered coding assistant with Git and GitHub integration, featuring parallel execution and self-modification capabilities.
 - [codex-profiles](https://github.com/Ducksss/codex-profiles) - Small Bash helper for switching Codex CLI/Desktop accounts with isolated `CODEX_HOME` profiles.
-
+- [Dibber](https://github.com/immediately-run/dibber) - Git as your issue tracker: one Markdown file per ticket in the repository, with a CLI (`npx -y @immediately-run/dibber init`) and agent skills that let Claude Code, Codex and opencode file, work and close tickets. An open format with a spec and JSON Schema; Apache-2.0.
 - [claude-dash](https://github.com/krabat-l/claude-dash) - Real-time statusline for Claude Code showing context, cost, quota, cache, tools, and git status.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Local TUI for inspecting AI coding-agent session logs, usage, cost, latency, tool failures, diffs, and CI gates.
 - [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a coding-agent session below the harness and replays it offline byte-for-byte with the network off, or forks it from any checkpoint onto a different model.
@@ -337,6 +337,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 
 - [AI Game Dev Framework](https://github.com/Cooperzheng/ai-game-dev-framework) - MIT-licensed documentation and agent workflow starter for game development, with design decision boundaries, project onboarding, and versioned delivery reviews.
 - [AI Coding Tools Guide](https://ai-coding-tools-guide.vercel.app/cursor-alternatives/) - Workflow-based comparisons for Cursor alternatives, Claude Code, Windsurf, Cline, GitHub Copilot, Aider, Continue, and MCP-enabled AI coding.
+- [Vibe Coding Tool Finder](https://www.vibe-coding.cloud/tool-finder) - Free five-question tool finder that shortlists AI app builders and coding agents by project type, workflow, backend needs, repository control, and starting budget.
 - [AI Book: AI Coding](https://aibook.ren/categories/ai-coding) - Chinese AI coding handbook covering coding-agent workflows, tool selection, prompts, and practical AI-assisted development guides.
 - [CodeGuide](https://www.codeguide.dev/) - Creates detailed Documentation for your AI Coding Projects.
 - [LegacyDoc AI](https://www.romanticode.com/legacydoc-ai/) - VS Code extension that generates documentation, architecture maps, and AI-ready context packs for vibe-coded codebases.
@@ -400,7 +401,6 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 - [Free LLM API Hub](https://freellmapihub.com/) - Dated, sourced list of 60+ free LLM APIs, many OpenAI-compatible, for running AI coding tools without a paid key. MIT, with a no-auth JSON API.
 - [Mode VC LLM Inference Cost Calculator](https://modevc.com/tools/llm-inference-calculator) - Free browser calculator comparing monthly spend, gross margin, prompt caching, and hybrid routing across Claude, GPT, Gemini, DeepSeek, and Grok with no signup.
 - [ReUI](https://reui.io/docs) - shadcn registry with free UI components and examples. Its hosted MCP server helps coding agents find components, inspect their APIs, and get installation commands. MCP requires a ReUI account and has a daily limit on the free tier. Premium blocks, icons, and templates require a paid license.
-- [Vibe Coding](https://www.vibe-coding.cloud/) - Hands-on AI coding tool comparisons, a guided tool finder, and practical tutorials with reusable prompts and agent skills.
 
 ## News and Social Media
 
