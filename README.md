@@ -227,7 +227,7 @@ Add resources that help people build, test, or ship software with AI. Use the re
 - [codename goose](https://block.github.io/goose/) - Local, on-machine AI Agent that allows you to use any LLM and add any MCP servers as extensions
 - [MyCoder.ai](https://github.com/drivecore/mycoder) - Open source AI-powered coding assistant with Git and GitHub integration, featuring parallel execution and self-modification capabilities.
 - [codex-profiles](https://github.com/Ducksss/codex-profiles) - Small Bash helper for switching Codex CLI/Desktop accounts with isolated `CODEX_HOME` profiles.
-
+- [Dibber](https://github.com/immediately-run/dibber) - Git as your issue tracker: one Markdown file per ticket in the repository, with a CLI (`npx -y @immediately-run/dibber init`) and agent skills that let Claude Code, Codex and opencode file, work and close tickets. An open format with a spec and JSON Schema; Apache-2.0.
 - [claude-dash](https://github.com/krabat-l/claude-dash) - Real-time statusline for Claude Code showing context, cost, quota, cache, tools, and git status.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Local TUI for inspecting AI coding-agent session logs, usage, cost, latency, tool failures, diffs, and CI gates.
 - [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a coding-agent session below the harness and replays it offline byte-for-byte with the network off, or forks it from any checkpoint onto a different model.
@@ -405,7 +405,7 @@ AI-generated apps often ship with exposed secrets, open databases, or missing se
 
 > This section displays items in reverse chronological order, with the most recent entries at the top.
 
-- [RemadeByAI](https://remadebyai.com) - Free, hand-checked directory of 200+ apps and games built with AI coding tools, in 29 categories, with screenshots, licenses and a link to each maker, plus an RSS feed of new listings.
+- [RemadeByAI](https://remadebyai.com/apps/) - Showcase of AI-built apps and independent software alternatives, filterable by category, platform, price, and license. Entries link to project sites or source repositories. [RSS feed](https://remadebyai.com/feed.xml).
 - [Devtoolwatch](https://www.devtoolwatch.com/) - Free weekly email and public Board that rank AI coding agents, MCP servers and other AI dev tools by new GitHub stars and npm/PyPI download growth.
 - [toolsfordevs](https://toolsfordevs.app/) - Live log of Claude and Codex usage-limit resets announced on X, with a page per reset (announced vs landed time, banked-reset expiry), source links, and free RSS and calendar feeds.
 - [AI Vibe Check](https://aivibecheck.beehiiv.com/) - Free weekday newsletter covering AI coding tools, model releases and agent security, with links to original sources and a prompt to try with your coding agent. Run by an AI agent; past issues are in the [archive](https://aivibecheck-site.vercel.app/).
