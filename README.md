@@ -219,6 +219,7 @@ Add resources that help people build, test, or ship software with AI. Use the re
 - [Mailtrap](https://github.com/mailtrap/mailtrap-skills) - MIT-licensed agent skills and plugin, with the Mailtrap MCP server (`npx -y mcp-mailtrap`), that let Claude Code, Codex, Cursor and other agents add email to an app: transactional and bulk sending via API, SMTP or official SDKs, sending-domain setup, templates, contacts and inbound email.
 - [Scalekit](https://github.com/scalekit-inc/authstack/) - Agent skills and plugin for Claude Code, Codex, Cursor and GitHub Copilot (`npx @scalekit-inc/cli setup`) that add Scalekit, an AI agent integrations platform and MCP gateway, to the app you're building, so its agents call tools through each user's connected accounts. Requires a Scalekit account; free tier available.
 - [LogBrew](https://github.com/LogBrewCo/skills) - MIT-licensed agent skills and plugins with a hosted MCP server for adding error tracking, investigating production errors with related logs and traces, and comparing deployments. Requires a LogBrew account. Free plan available.
+- [Klar](https://github.com/klar-run/klar) - MIT-licensed Claude Code plugin and local MCP server (`klar-mcp`) that let coding agents add React chart components in plain SVG and example dashboards to an app; the charts also install with npm or the shadcn CLI.
 
 ## Command Line Tools
 
